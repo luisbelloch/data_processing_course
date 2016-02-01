@@ -1,0 +1,29 @@
+code,description
+22B0,20 Bulk
+22G0,20 Standard Dry
+22H0,20 Insulated (Conair)
+22P1,20 Flat Rack
+8888,Uncontainerised
+22P3,20 Collapsible Flat Rack
+22R1,20 Reefer
+22T0,20 Tank
+22U1,20 Open Top
+22UP,20 Hard Top
+22VH,20 Ventilated
+29P0,20 Platform
+42G0,40 Standard Dry
+42H0,40 Insulated (Conair)
+42P1,40 Flat Rack
+42P3,40 Collapsible Flat Rack
+42R1,40 Reefer
+42T0,40 Tank
+42U1,40 Open Top
+42UP,40 Hard Top
+42VH,40 Ventilated
+45G0,40 High Cube
+45R1,40 Reefer High Cube
+45UP,40 High Cube Hard Top
+49P0,40 Platform
+L5G1,45 High Cube
+L5R1,45 Reefer High Cube
+12TR,Flatbed

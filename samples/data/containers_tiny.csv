@@ -1,0 +1,617 @@
+ship_imo;ship_name;country;departure;container_id;container_type;container_group;net_weight;gross_weight;owner;declared;contact;customs_ok
+GUI1871167;Kirlinland;CV;201602151;FMBV1684747;4380;L5G1;37887434.11;1136623.02;Mueller and Sons;Kids, Toys, Music & Grocery;alvera@heaneyhickle.org;true
+GUI1871167;Kirlinland;CV;201602151;DRTA1583206;42G3;42R1;62816014.62;1884480.44;Heaney, Rutherford and Bechtelar;Beauty;johathan@gorczany.biz;false
+GUI1871167;Kirlinland;CV;201602151;YWNX1678369;44R1;22UP;36457632.51;1822881.63;Botsford-O'Reilly;Electronics & Clothing;rachael.rolfson@cummeratastoltenberg.org;true
+GUI1871167;Kirlinland;CV;201602151;AHPX1117947;2167;8888;126168428.86;6308421.44;Purdy, Smitham and Gibson;Automotive, Movies & Beauty;phyllis@parisian.name;true
+GUI1871167;Kirlinland;CV;201602151;YNEH1166118;49P5;L5G1;139934216.41;4198026.49;Muller-Muller;Baby;alison_yundt@ferry.co;false
+GUI1871167;Kirlinland;CV;201602151;WMOD1633142;20B5;42VH;30120197.04;1506009.85;Nikolaus, Fritsch and Murray;Garden, Kids & Outdoors;nolan@hoppe.co;true
+GUI1871167;Kirlinland;CV;201602151;TVPB1538998;22H1;42T0;96042140.5;4802107.03;Brakus LLC;Home;ricky_braun@williamson.net;true
+GUI1871167;Kirlinland;CV;201602151;WKQS1342535;2275;22UP;20541914.72;2054191.47;Mante Inc;Jewelery, Beauty & Clothing;elmira_ullrich@dach.net;true
+GUI1871167;Kirlinland;CV;201602151;XULI1742305;4004;22G0;3767451.39;113023.54;Ruecker, Koelpin and Larson;Beauty, Electronics & Home;nora@carrollankunding.net;true
+GUI1871167;Kirlinland;CV;201602151;TOSG1264711;42T3;22H0;119374745.64;5968737.28;Pollich-Windler;Books, Outdoors, Jewelery, Music & Grocery;gay_bruen@bosco.io;true
+GUI1871167;Kirlinland;CV;201602151;OMSV1060031;22U0;42T0;67181373.34;3359068.67;Botsford, Homenick and Pfeffer;Toys, Grocery & Shoes;randy@blandastoltenberg.co;true
+GUI1871167;Kirlinland;CV;201602151;SZNI1141741;42H1;L5R1;35363385.92;3536338.59;Jaskolski and Sons;Jewelery & Sports;nichole@raynor.name;false
+GUI1871167;Kirlinland;CV;201602151;UDGC1816533;4311;49P0;31050113.01;1552505.65;Wilderman-Gleichner;Outdoors, Music, Books & Computers;howard_lueilwitz@pollich.net;true
+GUI1871167;Kirlinland;CV;201602151;IRZK1648979;2277;22P1;33840905.06;3384090.51;Konopelski-Beier;Kids, Baby & Garden;evert@schoen.io;true
+GUI1871167;Kirlinland;CV;201602151;HMKP1549173;48UT;45G0;14677540.89;440326.23;Howe-Kshlerin;Beauty, Kids, Movies & Tools;marion@reichel.co;true
+GUI1871167;Kirlinland;CV;201602151;WAPK1181435;42R1;22P1;7263232.75;217896.98;Crist and Sons;Garden & Sports;ursula@feest.info;true
+GUI1871167;Kirlinland;CV;201602151;AFTS1238451;20V0;8888;19734497.29;1973449.73;Halvorson Group;Kids, Electronics & Outdoors;gerald.lemke@johns.com;true
+GUI1871167;Kirlinland;CV;201602151;YBWZ1524626;29PL;22P1;197353184.19;9867659.21;Schimmel and Sons;Movies, Industrial & Sports;kelly_konopelski@daniel.org;true
+GUI1871167;Kirlinland;CV;201602151;XJFW1782676;4310;22G0;89412566.88;8941256.69;Hintz Group;Tools, Electronics, Jewelery & Clothing;fabiola_dietrich@ohara.com;true
+GUI1871167;Kirlinland;CV;201602151;SFBP1317375;26G1;22G0;35435496.69;3543549.67;Erdman, Jenkins and Durgan;Tools, Outdoors & Kids;bethany_nolan@waters.biz;true
+GUI1871167;Kirlinland;CV;201602151;DNRB1937795;45RE;22U1;332192826.1;33219282.61;Witting-Rodriguez;Health & Sports;adrian_weimann@parkerhowell.org;true
+GUI1871167;Kirlinland;CV;201602151;UYOI1160130;44H6;42T0;31483669.23;1574183.46;Wunsch-Wilkinson;Health;aimee.bernhard@schultz.org;true
+GUI1871167;Kirlinland;CV;201602151;VGBL1988699;42R2;22T0;25247592.16;2524759.22;Barton Inc;Jewelery;fiona_bogisich@kohler.co;true
+GUI1871167;Kirlinland;CV;201602151;NMAU1762220;2077;42UP;116281697.94;5814084.9;Hickle, Koepp and Schultz;Books;samanta@sawaynraynor.name;true
+GUI1871167;Kirlinland;CV;201602151;CILG1290279;L2G3;22B0;16008186.77;480245.6;Schroeder LLC;Garden, Industrial, Beauty, Clothing & Health;tito@ratke.org;true
+COB1191390;St. Elena;AL;201602192;CXTA1457978;2102;22UP;19816822.41;990841.12;Howe, Crooks and Metz;Kids, Tools & Grocery;lisandro.schmitt@beahaneffertz.info;true
+COB1191390;St. Elena;AL;201602192;YZCU1076808;L5G1;45G0;32162325.35;964869.76;Dietrich-Nader;Kids, Garden & Health;rashad_waters@mclaughlin.co;true
+COB1191390;St. Elena;AL;201602192;ANFW1167473;4530;42G0;90208179.12;2706245.37;Murray-Rath;Shoes;katelynn_dare@rutherford.com;true
+COB1191390;St. Elena;AL;201602192;VRFQ1769503;2230;22H0;43383109.51;1301493.29;Kunze-Yundt;Kids, Books & Health;hope@haleyswift.name;true
+COB1191390;St. Elena;AL;201602192;YWBZ1459104;L5RS;22VH;45757645.74;1372729.37;Ullrich and Sons;Toys, Movies, Grocery & Music;edd@oberbrunner.com;true
+COB1191390;St. Elena;AL;201602192;BAYV1009299;20T2;22H0;10702218.64;321066.56;Stracke LLC;Music, Beauty, Clothing & Books;cortez@collins.co;true
+COB1191390;St. Elena;AL;201602192;GZDS1280914;22P3;42UP;1765673.07;52970.19;Sauer-Schuster;Movies, Toys & Jewelery;layne.sawayn@rutherford.org;false
+COB1191390;St. Elena;AL;201602192;AKQT1918938;20H1;42UP;79872560.82;2396176.82;Hermann-Wunsch;Toys, Tools, Books, Shoes & Clothing;lisandro.lindgren@fayhackett.io;true
+COB1191390;St. Elena;AL;201602192;PLKY1387812;22U4;42P3;2911426.32;87342.79;Adams-Nader;Toys & Home;candida.jacobs@cummeratakreiger.org;true
+COB1191390;St. Elena;AL;201602192;ZEAQ1652403;2071;49P0;17840164.39;892008.22;Pfeffer, Kirlin and Schowalter;Computers, Music & Shoes;emmy@schuster.org;true
+COB1191390;St. Elena;AL;201602192;MHZB1279557;2272;42R1;11885295.71;594264.79;Senger, Grady and Kirlin;Outdoors, Jewelery & Kids;delaney@pollich.co;true
+COB1191390;St. Elena;AL;201602192;JYKU1939831;42PS;45G0;10924543.58;327736.31;Glover Group;Kids, Garden, Books, Sports & Outdoors;eudora.bechtelar@romaguerakoch.net;true
+COB1191390;St. Elena;AL;201602192;JARF1686074;4020;L5G1;722043.69;21661.31;McCullough-Koelpin;Jewelery & Garden;karina_jerde@lemke.net;true
+COB1191390;St. Elena;AL;201602192;MIHT1371400;L5G1;22VH;15559781.81;777989.09;Effertz-Spinka;Kids, Clothing, Automotive, Music & Industrial;amos@flatleycruickshank.co;true
+COB1191390;St. Elena;AL;201602192;GREZ1714449;45RT;45R1;199652253.66;5989567.61;Gulgowski, Rolfson and Keeling;Games, Beauty & Music;ursula@gislason.org;true
+COB1191390;St. Elena;AL;201602192;WHGE1735818;44R3;22VH;140870951.68;7043547.58;Pfannerstill, Wilkinson and Schaden;Jewelery, Movies, Grocery, Toys & Books;leonel@bauchrath.org;true
+COB1191390;St. Elena;AL;201602192;OYXI1654446;22T3;22H0;38917573.02;1945878.65;Rutherford, Goodwin and Ziemann;Jewelery;doyle@howellherzog.biz;true
+COB1191390;St. Elena;AL;201602192;RDKA1303831;44H0;22P1;30239248.88;1511962.44;Kovacek-Reilly;Grocery;jammie_spencer@hellermurray.org;true
+COB1191390;St. Elena;AL;201602192;ZKUD1219454;42G2;45UP;13279364.4;398380.93;Gusikowski-Heller;Computers, Clothing, Movies & Health;harry@rutherford.org;true
+COB1191390;St. Elena;AL;201602192;ELJP1043238;22P3;22U1;33211549.24;996346.48;Effertz-O'Kon;Industrial, Garden & Books;george@thompsoncarter.biz;true
+COB1191390;St. Elena;AL;201602192;UVNW1251491;4166;8888;22562820.74;1128141.04;Wolff, Reichert and Jast;Industrial, Clothing, Outdoors, Sports & Computers;isadore_fritsch@dibbert.co;true
+COB1191390;St. Elena;AL;201602192;NJDC1239191;4420;42UP;3599121.66;107973.65;Beahan-Kessler;Jewelery;travon.kreiger@franecki.org;true
+COB1191390;St. Elena;AL;201602192;NDJF1242765;2362;22G0;4411488.22;441148.82;Lind Group;Jewelery & Kids;alexanne@hermanbahringer.info;true
+COB1191390;St. Elena;AL;201602192;HTXS1386087;4301;45G0;47137892.6;4713789.26;Mayert and Sons;Sports, Games & Baby;turner_graham@swift.org;true
+COB1191390;St. Elena;AL;201602192;XCBR1804747;45G1;22VH;36549011.44;3654901.14;Labadie-Upton;Grocery;esther.wunsch@schneider.name;true
+COB1191390;St. Elena;AL;201602192;EHZC1463089;22U3;22R1;19191319.5;1919131.95;Langosh-Bailey;Clothing;ana@koelpin.info;true
+COB1191390;St. Elena;AL;201602192;JFKE1226286;22P8;45R1;92041041.91;9204104.19;Gleason and Sons;Toys & Electronics;shaun_watsica@feil.co;true
+COB1191390;St. Elena;AL;201602192;GQAL1179849;20RE;L5G1;42499281.82;2124964.09;Kovacek Inc;Clothing;dell.zieme@keeblerruel.co;true
+COB1191390;St. Elena;AL;201602192;RZEW1622073;40V0;42H0;77689862.56;7768986.26;McLaughlin Group;Games, Beauty, Industrial, Books & Automotive;chris@schadenadams.net;true
+COB1191390;St. Elena;AL;201602192;ZUNR1803059;4104;22U1;1223219.38;61160.97;Hettinger, Wisoky and Mraz;Garden;sherwood@nikolaus.info;true
+COB1191390;St. Elena;AL;201602192;RAJG1782339;45G0;22VH;87673321.7;2630199.65;Klocko, Gutkowski and Spencer;Automotive, Movies, Industrial, Grocery & Computers;augustine@langworth.biz;true
+COB1191390;St. Elena;AL;201602192;VUHA1949392;2270;L5G1;38864331.37;3886433.14;Bechtelar-Rosenbaum;Shoes, Garden, Grocery, Games & Tools;kellie.wiza@franeckiconsidine.io;true
+COB1191390;St. Elena;AL;201602192;MTDU1642476;3200;22R1;4910962.74;491096.27;Fay LLC;Sports & Baby;lois@leannon.info;true
+COB1191390;St. Elena;AL;201602192;HDNS1669299;2062;22T0;28292321.49;1414616.07;Thompson, Murazik and Beatty;Sports, Electronics, Clothing, Beauty & Industrial;daphney@walker.name;true
+COB1191390;St. Elena;AL;201602192;TGMV1198944;4367;22P1;233386341.77;7001590.25;Hettinger, Nolan and Rau;Books & Games;fausto_howell@corwin.biz;true
+COB1191390;St. Elena;AL;201602192;EOIF1347627;28U1;45R1;19965367.41;1996536.74;Fay-Little;Garden, Health, Grocery & Outdoors;cindy.muller@orn.name;true
+COB1191390;St. Elena;AL;201602192;ULJQ1548800;4420;22P3;16597317.35;1659731.74;Murazik Group;Garden;beth@morarcorwin.com;true
+COB1191390;St. Elena;AL;201602192;RMKJ1890024;4531;42T0;10704581.31;535229.07;Bogan, Collins and Willms;Outdoors, Industrial, Grocery & Books;marcia@pfannerstillbarton.co;true
+KRO1091605;Ike;GH;201602183;VNME1196810;20H6;42P1;8018009.32;400900.47;Jenkins LLC;Kids & Clothing;hank@oharaosinski.biz;true
+KRO1091605;Ike;GH;201602183;ZCOW1289859;4510;L5R1;51686100.56;1550583.02;Weimann, D'Amore and Goldner;Music, Sports, Home, Industrial & Kids;lavern@stromanbuckridge.co;true
+KRO1091605;Ike;GH;201602183;DTIS1444110;49PL;45UP;4088699.39;122660.98;Crist LLC;Computers & Jewelery;liana_hoppe@dibbertkshlerin.io;true
+KRO1091605;Ike;GH;201602183;ZTHW1453632;2364;49P0;14128464.42;706423.22;Mayert-Hackett;Shoes, Music, Clothing, Baby & Movies;garfield.steuber@mante.net;true
+KRO1091605;Ike;GH;201602183;REQT1458239;48P0;42H0;45578742.58;2278937.13;Jerde and Sons;Clothing, Jewelery, Automotive, Health & Home;glen@brekke.co;true
+KRO1091605;Ike;GH;201602183;DBMO1705665;4560;8888;37015619.42;1850780.97;Goldner-Fadel;Health, Home & Toys;clair@kuvalitoltenberg.co;true
+KRO1091605;Ike;GH;201602183;DFLS1738373;2210;45R1;18658778.31;1865877.83;Conroy Group;Outdoors & Movies;dave.satterfield@zemlakschmeler.name;true
+KRO1091605;Ike;GH;201602183;QBCL1524130;45RE;45R1;43334.71;4333.47;Bradtke, Toy and Lehner;Industrial & Music;kelsi@hackett.info;true
+KRO1091605;Ike;GH;201602183;TFKN1849859;40P4;42U1;221475141.62;11073757.08;Greenholt-Walker;Outdoors, Health, Baby, Home & Garden;domenick@lang.io;true
+KRO1091605;Ike;GH;201602183;PEUR1267173;22TD;22U1;116303414.68;5815170.73;Schowalter-Stehr;Home & Garden;marquise@hills.info;true
+KRO1091605;Ike;GH;201602183;SCXJ1474012;2042;L5R1;77711549.86;3885577.49;Robel-Little;Kids, Automotive & Home;paige@wintheiser.biz;true
+KRO1091605;Ike;GH;201602183;QCJH1086833;L2G9;22T0;223169354.19;6695080.63;Bauch-Goldner;Tools & Home;concepcion_jakubowski@stroman.biz;true
+KRO1091605;Ike;GH;201602183;KMXA1551713;2216;22P1;3093129.71;92793.89;Braun-Collier;Music & Shoes;garrick.sanford@harvey.co;true
+KRO1091605;Ike;GH;201602183;LDCP1793666;22G0;45G0;20996554.88;629896.65;Hoeger LLC;Music;helen@macejkovicbarton.biz;true
+KRO1091605;Ike;GH;201602183;AXLG1138339;20R3;L5G1;524872.86;52487.29;Koepp, Hintz and Bergnaum;Outdoors, Toys, Movies, Beauty & Industrial;jules_oconnell@reynolds.com;true
+KRO1091605;Ike;GH;201602183;CRFU1771265;22P2;8888;39898553.77;1994927.69;McClure-Lindgren;Baby, Garden, Games & Home;nyah.hudson@herman.biz;true
+KRO1091605;Ike;GH;201602183;YRAB1641654;42VH;45UP;69851932.4;2095557.97;Friesen-Mosciski;Tools, Shoes, Automotive, Games & Garden;rickie.mohr@kuhlmanmante.io;true
+KRO1091605;Ike;GH;201602183;NHWS1111653;48P3;42G0;28259078.41;847772.35;Swift Inc;Kids, Home, Clothing, Shoes & Electronics;zane.casper@schinner.io;true
+KRO1091605;Ike;GH;201602183;YLSC1454263;L5RS;42P1;33315041.69;999451.25;Frami-Goldner;Electronics;kali_barton@hane.com;true
+KRO1091605;Ike;GH;201602183;XDKG1683036;4313;22H0;30778200.4;1538910.02;Ward-Olson;Clothing;coralie.mills@kreiger.name;true
+KRO1091605;Ike;GH;201602183;LXVJ1961939;4025;42R1;101984844.13;3059545.32;Prosacco Group;Industrial, Outdoors, Garden & Automotive;tamara_larkin@kutch.io;true
+KRO1091605;Ike;GH;201602183;GVBH1486404;20V4;12TR;15243109.72;457293.29;Fritsch Inc;Books, Tools, Garden, Music & Grocery;pinkie@baumbach.io;true
+KRO1091605;Ike;GH;201602183;JUZA1918704;42TD;22P1;98834579.75;9883457.98;Harber, Howe and Ebert;Movies, Tools & Jewelery;layne_hettinger@crist.net;true
+KRO1091605;Ike;GH;201602183;PKIO1305653;4025;22R1;12020053.25;360601.6;Ebert-Feil;Toys & Jewelery;cleveland@champlin.name;false
+KRO1091605;Ike;GH;201602183;OHJN1587476;4053;42UP;55148197.95;2757409.9;Lakin, Kemmer and Beahan;Toys & Music;clementine@metzconnelly.name;true
+KRO1091605;Ike;GH;201602183;RCPK1188430;2204;22P1;39960496.8;1998024.84;Metz Inc;Jewelery;kelly.farrell@hackett.info;true
+KRO1091605;Ike;GH;201602183;YLIR1879993;24H6;42VH;6890068.3;206702.05;Maggio-Koss;Automotive;caleigh.rempel@king.net;true
+KRO1091605;Ike;GH;201602183;KSEP1227818;2279;42R1;38583897.53;1157516.93;Labadie, Hammes and Grimes;Toys & Games;taurean.weimann@daugherty.io;true
+KRO1091605;Ike;GH;201602183;EJZO1521852;32G0;42H0;113269072.89;3398072.19;Kautzer, Grady and Christiansen;Sports, Toys, Beauty & Music;earlene@collier.org;true
+KRO1091605;Ike;GH;201602183;KUND1608749;2304;22B0;23902620.51;717078.62;Murphy-Quitzon;Music, Garden, Books & Outdoors;brandt.simonis@quigleyheller.biz;true
+JMP1211539;John Navy;UG;201602204;TCIS1464363;2303;42T0;6111771.83;611177.18;Wunsch, Bruen and Schuppe;Jewelery, Baby & Sports;rosemarie.kozey@quitzon.io;true
+JMP1211539;John Navy;UG;201602204;HBQG1256815;44R2;49P0;4381799.64;131453.99;Brown, Predovic and Kreiger;Kids, Movies & Baby;guillermo@rohan.info;true
+JMP1211539;John Navy;UG;201602204;KXZT1283310;2061;42P1;24145737.16;2414573.72;Murphy Group;Music;theron@west.biz;true
+JMP1211539;John Navy;UG;201602204;YRUM1094654;4232;8888;20870269.71;626108.09;Reilly Group;Tools, Books, Movies, Grocery & Baby;collin_dooley@carter.net;true
+JMP1211539;John Navy;UG;201602204;RHNX1825408;40BK;42P1;9607056.39;480352.82;Donnelly-Reichel;Books & Computers;caroline@romaguera.com;false
+JMP1211539;John Navy;UG;201602204;MQLN1987288;4534;42T0;76489050.13;3824452.51;Olson-Bernhard;Games, Shoes, Music, Outdoors & Books;myriam_dicki@sengermckenzie.info;false
+JMP1211539;John Navy;UG;201602204;RVCW1036953;4551;42R1;2684044.31;80521.33;Eichmann, Stamm and Beahan;Beauty, Kids & Games;nicole@zulaufmuller.co;true
+JMP1211539;John Navy;UG;201602204;XNFR1267632;2166;22P3;31618933.98;3161893.4;Bartoletti, Marquardt and Braun;Industrial, Baby & Sports;spencer_bogan@zemlak.net;true
+JMP1211539;John Navy;UG;201602204;JZSU1047117;4243;22H0;11360043.75;340801.31;Homenick, Little and Hills;Games, Kids & Baby;ozella_bergstrom@hintzhilll.name;true
+JMP1211539;John Navy;UG;201602204;GYZW1033640;42TD;42UP;54838149.43;2741907.47;Fadel Inc;Home, Sports, Beauty, Outdoors & Movies;concepcion_greenfelder@tromp.net;true
+JMP1211539;John Navy;UG;201602204;VDQU1693583;2201;22B0;11797839.91;1179783.99;Schinner-Skiles;Clothing, Baby, Computers & Sports;adela_senger@harveybauch.info;true
+JMP1211539;John Navy;UG;201602204;JWFL1699855;42P4;42P3;44680592.8;2234029.64;Lakin LLC;Games;alyon@will.name;true
+JMP1211539;John Navy;UG;201602204;ZFKB1071571;20T9;42VH;79995738.99;3999786.95;Rau LLC;Jewelery & Music;teagan@grady.name;false
+JMP1211539;John Navy;UG;201602204;PKGS1837655;42T2;22UP;77831608.82;3891580.44;Pollich, DuBuque and Braun;Electronics, Shoes, Baby & Industrial;samara.bayer@jenkins.com;true
+JMP1211539;John Navy;UG;201602204;GCZT1351705;44HR;L5R1;9415208.36;941520.84;Wiza Inc;Outdoors;tara_ziemann@cormier.org;true
+JMP1211539;John Navy;UG;201602204;DKNI1752812;4211;22B0;32886558.35;3288655.84;Pouros-Robel;Shoes & Beauty;claud@lebsack.com;true
+JMP1211539;John Navy;UG;201602204;JLGI1005295;8550;22R1;47961973.59;1438859.21;McCullough, Sipes and Kertzmann;Home, Garden & Games;paris@douglachuppe.com;true
+JMP1211539;John Navy;UG;201602204;ZLMW1290684;45PC;42VH;1915177.77;57455.33;Wiza and Sons;Home, Books, Beauty, Games & Clothing;tremaine@shanahan.name;true
+JMP1211539;John Navy;UG;201602204;KWFP1210278;40B3;22P1;12009872.26;360296.17;Hirthe, Friesen and Kemmer;Beauty, Kids, Games & Sports;elizabeth@cartwright.io;true
+JMP1211539;John Navy;UG;201602204;UDWX1726724;22V0;L5G1;24557232.32;2455723.23;Renner, Cole and Miller;Sports, Shoes & Health;elwin_luettgen@doyletreutel.name;false
+JMP1211539;John Navy;UG;201602204;CNDF1133998;2070;29P0;30642600.4;919278.01;Emmerich Group;Home;nella_murazik@bahringeryost.com;true
+JMP1211539;John Navy;UG;201602204;WXPH1187224;4960;29P0;4851765.14;145552.95;Trantow-Kemmer;Shoes, Sports, Outdoors, Music & Home;summer.aufderhar@purdy.com;true
+JMP1211539;John Navy;UG;201602204;AGYS1976985;2020;42P3;16079996.39;482399.89;Macejkovic-Fritsch;Home, Tools, Computers & Garden;maud@rutherfordglover.co;true
+JMP1211539;John Navy;UG;201602204;LPEG1055456;20V0;22H0;2279967.86;68399.04;Hegmann-Hintz;Computers, Kids, Shoes, Toys & Movies;rosa@howe.co;true
+JMP1211539;John Navy;UG;201602204;ZXKM1059312;L2H5;22B0;36725441.72;1836272.09;Bartell, Willms and Walsh;Garden, Sports, Automotive, Health & Movies;theresia_quitzon@breitenberghowe.info;true
+JMP1211539;John Navy;UG;201602204;TPSG1031602;4599;22R1;19180439.17;959021.96;Howe-Friesen;Books;dennis@klockodickinson.name;true
+JMP1211539;John Navy;UG;201602204;XWZJ1132347;4333;42R1;25500911.7;765027.35;Hermiston Inc;Sports, Baby, Industrial & Music;eli@harvey.io;true
+JMP1211539;John Navy;UG;201602204;BSZT1582588;42R3;22P1;6102729.11;183081.87;Rempel, Bins and Haag;Health & Toys;lucas_cremin@oconnell.info;true
+JMP1211539;John Navy;UG;201602204;MNYO1759723;4004;22VH;36860423.22;1843021.16;Windler, Haley and Schroeder;Movies, Industrial & Home;wendy.rogahn@wittingberge.org;true
+JMP1211539;John Navy;UG;201602204;WXNI1669006;20R1;L5R1;8259903.88;247797.12;McDermott LLC;Toys;orrin@bayer.io;true
+JMP1211539;John Navy;UG;201602204;EAXO1445920;24RS;12TR;75924832.9;2277744.99;Klocko-Wintheiser;Music, Jewelery, Health, Home & Tools;bennett_greenholt@beahanschiller.com;true
+JMP1211539;John Navy;UG;201602204;QHPX1270305;4365;22G0;5684227.43;170526.82;Eichmann, Bosco and Friesen;Toys, Games & Outdoors;fabiola@kunze.com;true
+JMP1211539;John Navy;UG;201602204;DXCH1565385;4661;22P3;62282878.35;1868486.35;Considine, Hermann and Moen;Jewelery;jacquelyn.sporer@leuschke.biz;false
+JMP1211539;John Navy;UG;201602204;RSQW1568177;4551;29P0;15036028.47;1503602.85;Nitzsche-Herman;Computers, Jewelery, Movies, Music & Tools;marlen@pollich.biz;true
+JMP1211539;John Navy;UG;201602204;KTJN1390270;45H5;22U1;16127168.54;806358.43;Dare-Farrell;Grocery, Kids, Beauty & Toys;ali@hirthekulas.com;true
+JMP1211539;John Navy;UG;201602204;MWOL1016868;42RC;42T0;25814771.04;2581477.1;Feeney, Kuhn and Borer;Electronics & Baby;javon@torp.io;true
+JMP1211539;John Navy;UG;201602204;HVWO1682562;4004;22UP;13717189.55;411515.69;Stroman-Parker;Automotive & Electronics;berenice_flatley@bashirianschmitt.info;true
+JMP1211539;John Navy;UG;201602204;KYHI1158900;2065;42R1;33655720.61;1682786.03;Flatley Inc;Clothing, Movies, Kids, Electronics & Industrial;paxton@ondrickafeest.biz;true
+QEF1881275;Simone;ML;201602185;ANZS1635126;L2G2;42G0;111448952.39;11144895.24;Abbott Inc;Kids & Shoes;jennie@beier.io;true
+QEF1881275;Simone;ML;201602185;UKTE1804349;4067;22B0;6966814.79;209004.44;Tremblay, Cruickshank and Emard;Toys;doug_shields@zieme.io;true
+QEF1881275;Simone;ML;201602185;QVCR1804814;4062;42P3;17606954.34;528208.63;Padberg, Hamill and Cremin;Movies;madge@upton.io;false
+QEF1881275;Simone;ML;201602185;JZXM1977297;4201;22H0;44631031.56;1338930.95;Considine, Mohr and Schinner;Kids, Computers, Movies, Jewelery & Industrial;moses.lehner@larkin.co;true
+QEF1881275;Simone;ML;201602185;EUSC1272857;4432;22G0;72706877.51;7270687.75;Miller, Heidenreich and Harber;Shoes, Sports, Clothing & Grocery;enrique@rempel.org;true
+QEF1881275;Simone;ML;201602185;QLMW1875037;40B4;22U1;88260994.75;4413049.74;Feest-Friesen;Outdoors, Jewelery, Baby & Clothing;gabe@feestgoldner.net;true
+QEF1881275;Simone;ML;201602185;TCSX1458896;22V4;42G0;75413408.58;7541340.86;Vandervort, Wiza and Bednar;Automotive;marielle@flatley.co;true
+QEF1881275;Simone;ML;201602185;YRBH1797889;4215;22B0;85855271.04;2575658.13;Cole, Abshire and Trantow;Jewelery & Kids;clare_mayer@grimekiles.io;true
+QEF1881275;Simone;ML;201602185;PKJE1169946;4361;49P0;57319040.87;1719571.23;Auer, Hilll and Bernhard;Sports, Garden, Clothing, Movies & Outdoors;ryder@rolfson.net;false
+QEF1881275;Simone;ML;201602185;EQXW1484302;28GP;22U1;59113130.24;2955656.51;Skiles Inc;Sports & Electronics;sigrid@kuhlman.net;true
+QEF1881275;Simone;ML;201602185;LBEO1578246;L5R2;22P3;3219175.6;96575.27;Becker Inc;Beauty & Automotive;dave_hauck@harber.biz;true
+QEF1881275;Simone;ML;201602185;KQAD1805025;2160;42P3;7549538.24;377476.91;Feil-Walter;Sports, Games, Toys, Baby & Computers;novella@hammeswhite.co;true
+QEF1881275;Simone;ML;201602185;JLWS1505784;2164;22UP;46396827.38;2319841.37;Hansen-Stehr;Tools;leonel@oreillywelch.com;true
+QEF1881275;Simone;ML;201602185;GRCK1443153;40T0;22P3;2102372.83;210237.28;Mills LLC;Jewelery;eino.effertz@ryan.biz;true
+QEF1881275;Simone;ML;201602185;ZDKH1950705;L2R3;45R1;28767299.52;2876729.95;Hayes-Stamm;Sports;josh.schoen@hicklelehner.io;true
+QEF1881275;Simone;ML;201602185;ICEH1825395;4265;42R1;34573496.19;1037204.89;Hudson LLC;Music, Health & Industrial;nyah_hermiston@wolffmayert.info;true
+QEF1881275;Simone;ML;201602185;PASZ1345612;20G3;42G0;113504026.24;3405120.79;Yundt-Funk;Books;kiley.bailey@brekkelakin.biz;true
+QEF1881275;Simone;ML;201602185;WHUM1584784;2274;45UP;65091748.95;1952752.47;Lynch LLC;Kids, Sports, Tools, Beauty & Health;terrill@weimann.org;true
+QEF1881275;Simone;ML;201602185;YJLW1006363;40P0;42VH;24293456.18;728803.69;Denesik-Pfannerstill;Garden, Automotive, Outdoors & Shoes;lacey_ankunding@swaniawski.name;true
+QEF1881275;Simone;ML;201602185;OGDW1399431;24G2;22H0;2215320.62;221532.06;Wolf, Schneider and Deckow;Movies, Shoes, Toys & Music;madisen@goodwin.biz;true
+QEF1881275;Simone;ML;201602185;ADMV1752357;4270;42U1;10258260.64;512913.03;Kessler Inc;Computers, Clothing, Industrial & Beauty;luisa.altenwerth@quigleyfarrell.info;true
+QEF1881275;Simone;ML;201602185;OIRJ1626544;22P5;L5R1;149398456.59;14939845.66;Dickinson-Erdman;Automotive;unique@kertzmann.io;true
+QEF1881275;Simone;ML;201602185;AUCD1915216;24HR;12TR;44895024.2;4489502.42;Welch LLC;Grocery, Home, Beauty, Health & Garden;ines_nolan@leuschke.com;true
+QEF1881275;Simone;ML;201602185;UBXJ1916442;2240;42H0;5563588.77;278179.44;Funk, Powlowski and Jacobson;Industrial & Books;marilie_grimes@goldner.info;true
+QEF1881275;Simone;ML;201602185;BDLT1611795;4052;42P1;40923157.0;4092315.7;Prohaska Group;Health, Toys & Jewelery;kaleigh.jacobs@rohanankunding.biz;true
+QEF1881275;Simone;ML;201602185;ZWMR1133770;44RS;22P1;20966778.8;2096677.88;Bernhard, Jakubowski and Walker;Music, Sports & Computers;ladarius_jacobi@hilll.com;true
+QEF1881275;Simone;ML;201602185;NUZH1378525;2131;12TR;19547469.69;1954746.97;Mueller and Sons;Books, Toys, Music, Health & Baby;adaline_goldner@mosciskijacobs.info;true
+QEF1881275;Simone;ML;201602185;CHUK1088500;48UI;22VH;82485633.69;2474569.01;Kuhlman-Murray;Movies, Kids, Music & Electronics;fiona_bode@emard.org;true
+QEF1881275;Simone;ML;201602185;GSRT1670570;4030;L5G1;82982512.79;8298251.28;Heaney-Flatley;Computers, Beauty & Toys;wendell_nader@brown.name;true
+QEF1881275;Simone;ML;201602185;SGCE1906459;2279;45UP;7530015.99;753001.6;Emard Inc;Music;candelario_boyer@hoegerabbott.info;true
+QPU1694193;Prestige;SB;201602166;YNTH1039222;2070;42UP;107940385.58;5397019.28;Sporer and Sons;Automotive;rhiannon_macgyver@corkery.biz;true
+QPU1694193;Prestige;SB;201602166;CAKU1870649;2164;8888;40563073.44;2028153.67;Denesik Inc;Computers & Clothing;dahlia@ondricka.name;true
+QPU1694193;Prestige;SB;201602166;WPKR1682766;24RT;45UP;1286998.94;64349.95;Toy, Dach and Carter;Home;annamarie_crist@cummerataprosacco.info;true
+QPU1694193;Prestige;SB;201602166;FEKV1303076;2061;22VH;12947841.79;647392.09;Bradtke, Dicki and Medhurst;Baby, Garden, Outdoors, Music & Toys;malachi_hegmann@buckridgesimonis.name;true
+QPU1694193;Prestige;SB;201602166;EQIC1206803;45G4;22UP;1378065.66;68903.28;Kilback-Harris;Tools, Automotive, Beauty, Outdoors & Kids;caleigh.reichel@wisokymarvin.com;true
+QPU1694193;Prestige;SB;201602166;FTCO1509717;44H2;22B0;52938285.87;1588148.58;Kassulke-Skiles;Baby;elroy@senger.org;true
+QPU1694193;Prestige;SB;201602166;XRPD1946115;2042;L5R1;26219035.09;1310951.75;Sporer and Sons;Clothing, Shoes, Automotive & Games;jaquelin_mertz@cartwright.biz;true
+QPU1694193;Prestige;SB;201602166;RXVQ1240997;9995;22H0;34625113.17;3462511.32;Huels, Goodwin and Breitenberg;Games, Electronics, Automotive & Kids;shaun_larson@hegmannmills.net;true
+QPU1694193;Prestige;SB;201602166;UOVS1892897;22TG;22R1;80540413.85;4027020.69;Blanda, Kub and Emmerich;Automotive, Home & Baby;courtney@marks.org;true
+QPU1694193;Prestige;SB;201602166;OKHG1349002;4360;12TR;40485561.82;4048556.18;Johnston-Hayes;Garden;gus@glover.name;true
+QPU1694193;Prestige;SB;201602166;ECWM1695320;2870;L5G1;16313217.22;1631321.72;Schmeler, Koelpin and Marquardt;Health, Clothing, Books, Tools & Outdoors;sasha@gulgowski.biz;true
+QPU1694193;Prestige;SB;201602166;BWDK1721146;L5G3;22VH;3776241.02;113287.23;Fisher LLC;Shoes & Health;letha.wisozk@doylegleason.net;true
+QPU1694193;Prestige;SB;201602166;AZTI1937002;20UT;45R1;27483458.88;824503.77;Boyer Group;Outdoors, Toys & Tools;asia_eichmann@berge.name;false
+QPU1694193;Prestige;SB;201602166;YCAH1749715;40R0;L5G1;13696465.99;410893.98;Metz-Stiedemann;Tools, Baby & Shoes;elena@howesauer.net;true
+QPU1694193;Prestige;SB;201602166;ZPRK1590977;4350;12TR;105694900.43;10569490.04;Hackett-Lindgren;Garden & Shoes;bertrand@leffler.org;true
+QPU1694193;Prestige;SB;201602166;SKVP1059157;2600;42VH;25973122.42;779193.67;Veum-Turner;Health, Automotive, Baby & Home;doug_reilly@sawayndurgan.name;true
+QPU1694193;Prestige;SB;201602166;AZSF1679652;2216;22P3;41472296.22;2073614.81;Schimmel, Homenick and Mills;Industrial & Baby;johan@dibbert.org;false
+QPU1694193;Prestige;SB;201602166;VPGS1579226;2070;45R1;9250347.34;277510.42;Zemlak-Goyette;Jewelery, Beauty, Home & Industrial;jeica_williamson@rathhackett.name;true
+QPU1694193;Prestige;SB;201602166;FUBM1200944;4661;22R1;117714103.17;3531423.1;Schroeder-Adams;Shoes & Kids;elza@dietrichgreenholt.org;true
+QPU1694193;Prestige;SB;201602166;IZLN1741625;42R3;42G0;68143505.92;3407175.3;Huels, Hartmann and Halvorson;Tools & Outdoors;maybelle.carter@sanford.com;true
+QPU1694193;Prestige;SB;201602166;FVJL1673346;1200;12TR;149835643.51;4495069.31;Upton, Volkman and Zulauf;Shoes, Tools & Kids;maryjane_sawayn@wilderman.biz;false
+QPU1694193;Prestige;SB;201602166;GDIS1941993;10G0;42U1;13311985.32;665599.27;Schroeder, Wisoky and Harber;Toys & Shoes;chance.orn@kiehn.co;true
+QPU1694193;Prestige;SB;201602166;UCEI1445701;2277;42P1;65281864.59;3264093.23;Lang-Lebsack;Shoes, Books, Automotive & Health;roma.botsford@deckowhomenick.com;true
+QPU1694193;Prestige;SB;201602166;CIMH1269606;2117;42VH;5678202.81;283910.14;Schiller Group;Grocery & Baby;calista.grady@ritchie.biz;true
+QPU1694193;Prestige;SB;201602166;AQJB1856644;45H6;42UP;48856331.02;1465689.93;Beier, Roob and Bode;Beauty, Outdoors & Movies;fleta_ruel@wisozksporer.name;true
+QPU1694193;Prestige;SB;201602166;NTHS1930290;4362;42H0;32154315.72;1607715.79;Watsica-Bahringer;Jewelery, Garden & Shoes;alyon@okon.biz;true
+QPU1694193;Prestige;SB;201602166;UVDO1725254;4313;42P1;628036.1;62803.61;Bartell, Corkery and Auer;Electronics & Music;delpha_weinat@waelchileffler.org;true
+QPU1694193;Prestige;SB;201602166;AHMV1534017;45G3;12TR;40760961.12;1222828.83;Graham-Breitenberg;Tools;jace@mclaughlin.biz;true
+QPU1694193;Prestige;SB;201602166;FQOH1805072;28U2;L5R1;1987842.9;99392.15;Cassin and Sons;Computers, Home, Games, Baby & Books;bonnie.schneider@christiansen.name;true
+QPU1694193;Prestige;SB;201602166;IEHK1040538;22G2;42VH;37635769.43;1881788.47;McCullough-O'Reilly;Home & Movies;zack_miller@thiel.io;true
+QPU1694193;Prestige;SB;201602166;DZHX1752251;L2G9;42U1;10919485.81;1091948.58;Green and Sons;Tools, Movies, Music, Shoes & Sports;abel@mertz.io;true
+QPU1694193;Prestige;SB;201602166;MDWX1105029;4514;22U1;95077419.13;2852322.57;Gibson-Mitchell;Beauty, Sports, Games, Baby & Kids;neil@sawaynkeler.io;true
+QPU1694193;Prestige;SB;201602166;FOJX1953831;2053;42G0;42638239.19;1279147.18;Homenick-Toy;Clothing, Movies, Shoes & Music;estrella.johnston@quitzoncollier.net;true
+QPU1694193;Prestige;SB;201602166;PLTJ1426372;22RC;22P3;13943011.51;418290.35;Fisher-Bins;Health;orlando@gorczany.co;true
+YIL1516412;Abner;MQ;201602197;KUVT1301399;40V2;49P0;103782159.18;10378215.92;Kihn, Tremblay and Feil;Health;dusty@rosenbaumlebsack.net;true
+YIL1516412;Abner;MQ;201602197;GRBX1575750;4270;L5R1;87781511.75;8778151.18;Tremblay LLC;Toys;sidney_dare@oharakihn.io;true
+YIL1516412;Abner;MQ;201602197;SRHI1488321;4001;42T0;24586065.94;737581.98;Herman-Ledner;Industrial & Baby;trevor@hauck.org;true
+YIL1516412;Abner;MQ;201602197;QRSJ1169503;4500;22B0;69233168.93;6923316.89;Kassulke Group;Jewelery, Outdoors, Books, Shoes & Automotive;jayson@kokemmer.co;true
+YIL1516412;Abner;MQ;201602197;ITYS1107878;40B0;42P1;57530841.14;2876542.06;Steuber Group;Movies;cheyenne@senger.name;true
+YIL1516412;Abner;MQ;201602197;YAQM1991797;45G2;L5G1;35321016.81;1766050.84;Carter-Corwin;Baby, Movies & Garden;arvel_kuhn@schmitt.info;true
+YIL1516412;Abner;MQ;201602197;LWIU1207723;4101;42U1;133150321.54;3994509.65;Casper-Collier;Movies & Sports;gabriella@pouros.net;true
+YIL1516412;Abner;MQ;201602197;VIOZ1775556;4263;22U1;113301098.98;5665054.95;Auer Inc;Books, Movies & Toys;kelsi.heathcote@davis.org;true
+YIL1516412;Abner;MQ;201602197;CDNE1635086;40UT;22VH;89794395.94;4489719.8;Treutel Inc;Music, Movies, Garden, Shoes & Kids;adah.cummings@huel.info;false
+YIL1516412;Abner;MQ;201602197;VUMO1647935;2010;22R1;1993549.87;199354.99;Pfeffer-Lowe;Electronics, Tools & Automotive;delfina@beahan.net;true
+YIL1516412;Abner;MQ;201602197;YCXS1779364;48P5;22P3;68165804.39;6816580.44;Bayer, Franecki and Bashirian;Electronics, Jewelery, Computers, Tools & Movies;cecile@wisokywehner.name;true
+YIL1516412;Abner;MQ;201602197;JLCD1746352;20G0;42G0;139715867.62;13971586.76;Schumm, Bernhard and Bednar;Books, Kids, Garden & Tools;emely@hauck.name;true
+YIL1516412;Abner;MQ;201602197;KUMI1644553;4330;8888;90231701.54;9023170.15;Torphy and Sons;Grocery, Baby, Computers & Industrial;mathias@rowe.info;true
+YIL1516412;Abner;MQ;201602197;ZBGI1597311;4999;22P1;28323847.37;849715.42;Harvey, Hilll and Hoeger;Electronics & Health;freddie_heaney@batz.info;true
+YIL1516412;Abner;MQ;201602197;CZSA1083841;20T5;45UP;49280713.81;2464035.69;Donnelly and Sons;Music, Industrial, Shoes, Movies & Outdoors;art@eichmannwhite.name;true
+YIL1516412;Abner;MQ;201602197;YBSG1003863;2080;29P0;84045628.13;8404562.81;Barton, Wisozk and Kozey;Garden, Industrial, Outdoors & Games;kelsie@legrosgrimes.net;true
+YIL1516412;Abner;MQ;201602197;OFJW1966427;L2H2;42U1;108992278.72;10899227.87;Feil, Muller and Marvin;Clothing, Movies, Sports & Outdoors;sincere@johnsonfeeney.name;true
+YIL1516412;Abner;MQ;201602197;SRIC1167011;20P2;22VH;35068777.76;3506877.78;Kihn-Murray;Beauty & Sports;marcelo.kertzmann@wildermanlakin.name;true
+YIL1516412;Abner;MQ;201602197;WFLB1321041;L2H1;22UP;232915016.22;6987450.49;Cremin-Hyatt;Shoes, Computers, Jewelery, Industrial & Music;alva@jacobson.biz;true
+YIL1516412;Abner;MQ;201602197;LHOU1492530;2072;42U1;15348585.94;767429.3;Erdman, Waters and Rosenbaum;Books & Tools;marlon.kshlerin@prohaskabins.com;true
+YIL1516412;Abner;MQ;201602197;ROIG1887800;2205;42U1;59918588.52;1797557.66;Predovic Inc;Music, Games & Movies;crystel@miller.net;true
+YIL1516412;Abner;MQ;201602197;UMKE1046043;22TG;42T0;43157619.54;1294728.59;Conroy, Lebsack and Jacobs;Grocery;twila@price.info;true
+YIL1516412;Abner;MQ;201602197;GPHK1632284;4032;22H0;9843909.83;492195.49;Koepp and Sons;Automotive & Sports;eladio@effertz.io;true
+YIL1516412;Abner;MQ;201602197;KEIF1666439;2050;22VH;2495036.3;124751.82;Ward, O'Hara and Rosenbaum;Outdoors, Health, Toys & Industrial;greta_rosenbaum@hermiston.info;true
+YIL1516412;Abner;MQ;201602197;POAX1566776;4203;42VH;68486188.3;3424309.42;Beatty, Metz and Stamm;Automotive & Games;wava.toy@ernser.name;true
+YIL1516412;Abner;MQ;201602197;YNAG1519638;L2G9;22G0;8412995.94;841299.59;Tremblay, Douglas and Harvey;Automotive, Music, Shoes, Clothing & Sports;imogene_bradtke@leuschke.io;true
+YIL1516412;Abner;MQ;201602197;MGOY1810932;20B4;42UP;19332055.96;966602.8;Gusikowski Group;Outdoors, Movies, Tools & Music;nicklaus@smith.io;true
+YIL1516412;Abner;MQ;201602197;BCVF1631662;20P1;22B0;76869038.65;2306071.16;Sauer, Weber and Monahan;Beauty & Industrial;wilma@jacobi.info;false
+YIL1516412;Abner;MQ;201602197;YKOX1397343;49PL;22B0;978069.09;29342.07;Deckow-Hettinger;Grocery & Electronics;griffin@waelchi.info;true
+YIL1516412;Abner;MQ;201602197;GDJI1146451;20GP;22B0;49600718.2;1488021.55;Schaefer-Buckridge;Movies & Health;charley_trantow@dubuque.biz;true
+YIL1516412;Abner;MQ;201602197;CNOR1070414;2251;42G0;998282.13;99828.21;Simonis LLC;Sports, Clothing & Outdoors;green@littelhomenick.biz;true
+YIL1516412;Abner;MQ;201602197;VNXW1609925;20GP;22G0;4464240.31;446424.03;Mertz and Sons;Grocery;stanford@mills.io;true
+YIL1516412;Abner;MQ;201602197;LCUR1000346;2064;42R1;3225323.63;161266.18;Kreiger, Moen and Blick;Shoes, Tools, Electronics & Clothing;bridie@schusterparker.co;true
+XJM1059834;Margaretteview;ET;201602168;SPKR1750844;40RS;22U1;62584707.21;3129235.36;Hirthe, Pouros and Brakus;Kids, Health, Toys, Industrial & Books;giovanni@flatley.com;true
+XJM1059834;Margaretteview;ET;201602168;RMNV1389508;2063;42P3;5364583.13;160937.49;McKenzie-Beahan;Garden & Movies;camylle@conn.io;true
+XJM1059834;Margaretteview;ET;201602168;WZCK1057403;45H6;42P1;54535926.0;1636077.78;Daugherty-Emmerich;Automotive;ozzie@kuvalis.biz;true
+XJM1059834;Margaretteview;ET;201602168;NBLE1960476;4066;L5R1;3641344.32;109240.33;Murray Group;Movies;helene@maggiokozey.info;true
+XJM1059834;Margaretteview;ET;201602168;ZVTD1144840;L5R0;22H0;16357347.44;817867.37;Rempel, Weimann and Jaskolski;Computers;aleandro@hammes.com;true
+XJM1059834;Margaretteview;ET;201602168;UFOQ1748983;4161;29P0;55499299.55;1664978.99;Fahey and Sons;Baby;royal@barton.co;true
+XJM1059834;Margaretteview;ET;201602168;CPRG1500820;4960;42P1;90749261.53;4537463.08;McLaughlin, Marquardt and Kirlin;Shoes;celestino.streich@zemlakabernathy.co;true
+XJM1059834;Margaretteview;ET;201602168;OJVQ1836379;2079;42T0;32707419.14;3270741.91;Swift-Howell;Sports, Computers, Garden, Clothing & Industrial;jayson_kub@reynolds.info;true
+XJM1059834;Margaretteview;ET;201602168;TPXI1326774;1000;22B0;25709316.84;1285465.84;Windler, Leannon and Kub;Electronics, Jewelery, Games & Automotive;charles@heidenreich.biz;true
+XJM1059834;Margaretteview;ET;201602168;AYLG1810067;44R2;45R1;34599857.63;1729992.88;Gusikowski, Kilback and Bogisich;Beauty, Jewelery, Games, Grocery & Toys;sophie.mayer@okeefe.org;true
+XJM1059834;Margaretteview;ET;201602168;NYTV1610933;45H1;22T0;27956980.98;838709.43;Price, Kub and Schimmel;Electronics;diamond_collins@harvey.io;true
+XJM1059834;Margaretteview;ET;201602168;LXSF1757075;42RT;22H0;36859402.08;1105782.06;Marquardt Group;Jewelery, Home, Outdoors & Computers;dorothea_shields@littel.name;false
+XJM1059834;Margaretteview;ET;201602168;EFHX1148539;4203;42R1;174530474.38;8726523.72;Huel Inc;Toys, Health, Beauty & Jewelery;lew_klein@hodkiewicz.org;false
+XJM1059834;Margaretteview;ET;201602168;UCKX1769953;24H0;22T0;2694091.48;80822.74;Hegmann, Mueller and Anderson;Toys & Health;shannon@gleichner.biz;true
+XJM1059834;Margaretteview;ET;201602168;ZDCX1194998;42B5;42VH;12529026.07;626451.3;Casper, Schiller and Willms;Books & Outdoors;krista_mcglynn@cronadibbert.org;true
+XJM1059834;Margaretteview;ET;201602168;JULY1731552;20PF;45UP;22754143.8;2275414.38;Conroy-Lehner;Outdoors;kirk_mante@prosacco.biz;true
+XJM1059834;Margaretteview;ET;201602168;QHVB1448936;L2G2;22UP;30325281.21;909758.44;Anderson-Wisoky;Health, Movies & Sports;dallas@schaden.biz;true
+XJM1059834;Margaretteview;ET;201602168;RKOZ1595725;2230;22VH;2285229.2;228522.92;Hoeger, Shields and Frami;Music, Books, Health & Outdoors;jacinthe_grady@franecki.org;true
+XJM1059834;Margaretteview;ET;201602168;EMPZ1994561;2230;12TR;11012413.11;550620.66;Maggio, Goyette and Schuppe;Shoes, Grocery & Garden;adriana_toy@durgan.name;true
+XJM1059834;Margaretteview;ET;201602168;XQDS1978480;2267;22UP;74706819.2;2241204.58;Herzog, Schamberger and Doyle;Movies, Beauty & Clothing;emily@beatty.io;true
+XJM1059834;Margaretteview;ET;201602168;HGDC1520574;9400;42P1;45860257.91;4586025.79;Wyman-Turner;Beauty, Sports, Computers, Kids & Home;bernhard@runte.com;false
+XJM1059834;Margaretteview;ET;201602168;NSPJ1572752;2367;45R1;21259325.54;637779.77;Braun and Sons;Sports, Kids, Health, Music & Outdoors;jayde@kuvalis.com;true
+XJM1059834;Margaretteview;ET;201602168;PLDF1148991;12G0;42VH;41011078.04;1230332.34;Boehm LLC;Grocery, Outdoors, Sports, Health & Kids;alexandro_hilll@mcdermottlangosh.org;true
+XJM1059834;Margaretteview;ET;201602168;FIVQ1433466;40V2;22B0;12437092.47;621854.62;Reynolds-Champlin;Computers, Home, Movies, Shoes & Kids;benton.zboncak@fayyundt.org;true
+XJM1059834;Margaretteview;ET;201602168;DKRW1433523;42G0;L5G1;15902661.44;1590266.14;Howe, Brakus and Denesik;Games;dante@deckow.co;true
+XJM1059834;Margaretteview;ET;201602168;JVQU1989213;42B0;8888;113252065.6;3397561.97;Considine, Corwin and Bergstrom;Jewelery & Sports;jonathon@breitenberg.biz;true
+XJM1059834;Margaretteview;ET;201602168;HNZD1327656;2261;42VH;7639521.19;229185.64;Cassin, Herzog and Franecki;Health, Beauty, Automotive & Home;keshaun@handnitzsche.co;true
+XJM1059834;Margaretteview;ET;201602168;OEAQ1785410;40H1;42VH;31221566.02;1561078.3;Pacocha, Effertz and Crooks;Health, Industrial, Computers, Automotive & Kids;ryan_weimann@jacobi.biz;true
+XJM1059834;Margaretteview;ET;201602168;LJAM1239094;L5HR;L5G1;69376155.44;2081284.66;Emmerich-Jerde;Games & Home;chasity_rice@schmeler.name;true
+XJM1059834;Margaretteview;ET;201602168;YTOB1340317;49P0;42H0;93436612.31;9343661.23;Daniel-Haag;Tools & Movies;diana@smith.org;true
+XJM1059834;Margaretteview;ET;201602168;KYCZ1324653;4204;29P0;7038615.61;351930.78;Hilll LLC;Shoes;ru@bartolettischaefer.info;true
+XJM1059834;Margaretteview;ET;201602168;IGDU1238092;2015;22U1;49324924.28;2466246.21;Turner, Marquardt and Jacobi;Garden, Music & Outdoors;antonia.funk@labadie.biz;false
+XJM1059834;Margaretteview;ET;201602168;CZQW1384948;44G1;45G0;54877108.39;1646313.25;Krajcik LLC;Tools, Shoes, Toys, Computers & Garden;layla@conroydare.net;true
+XJM1059834;Margaretteview;ET;201602168;TDMC1884289;22P3;22T0;29471407.49;884142.22;Lynch-Bradtke;Computers & Tools;micheal@goyette.net;true
+YKX1212832;Danyka;TW;201602159;SPAU1125481;4994;42P3;51443514.93;5144351.49;Heller-Runte;Shoes, Garden, Movies & Beauty;jade_beahan@kiehn.net;true
+YKX1212832;Danyka;TW;201602159;ZJBY1438125;2250;42UP;34640254.07;1732012.7;Mueller, Leannon and Roob;Toys, Industrial & Books;trent@bosco.org;true
+YKX1212832;Danyka;TW;201602159;GIJP1066158;4201;22U1;88932392.92;4446619.65;Hegmann and Sons;Sports, Home, Music, Shoes & Kids;emely.wintheiser@weinat.info;true
+YKX1212832;Danyka;TW;201602159;JHRQ1537345;L5R2;29P0;56840160.12;5684016.01;Prohaska and Sons;Baby, Electronics, Grocery & Clothing;cristobal@lockman.co;true
+YKX1212832;Danyka;TW;201602159;GSIY1646794;3000;45R1;44468154.04;4446815.4;Rath Group;Outdoors, Music, Books, Beauty & Health;madge@romagueracain.net;true
+YKX1212832;Danyka;TW;201602159;GHJX1699134;44G0;L5G1;66787681.51;3339384.08;Reilly and Sons;Computers, Games, Books, Music & Automotive;alysa_feest@braun.biz;true
+YKX1212832;Danyka;TW;201602159;QZHV1997682;20G2;42R1;11879448.07;356383.44;Rutherford-Rohan;Tools, Outdoors & Garden;joshuah.herman@wolfbrakus.org;true
+YKX1212832;Danyka;TW;201602159;RIXQ1689913;45G3;49P0;77495669.27;7749566.93;Schuppe-Bahringer;Toys, Beauty, Computers, Baby & Clothing;fabiola.williamson@skiles.biz;true
+YKX1212832;Danyka;TW;201602159;IJBW1088593;40B3;22P1;23398563.92;1169928.2;Gerhold, Casper and McLaughlin;Baby, Automotive & Health;destinee_ryan@dietrich.com;true
+YKX1212832;Danyka;TW;201602159;IWEG1399269;2750;22B0;28323069.45;849692.08;Hackett, Bahringer and Kirlin;Movies, Clothing, Computers, Grocery & Automotive;penelope@medhurst.io;true
+YKX1212832;Danyka;TW;201602159;TXJV1657193;42V2;42G0;30069312.69;1503465.63;Spencer, Rippin and Brakus;Toys, Garden & Health;rocky.oberbrunner@cremin.biz;false
+YKX1212832;Danyka;TW;201602159;NVZJ1871074;45G0;22U1;61888972.25;3094448.61;Wisoky-Ryan;Home, Computers & Toys;kathryne.daniel@cruickshankklein.net;true
+YKX1212832;Danyka;TW;201602159;CQKE1808788;2204;42UP;77008551.31;3850427.57;Schiller LLC;Home, Books, Movies & Games;isom_macejkovic@romaguera.com;true
+YKX1212832;Danyka;TW;201602159;OWYZ1925433;2870;42P1;74321315.07;3716065.75;Ratke-Effertz;Home & Health;kathlyn@reynoldmith.co;true
+YKX1212832;Danyka;TW;201602159;CYTQ1288258;28VH;22U1;41163694.14;4116369.41;Kuphal, Ortiz and Daniel;Electronics, Tools & Toys;laney@gibsonbruen.info;true
+YKX1212832;Danyka;TW;201602159;QOMI1727822;L5H6;42UP;130422115.46;3912663.46;Pouros, Zulauf and Reynolds;Garden, Electronics & Toys;delmer@volkman.io;true
+YKX1212832;Danyka;TW;201602159;YNTS1363822;2750;22P1;3146755.7;94402.67;Schowalter Group;Beauty;rita@gusikowskibergstrom.io;false
+YKX1212832;Danyka;TW;201602159;CSEQ1436083;L5H2;42T0;49681847.54;1490455.43;Ferry-Mertz;Automotive, Electronics, Sports, Jewelery & Home;claudine_kshlerin@kautzer.name;true
+YKX1212832;Danyka;TW;201602159;ERYD1768318;4210;42T0;64089350.6;1922680.52;Koss LLC;Sports;joelle@grady.net;false
+YKX1212832;Danyka;TW;201602159;VYCB1657613;22H6;22VH;8102308.96;243069.27;Schinner Inc;Health, Books, Clothing, Sports & Beauty;charlie@kuhic.org;true
+YKX1212832;Danyka;TW;201602159;XBUZ1859750;4161;29P0;88864235.04;4443211.75;Hamill, Raynor and Mante;Kids & Garden;connor@zboncaklehner.org;true
+YKX1212832;Danyka;TW;201602159;SMBC1401619;22G3;22T0;35946091.84;1797304.59;Reilly-Fadel;Outdoors, Music, Beauty, Books & Kids;ezekiel@dooleybosco.info;true
+YKX1212832;Danyka;TW;201602159;JAVX1673961;48P5;8888;26297213.72;788916.41;Gibson-Nader;Automotive, Clothing, Toys & Home;don.grant@feest.co;true
+YKX1212832;Danyka;TW;201602159;CURM1047362;4026;49P0;28180660.49;1409033.02;Reynolds and Sons;Clothing;trey_larkin@mertzdonnelly.biz;true
+YKX1212832;Danyka;TW;201602159;RDVG1116094;22B5;22G0;48868201.62;1466046.05;Mueller and Sons;Shoes;damon@torphywelch.biz;true
+YKX1212832;Danyka;TW;201602159;FYLI1343935;2032;L5G1;15444530.18;1544453.02;Moen-Leuschke;Jewelery, Industrial, Baby & Games;edwina@durgan.biz;true
+YKX1212832;Danyka;TW;201602159;LAUD1845498;2280;L5G1;5932092.48;593209.25;Altenwerth LLC;Sports, Automotive, Outdoors, Garden & Computers;monty@robelswaniawski.co;true
+YKX1212832;Danyka;TW;201602159;NGJD1563972;P2G0;45R1;43246842.36;4324684.24;Howe Inc;Industrial, Tools, Kids & Books;kareem_effertz@huel.co;true
+YKX1212832;Danyka;TW;201602159;XBKN1535420;4761;22UP;39950660.33;3995066.03;Emmerich Inc;Toys & Beauty;jerel@simonis.org;true
+YKX1212832;Danyka;TW;201602159;UFON1937949;45PC;45G0;134417645.88;13441764.59;Borer Inc;Clothing & Jewelery;javonte@kohlertromp.org;true
+YKX1212832;Danyka;TW;201602159;BDIT1016930;20PL;22VH;158260434.07;15826043.41;Bernhard-Marquardt;Health, Electronics, Beauty, Books & Industrial;anais_morar@gusikowski.io;true
+YKX1212832;Danyka;TW;201602159;BKAE1526070;42GP;29P0;35678433.36;1070353.0;McGlynn Inc;Books, Automotive, Home & Kids;rosamond@mccullough.net;true
+YKX1212832;Danyka;TW;201602159;JVQR1644150;49PC;49P0;10623435.61;1062343.56;Dach, Spencer and Casper;Toys, Books, Music & Movies;barney_pollich@hintzrutherford.org;true
+AKO1391643;Keara;GG;2016021610;JOWM1948172;9400;42G0;4197414.89;209870.74;Hickle, Sipes and Gulgowski;Outdoors, Electronics, Sports & Automotive;floie@haagkaulke.com;true
+AKO1391643;Keara;GG;2016021610;TIDO1048798;4011;42P1;38999069.9;1169972.1;Morar, Bechtelar and Kub;Outdoors, Grocery, Music & Tools;napoleon@lubowitz.co;true
+AKO1391643;Keara;GG;2016021610;KUGJ1064243;4305;45UP;175122906.29;17512290.63;Rempel-Williamson;Beauty, Clothing, Grocery, Movies & Sports;zachariah@powlowski.io;true
+AKO1391643;Keara;GG;2016021610;QAME1838164;22PS;45R1;98639452.01;2959183.56;Kuvalis-Mraz;Baby, Automotive, Clothing & Garden;verna@auer.name;true
+AKO1391643;Keara;GG;2016021610;ICTA1414931;48P5;12TR;73331534.68;2199946.04;Eichmann-Cronin;Kids, Computers, Games, Outdoors & Home;zackery.wolff@rueckerjohnson.com;true
+AKO1391643;Keara;GG;2016021610;DAOC1391137;4002;22P1;24844879.88;2484487.99;Brekke-Hagenes;Home, Baby, Grocery & Computers;doyle@stanton.biz;true
+AKO1391643;Keara;GG;2016021610;BVLO1798748;4420;42T0;113513396.65;3405401.9;Sawayn-Halvorson;Toys & Tools;gilda_ward@rippin.co;true
+AKO1391643;Keara;GG;2016021610;ENTL1557955;4380;8888;29469521.65;884085.65;Kub, Nienow and Mohr;Industrial;bria.hackett@bergnaum.info;true
+AKO1391643;Keara;GG;2016021610;WDHJ1511239;2230;45UP;61171759.04;6117175.9;Runolfsdottir Group;Games, Toys, Beauty & Garden;courtney.lind@hilpertbuckridge.com;true
+AKO1391643;Keara;GG;2016021610;XDRU1909537;2361;45G0;123172025.99;12317202.6;Reichel-Crona;Games;derick.brekke@dubuque.biz;true
+AKO1391643;Keara;GG;2016021610;RVPX1358771;44H2;12TR;18160220.43;544806.61;Stark Inc;Garden, Electronics & Books;raina_oconner@wiza.net;true
+AKO1391643;Keara;GG;2016021610;IXRV1583430;20PF;42U1;166288323.72;8314416.19;Tremblay Group;Outdoors & Industrial;hans_ortiz@nikolaus.name;true
+AKO1391643;Keara;GG;2016021610;USVJ1152482;2242;45G0;215182621.21;6455478.64;Little Inc;Computers, Shoes & Kids;bettie@larkinmetz.net;false
+AKO1391643;Keara;GG;2016021610;JQVL1551996;25G0;42UP;20972645.18;629179.36;Harvey, Ferry and Kerluke;Movies;kristopher@bodelubowitz.org;true
+AKO1391643;Keara;GG;2016021610;JWPZ1924651;22U0;L5R1;108747623.73;3262428.71;Hegmann Inc;Garden, Industrial, Outdoors, Grocery & Books;tavares@gaylordconn.name;true
+AKO1391643;Keara;GG;2016021610;NLOV1341833;4225;42UP;11992918.51;599645.93;Ankunding LLC;Grocery, Baby, Tools & Clothing;cody@gleichner.org;true
+AKO1391643;Keara;GG;2016021610;NQKM1260192;4365;22B0;60072057.23;6007205.72;Satterfield Group;Beauty, Home, Electronics, Sports & Garden;muriel_considine@welch.net;true
+AKO1391643;Keara;GG;2016021610;KMAH1930141;4510;22H0;83549626.48;4177481.32;Kilback, Jones and Casper;Sports & Automotive;neoma.bergnaum@heidenreich.com;true
+AKO1391643;Keara;GG;2016021610;JOCF1413589;2130;49P0;38317880.49;1915894.02;Gorczany and Sons;Books, Health & Games;edd@mitchellconsidine.net;true
+AKO1391643;Keara;GG;2016021610;YCVA1362741;40B4;45UP;49383211.15;1481496.33;Rosenbaum-Lind;Movies;raegan@lynchcain.biz;true
+AKO1391643;Keara;GG;2016021610;AMFW1811042;42P0;45R1;30410286.18;3041028.62;Bernier-Parker;Tools;pamela.murphy@blockaufderhar.info;true
+AKO1391643;Keara;GG;2016021610;DNLM1809678;2043;45G0;46675201.54;1400256.05;Kiehn, Haley and Trantow;Automotive;orion_bednar@ernser.name;true
+AKO1391643;Keara;GG;2016021610;LOJK1467734;2276;42P3;33975162.49;1019254.87;Borer, Kulas and Tillman;Kids;eveline@quitzon.org;true
+AKO1391643;Keara;GG;2016021610;EIYU1859600;2163;22UP;10976961.61;1097696.16;Kemmer, Schmitt and Considine;Home & Books;dane@runolfsdottir.info;true
+AKO1391643;Keara;GG;2016021610;APCK1843008;20G1;45G0;41754135.03;2087706.75;Gulgowski-Osinski;Automotive;asia.lindgren@bernhardrippin.name;true
+AKO1391643;Keara;GG;2016021610;FWGP1432969;45R3;22T0;25531781.21;2553178.12;Schaden and Sons;Garden;martina.pfeffer@cartermuller.name;true
+AKO1391643;Keara;GG;2016021610;YGJA1705556;9532;45R1;50721559.05;2536077.95;Wintheiser, Carroll and Batz;Books & Toys;kiley@raynor.com;true
+AKO1391643;Keara;GG;2016021610;CLZA1827191;L5H6;42P1;62102139.4;1863064.18;Lebsack LLC;Sports & Beauty;edwin_rogahn@osinski.io;true
+AKO1391643;Keara;GG;2016021610;LPQT1352576;42GP;42P1;8799618.39;439980.92;Torphy Group;Home, Health, Automotive & Jewelery;ava@sporer.name;true
+PKJ1313228;Nelson;CM;2016021611;PXHK1734735;45R2;22R1;71575261.07;3578763.05;Rutherford LLC;Outdoors, Health, Sports, Movies & Clothing;kade@turcotte.biz;true
+PKJ1313228;Nelson;CM;2016021611;PUDS1984380;4310;L5G1;1136522.33;34095.67;Streich Group;Kids & Sports;carmela.trantow@purdy.org;true
+PKJ1313228;Nelson;CM;2016021611;IWYL1239392;20RT;22UP;6187337.43;618733.74;Greenfelder-Purdy;Industrial, Grocery, Tools & Home;ferne@conroy.net;true
+PKJ1313228;Nelson;CM;2016021611;HNLG1448314;4271;42R1;23210260.2;1160513.01;Wisoky, Gusikowski and Kub;Home, Tools & Outdoors;tyrell@schmidt.info;true
+PKJ1313228;Nelson;CM;2016021611;WQSL1867518;22R9;22G0;81049246.8;4052462.34;Emard and Sons;Garden, Movies, Health & Jewelery;rylee.kshlerin@baileysenger.net;false
+PKJ1313228;Nelson;CM;2016021611;GDZB1048860;45G4;22T0;257904769.59;7737143.09;Nienow-Carter;Shoes, Jewelery, Games, Electronics & Grocery;tony@baumbach.net;true
+PKJ1313228;Nelson;CM;2016021611;WKCN1651595;2304;22T0;17531052.56;525931.58;Barrows-Hane;Garden, Kids, Movies & Beauty;adalberto@morar.com;true
+PKJ1313228;Nelson;CM;2016021611;QXIP1685436;42R1;12TR;83170447.64;2495113.43;Harvey Inc;Garden, Games, Baby, Kids & Industrial;isadore_corkery@moensteuber.name;true
+PKJ1313228;Nelson;CM;2016021611;SUPA1271242;22TN;22G0;54371636.79;1631149.1;Boyer Group;Tools & Books;francis.moore@adamsrunte.com;true
+PKJ1313228;Nelson;CM;2016021611;RVEK1660466;20U4;22G0;47656019.62;4765601.96;Jerde-Kunze;Health, Jewelery, Games, Automotive & Sports;lurline@stromangrant.io;true
+PKJ1313228;Nelson;CM;2016021611;FMLQ1373117;10G0;42U1;161557935.8;16155793.58;Schinner-Bruen;Jewelery, Clothing, Shoes, Health & Automotive;ozzie_fritsch@labadie.io;true
+PKJ1313228;Nelson;CM;2016021611;GDVW1102985;40TN;45G0;67804978.91;3390248.95;Hartmann Inc;Jewelery, Tools, Beauty, Sports & Games;janick@legros.com;true
+PKJ1313228;Nelson;CM;2016021611;WUMT1028548;22P4;45G0;22738086.65;2273808.67;Bins-Champlin;Computers, Grocery, Industrial & Games;jakob_boyer@schmelerlindgren.name;true
+PKJ1313228;Nelson;CM;2016021611;WGKO1927576;2103;L5R1;13588262.55;1358826.26;King-Wehner;Clothing, Automotive & Outdoors;kayley_ward@franecki.co;true
+PKJ1313228;Nelson;CM;2016021611;KQHR1126351;2217;42P3;63489768.93;3174488.45;Zulauf-Cummerata;Health, Clothing & Outdoors;will@witting.info;true
+PKJ1313228;Nelson;CM;2016021611;VBDX1200172;2001;22T0;137511256.43;4125337.69;Williamson and Sons;Shoes & Automotive;genoveva@towne.io;true
+PKJ1313228;Nelson;CM;2016021611;VENB1621933;44HR;22VH;162868614.6;8143430.73;Beahan Inc;Sports, Garden, Toys & Computers;rocky_gutkowski@corkery.com;true
+PKJ1313228;Nelson;CM;2016021611;TVZQ1511887;2101;49P0;80130816.89;8013081.69;Gleichner, Gutkowski and Yundt;Baby & Beauty;jana@vandervort.io;true
+PKJ1313228;Nelson;CM;2016021611;JFNS1988793;2161;49P0;10764853.9;322945.62;Carroll-Zieme;Beauty;annabell_carter@schuppekuhic.name;true
+PKJ1313228;Nelson;CM;2016021611;RVXY1811094;4050;22U1;19886408.19;1988640.82;Kutch Inc;Shoes, Tools & Movies;nat@wolff.net;false
+PKJ1313228;Nelson;CM;2016021611;UXLZ1030034;L5H6;22VH;93175083.74;9317508.37;Watsica, Prosacco and Murphy;Industrial & Garden;perry@strosinsporer.net;true
+PKJ1313228;Nelson;CM;2016021611;VEDP1606644;49PF;22T0;42692336.97;4269233.7;Rippin Group;Automotive, Jewelery, Books & Tools;norris.satterfield@walsh.info;true
+PKJ1313228;Nelson;CM;2016021611;FWSO1056528;45H0;42R1;24995244.65;2499524.47;Gulgowski, Stiedemann and Krajcik;Kids;nils@aufderharcorwin.biz;true
+PKJ1313228;Nelson;CM;2016021611;VFWY1439629;42B0;29P0;320964.39;16048.22;Frami Inc;Grocery, Books & Games;milton@hilpertwalsh.net;true
+PKJ1313228;Nelson;CM;2016021611;TOZX1345262;4380;42T0;181239726.36;5437191.79;Predovic, Marquardt and Gutkowski;Kids, Baby, Grocery & Books;rebeca@stamm.net;true
+MHE1939455;Magdalenstad;TK;2016021912;LDWE1804851;22V0;42T0;12292188.86;614609.44;Dibbert-Gulgowski;Clothing;jarod_runolfon@schowalter.name;true
+MHE1939455;Magdalenstad;TK;2016021912;CGNU1678482;42RT;22UP;51777423.53;1553322.71;Fisher, Champlin and Kemmer;Kids & Health;antonina@steuber.net;true
+MHE1939455;Magdalenstad;TK;2016021912;NEFT1116745;20PS;42VH;14037219.16;1403721.92;Anderson LLC;Books & Grocery;loyce.berge@grady.com;true
+MHE1939455;Magdalenstad;TK;2016021912;QWPZ1635631;4340;42P1;22979453.2;689383.6;Pacocha, Rath and O'Conner;Home, Industrial & Beauty;judd@pagaccorkery.org;true
+MHE1939455;Magdalenstad;TK;2016021912;DFGO1236226;2500;22P1;168378858.8;5051365.76;Ziemann-Walker;Beauty, Sports, Shoes, Garden & Clothing;deanna_hudson@zemlak.com;true
+MHE1939455;Magdalenstad;TK;2016021912;UTWK1570990;45G1;42U1;27814231.27;1390711.56;Pfeffer-Roberts;Outdoors, Industrial, Sports & Kids;unique@botsford.biz;true
+MHE1939455;Magdalenstad;TK;2016021912;WKTY1031672;40VH;8888;35427148.57;1771357.43;O'Keefe LLC;Music, Garden & Clothing;hellen@hermann.io;true
+MHE1939455;Magdalenstad;TK;2016021912;VAFT1810685;2361;29P0;28684832.83;2868483.28;Cremin, Breitenberg and Fahey;Baby, Garden & Beauty;christopher@thiel.info;true
+MHE1939455;Magdalenstad;TK;2016021912;ZDAX1877588;22H0;L5R1;190480.04;9524.0;Kirlin-Huels;Clothing, Automotive & Shoes;nathen@damore.io;false
+MHE1939455;Magdalenstad;TK;2016021912;ENPC1107928;4312;42P1;41084144.66;1232524.34;Gutmann, Runolfsson and Dare;Grocery, Automotive & Toys;maegan_wintheiser@zboncak.com;true
+MHE1939455;Magdalenstad;TK;2016021912;IGBK1819040;40HI;22VH;194898978.49;9744948.92;Grimes Group;Movies;dayton_fritsch@klockoabernathy.name;true
+MHE1939455;Magdalenstad;TK;2016021912;KEWH1416597;2301;22B0;107621339.88;10762133.99;Mraz, Hilpert and Luettgen;Electronics, Industrial, Tools & Shoes;lucas.goodwin@brekkerolfson.co;true
+MHE1939455;Magdalenstad;TK;2016021912;OEMQ1710451;3000;49P0;49675038.04;1490251.14;Denesik, Ernser and Monahan;Movies;ruel_sawayn@berge.net;false
+MHE1939455;Magdalenstad;TK;2016021912;NFYU1956968;28U2;22R1;92132213.52;4606610.68;Frami, Greenholt and Jacobi;Clothing & Kids;lia_leffler@rosenbaum.com;true
+MHE1939455;Magdalenstad;TK;2016021912;GDTK1980733;4511;42UP;63138624.16;6313862.42;Greenfelder, Ullrich and Quitzon;Outdoors, Toys & Health;berniece@gottlieb.com;true
+MHE1939455;Magdalenstad;TK;2016021912;SLKF1922889;44RS;42U1;8450506.26;422525.31;Glover, Crist and Lehner;Home, Grocery, Industrial & Sports;jeyca@rempel.io;true
+MHE1939455;Magdalenstad;TK;2016021912;JYLR1629442;42PF;22G0;27461347.78;2746134.78;Kreiger Group;Books, Kids, Tools, Garden & Home;genesis@pacocha.com;true
+MHE1939455;Magdalenstad;TK;2016021912;ZNCU1347181;24HI;42UP;4384836.2;438483.62;Stokes and Sons;Music, Books, Games & Jewelery;nat.white@feest.org;false
+MHE1939455;Magdalenstad;TK;2016021912;MROK1673765;4170;22G0;39922993.19;1197689.8;Schuster-Crist;Home & Tools;sabrina_mayer@hahnemard.io;true
+MHE1939455;Magdalenstad;TK;2016021912;MPCT1362636;40P4;45UP;3395498.36;101864.95;Corwin-Nader;Beauty, Grocery & Baby;lupe_kulas@mraz.co;true
+MHE1939455;Magdalenstad;TK;2016021912;LFTB1627874;22B5;45UP;37303090.58;3730309.06;Morissette LLC;Beauty, Sports, Kids & Shoes;stacy_batz@ernser.info;true
+MHE1939455;Magdalenstad;TK;2016021912;MWEG1789758;22RS;22U1;36781506.5;1839075.33;Streich-Kreiger;Shoes;burdette.bode@mullerrodriguez.io;true
+MHE1939455;Magdalenstad;TK;2016021912;LREN1986260;22H5;45UP;39269194.82;3926919.48;Bogisich-Purdy;Automotive, Tools, Jewelery & Grocery;miller_pfeffer@keeling.com;false
+MHE1939455;Magdalenstad;TK;2016021912;FPVX1968742;42T0;22U1;73769924.35;7376992.44;Pouros Group;Garden, Health, Games, Grocery & Shoes;rudy@lehner.org;true
+MHE1939455;Magdalenstad;TK;2016021912;XGVF1629127;4265;22R1;161210920.6;16121092.06;Boyer, Hoeger and Jenkins;Baby, Music, Automotive, Books & Health;nels.reichel@cartwrightklocko.name;true
+MHE1939455;Magdalenstad;TK;2016021912;PTSV1177879;2050;42VH;52343463.48;2617173.17;Murray-Howe;Sports & Health;ruell@stoltenbergwindler.io;true
+MHE1939455;Magdalenstad;TK;2016021912;EOWK1490208;4551;42T0;8211356.81;410567.84;Ernser, Runte and Kerluke;Health;janis@goyette.name;true
+MHE1939455;Magdalenstad;TK;2016021912;KVLX1097246;4315;42H0;34054818.09;1021644.54;Conroy-Rempel;Shoes;lucio_pollich@prosacco.co;true
+MHE1939455;Magdalenstad;TK;2016021912;LYRM1616767;4052;22H0;38757698.57;1937884.93;Beatty, Sawayn and Jacobi;Books, Beauty, Electronics, Outdoors & Sports;kole.reynolds@spinkabosco.co;true
+MHE1939455;Magdalenstad;TK;2016021912;POVK1616674;40PS;22UP;8702928.72;870292.87;Fay-Jacobs;Kids, Sports & Toys;cindy@mertz.net;true
+MHE1939455;Magdalenstad;TK;2016021912;GIZT1820551;4203;L5G1;53477111.7;1604313.35;Predovic, Stracke and Hudson;Garden;eldred_jones@swaniawskiryan.org;true
+MHE1939455;Magdalenstad;TK;2016021912;VDBN1077038;48UI;22R1;22499755.96;674992.68;Heaney, Satterfield and Bradtke;Shoes, Electronics, Baby, Outdoors & Grocery;euna.hegmann@goldnerhyatt.name;true
+CAT1031760;Calistaborough;EH;2016022013;SQXO1847710;4253;22T0;174883289.91;17488328.99;Hand-Erdman;Beauty;heather_schumm@osinskischneider.org;true
+CAT1031760;Calistaborough;EH;2016022013;QVBA1017457;L0GP;22P1;29002066.31;1450103.32;Kuvalis and Sons;Movies, Clothing, Beauty & Baby;eleanora@crookslindgren.co;true
+CAT1031760;Calistaborough;EH;2016022013;MFKJ1773971;22T2;42UP;78886836.22;3944341.81;Tillman, Breitenberg and Aufderhar;Toys;chance@pollichklocko.org;false
+CAT1031760;Calistaborough;EH;2016022013;YNUL1916939;4305;49P0;113456951.49;11345695.15;Barrows and Sons;Outdoors, Kids, Clothing, Music & Shoes;sheldon@baileyvandervort.biz;true
+CAT1031760;Calistaborough;EH;2016022013;QSXC1126945;2960;42T0;63539586.43;6353958.64;Goldner and Sons;Sports;gerson_davis@oconnell.name;true
+CAT1031760;Calistaborough;EH;2016022013;PCSO1309480;20T4;22G0;54923158.86;5492315.89;Gottlieb-Rippin;Toys & Health;kenyon@pagacratke.net;true
+CAT1031760;Calistaborough;EH;2016022013;TLNP1927815;42P2;42T0;47078404.21;4707840.42;Willms Inc;Shoes, Automotive & Games;danika_haag@kreigerthompson.biz;true
+CAT1031760;Calistaborough;EH;2016022013;NKJB1593626;4999;45UP;67613695.47;6761369.55;Krajcik Inc;Movies, Baby & Toys;sabrina@ledner.org;true
+CAT1031760;Calistaborough;EH;2016022013;RKIZ1791666;L5G3;42P3;30105803.62;3010580.36;Kertzmann-Collier;Computers;fatima@becker.org;true
+CAT1031760;Calistaborough;EH;2016022013;ZUQI1303879;2960;L5G1;22825083.4;2282508.34;Klein, Johnston and Champlin;Garden, Home, Music, Industrial & Automotive;abbigail.runte@bartolettichamplin.net;true
+CAT1031760;Calistaborough;EH;2016022013;HCSQ1820528;22T7;22B0;46506634.91;2325331.75;Quigley-Sporer;Movies, Music, Games, Electronics & Books;iva@funk.co;true
+CAT1031760;Calistaborough;EH;2016022013;VTAN1363943;2210;22U1;35994097.39;1079822.92;Nicolas-Hoeger;Tools;ian_grant@koelpin.co;true
+CAT1031760;Calistaborough;EH;2016022013;NBMR1981857;4004;L5G1;51266590.98;5126659.1;Weissnat, Wyman and Crona;Outdoors, Movies, Automotive & Books;rhiannon@brekke.com;true
+CAT1031760;Calistaborough;EH;2016022013;YNWR1752971;42PF;42G0;13865930.27;1386593.03;Strosin and Sons;Outdoors, Books, Grocery, Shoes & Garden;lloyd.erdman@harris.net;true
+CAT1031760;Calistaborough;EH;2016022013;GLRE1863973;45G0;22B0;31849474.6;1592473.73;Dare-Waters;Jewelery & Tools;gudrun_marks@hansen.net;true
+CAT1031760;Calistaborough;EH;2016022013;JRZO1554069;30G0;45UP;16174563.32;1617456.33;Willms and Sons;Garden, Sports, Electronics & Music;terrell@oberbrunner.co;true
+CAT1031760;Calistaborough;EH;2016022013;NIWF1475364;L2H5;29P0;8701814.13;261054.42;Kuvalis, Cormier and Harber;Clothing & Automotive;marilou.dickens@ryan.biz;true
+CAT1031760;Calistaborough;EH;2016022013;MEWZ1854390;40TD;22U1;9761497.21;292844.92;Stoltenberg-Johnston;Games;claire.langosh@koelpinhyatt.net;true
+CAT1031760;Calistaborough;EH;2016022013;ZOXR1204648;4330;42G0;84953305.52;2548599.17;Gottlieb, Kulas and Bogisich;Movies & Clothing;lillian.schuster@koepp.info;true
+CAT1031760;Calistaborough;EH;2016022013;MKOW1381974;2167;L5G1;30182868.98;905486.07;Marks Group;Sports, Kids, Music & Clothing;matilda@torphy.com;false
+CAT1031760;Calistaborough;EH;2016022013;IYSD1592612;4650;42G0;182309595.3;9115479.77;Will and Sons;Shoes, Electronics, Garden & Automotive;pattie_gleason@wolff.co;true
+CAT1031760;Calistaborough;EH;2016022013;ZKJE1492559;8770;45R1;88736766.11;2662102.98;Braun, Stark and Lockman;Baby;yasmin@sawayn.org;true
+CAT1031760;Calistaborough;EH;2016022013;ACKM1528748;L2RT;42T0;129942598.54;12994259.85;Volkman-Littel;Beauty;richie@veum.biz;true
+CAT1031760;Calistaborough;EH;2016022013;UICV1753003;4362;22VH;2286617.8;114330.89;Gorczany, Schulist and Osinski;Industrial, Electronics, Toys, Health & Games;amanda.halvorson@ankunding.biz;true
+ZEW1505964;East Pierre;GA;2016022014;NVLK1981698;42U2;42H0;18815007.32;940750.37;Kassulke, McDermott and Hartmann;Music, Kids & Automotive;luciano_gerlach@wisokyhickle.org;true
+ZEW1505964;East Pierre;GA;2016022014;BOZL1441480;40P4;42VH;17841474.21;1784147.42;Cummings, Konopelski and Goodwin;Computers;freda@shanahan.io;true
+ZEW1505964;East Pierre;GA;2016022014;ASGF1044768;22G0;45UP;9626935.55;481346.78;Satterfield-Kunze;Games, Grocery, Movies & Outdoors;jamison.thiel@trantowframi.net;true
+ZEW1505964;East Pierre;GA;2016022014;OHIG1833433;9200;29P0;30589139.29;917674.18;Ledner, Cummerata and Zemlak;Tools, Garden & Kids;casper.moriette@thiel.info;true
+ZEW1505964;East Pierre;GA;2016022014;FZDO1539406;2960;22UP;58680605.04;5868060.5;Hammes LLC;Health;leda@bernhard.name;true
+ZEW1505964;East Pierre;GA;2016022014;PXEU1284533;2242;22P3;72493887.97;3624694.4;Mann-Murazik;Jewelery;daphney_kautzer@satterfield.co;true
+ZEW1505964;East Pierre;GA;2016022014;PNOF1218960;4366;42G0;60550592.73;1816517.78;Marks, Maggio and Cronin;Music, Computers, Automotive & Grocery;ward_walker@schowalter.co;true
+ZEW1505964;East Pierre;GA;2016022014;DTOA1607686;42U4;45G0;5946773.16;297338.66;Haag-Welch;Tools, Outdoors, Grocery, Jewelery & Movies;deanna@torpbergstrom.info;true
+ZEW1505964;East Pierre;GA;2016022014;VGTD1563845;22PF;L5R1;47963032.7;1438890.98;Conroy-Wisozk;Industrial;bernhard@haley.org;true
+ZEW1505964;East Pierre;GA;2016022014;SIGD1125795;4163;42T0;25232292.87;1261614.64;Kuhic, Prohaska and Goodwin;Tools, Shoes, Sports & Beauty;dawson_doyle@berge.co;true
+ZEW1505964;East Pierre;GA;2016022014;TXNU1043997;42T4;22R1;1750515.74;175051.57;Steuber LLC;Music, Grocery, Industrial, Home & Baby;gillian@dachdooley.info;true
+ZEW1505964;East Pierre;GA;2016022014;MLQF1781423;40G0;22P1;83972616.96;4198630.85;O'Connell LLC;Industrial & Automotive;gus@dickensauer.name;true
+ZEW1505964;East Pierre;GA;2016022014;RSBJ1227674;2217;22H0;17758789.37;1775878.94;Halvorson, Jones and Hartmann;Computers & Jewelery;domenico@rau.biz;true
+ZEW1505964;East Pierre;GA;2016022014;NTKF1456025;20T7;22R1;71098698.33;3554934.92;Ernser and Sons;Beauty;anderson_dietrich@cain.io;true
+ZEW1505964;East Pierre;GA;2016022014;MHWK1063944;42RE;42P1;18709393.85;935469.69;Lehner, Flatley and Hoeger;Toys, Sports, Beauty, Movies & Industrial;virgie@kelermacgyver.co;true
+ZEW1505964;East Pierre;GA;2016022014;ZXKO1943512;4253;12TR;9247922.16;462396.11;Ankunding Inc;Tools & Toys;tatum@bergstrom.biz;true
+ZEW1505964;East Pierre;GA;2016022014;RQWP1925527;2030;22B0;14053643.97;702682.2;Mayert-Lindgren;Jewelery, Kids, Toys, Electronics & Home;bette@oconnell.name;true
+ZEW1505964;East Pierre;GA;2016022014;NJDE1371512;40T8;22R1;15192706.98;1519270.7;Upton, Hane and Rodriguez;Computers, Beauty, Movies, Clothing & Tools;kobe@littledaniel.biz;true
+ZEW1505964;East Pierre;GA;2016022014;MBCP1264152;40T8;22U1;702748.42;70274.84;Zieme, Prosacco and Marvin;Grocery & Outdoors;maeve@block.com;true
+ZEW1505964;East Pierre;GA;2016022014;YRAH1676180;22P2;29P0;1150859.67;57542.98;Hagenes-Stark;Home & Games;jeramy@lindturner.net;true
+ZEW1505964;East Pierre;GA;2016022014;EDZF1368125;4330;42H0;42395010.84;4239501.08;Reinger-Herzog;Kids, Grocery, Clothing & Industrial;marian.murazik@stoltenberg.com;true
+ZEW1505964;East Pierre;GA;2016022014;ILWK1140553;24G3;8888;1508955.48;150895.55;Haley-Steuber;Shoes & Games;deron.torphy@champlin.io;true
+ZEW1505964;East Pierre;GA;2016022014;TJSZ1385890;40T0;42P1;59867367.37;2993368.37;Hayes, Torphy and O'Conner;Tools, Music, Outdoors, Sports & Books;jackeline_mertz@bosco.com;false
+ZEW1505964;East Pierre;GA;2016022014;UJHP1748547;28U2;22T0;12980366.23;389410.99;Doyle, Wuckert and Abshire;Health & Clothing;vena_roob@christiansen.org;true
+ZEW1505964;East Pierre;GA;2016022014;DRPY1074005;29PL;22P1;3960600.49;118818.01;Heidenreich-Cremin;Automotive, Health & Outdoors;deontae@wolf.io;true
+ZEW1505964;East Pierre;GA;2016022014;MKSW1263233;L2H5;42H0;34204200.73;1026126.02;Kassulke LLC;Baby;tavares@hodkiewicz.biz;true
+ZEW1505964;East Pierre;GA;2016022014;JXAC1492792;42T9;22B0;121935925.17;6096796.26;Upton-Hermiston;Home;ciara_schumm@nikolausyost.net;true
+ZEW1505964;East Pierre;GA;2016022014;FVSH1279450;4531;22P1;25243088.51;2524308.85;Strosin, Cummings and West;Industrial & Shoes;axel@blanda.name;true
+ZEW1505964;East Pierre;GA;2016022014;LFVK1646237;L2R0;22H0;12053879.91;602694.0;Erdman-Lynch;Music, Home & Jewelery;rodrick@rutherfordgleichner.org;true
+ZEW1505964;East Pierre;GA;2016022014;BHWI1912737;22P7;45UP;1468244.9;146824.49;Hansen, Kessler and Greenfelder;Automotive, Garden, Sports & Games;solon.koelpin@spencer.com;true
+ZEW1505964;East Pierre;GA;2016022014;WOYQ1496262;40R2;42T0;18929244.39;1892924.44;Morar and Sons;Shoes, Sports, Automotive, Computers & Clothing;abigayle@wehner.com;false
+ZEW1505964;East Pierre;GA;2016022014;RLYO1439694;24H1;22R1;9906105.2;297183.16;Waters-Hoeger;Clothing & Sports;mara_stiedemann@faheymoriette.co;true
+ZEW1505964;East Pierre;GA;2016022014;IFBV1784659;24R0;22UP;13517048.88;405511.47;McDermott-Bahringer;Baby & Computers;tierra@turcotte.biz;false
+ZEW1505964;East Pierre;GA;2016022014;EKHM1256678;4CG0;45R1;19323397.35;579701.92;Hartmann, Hahn and Abernathy;Electronics;nova.muller@rau.info;true
+ZEW1505964;East Pierre;GA;2016022014;JDPA1804703;42R0;42P3;30879141.94;3087914.19;Schuppe, Batz and Sawayn;Movies & Jewelery;deonte.cartwright@waelchigorczany.name;true
+ZEW1505964;East Pierre;GA;2016022014;HKSG1361346;42RT;22UP;58204043.33;5820404.33;Heidenreich, Kub and Bashirian;Industrial, Music, Jewelery & Outdoors;john.larson@waelchi.co;true
+RWK1014975;Princess;UG;2016021915;CENY1426136;2215;29P0;972571.85;48628.59;Olson, Wiza and Lubowitz;Books, Garden, Beauty & Toys;rafaela@purdy.name;true
+RWK1014975;Princess;UG;2016021915;NHSZ1879357;L2H0;8888;7786440.22;778644.02;Cruickshank, Torphy and McDermott;Baby, Movies & Tools;charlie_hoppe@williamsonmitchell.name;true
+RWK1014975;Princess;UG;2016021915;ONFU1242203;L5HI;42R1;125095817.25;6254790.86;Farrell, Bosco and Kuphal;Home, Industrial & Music;burley@white.name;true
+RWK1014975;Princess;UG;2016021915;LPZU1277948;45G1;42UP;35905507.3;1795275.37;McCullough, Schinner and Jacobs;Shoes, Kids, Tools, Automotive & Computers;jo.lynch@purdy.biz;true
+RWK1014975;Princess;UG;2016021915;NCDG1321986;4131;45R1;27281603.39;1364080.17;Connelly Inc;Clothing, Games, Jewelery & Shoes;lukas_keler@schoenabernathy.name;true
+RWK1014975;Princess;UG;2016021915;WPJT1608254;2220;29P0;11245242.64;337357.28;Kessler and Sons;Shoes & Movies;reed.armstrong@lockman.com;true
+RWK1014975;Princess;UG;2016021915;SPWH1521653;32G0;42U1;88473072.57;4423653.63;Fay, Lindgren and Quitzon;Music, Clothing & Grocery;dayna.hahn@dooley.info;true
+RWK1014975;Princess;UG;2016021915;LJZC1547693;40B6;49P0;84266448.77;8426644.88;Fay-Schoen;Clothing & Sports;shaina_leuschke@nolanschultz.co;true
+RWK1014975;Princess;UG;2016021915;DXOH1116631;2053;42P1;7679781.91;230393.46;McGlynn, Marvin and Johnson;Games, Beauty & Toys;corrine.schiller@steuber.info;true
+RWK1014975;Princess;UG;2016021915;YFMD1424359;2080;42VH;11513670.73;1151367.07;Roberts-Blick;Kids, Clothing & Toys;aleandro@hintz.net;true
+RWK1014975;Princess;UG;2016021915;TYVA1926009;4224;22UP;48185460.47;4818546.05;Boyle-O'Connell;Shoes & Beauty;rosie_hane@jaskolskikemmer.info;true
+RWK1014975;Princess;UG;2016021915;UGTC1327597;4096;22H0;20092282.86;1004614.14;Cruickshank-Smith;Garden, Sports & Beauty;idell@jacobson.info;true
+RWK1014975;Princess;UG;2016021915;RFAL1883899;42B4;8888;27871923.61;2787192.36;Gutkowski LLC;Toys;lura@donnellyrowe.co;true
+RWK1014975;Princess;UG;2016021915;SBGA1363012;4367;22R1;1761764.76;52852.94;Wyman LLC;Books, Movies, Kids & Home;arlene.mayer@jaskolski.com;true
+RWK1014975;Princess;UG;2016021915;JUMW1151484;22U5;22H0;15256497.62;762824.88;Huels LLC;Home & Books;oda_quitzon@lynch.net;true
+RWK1014975;Princess;UG;2016021915;XVCF1475867;4363;42T0;88020600.64;2640618.02;Eichmann and Sons;Shoes;devonte@hegmann.biz;true
+RWK1014975;Princess;UG;2016021915;PWJR1170572;22U3;22H0;20519875.58;1025993.78;Kihn and Sons;Shoes, Health, Movies & Outdoors;murphy@bergstromromaguera.org;true
+RWK1014975;Princess;UG;2016021915;YFQE1069528;49P0;49P0;104884155.54;3146524.67;Rogahn-Kuhic;Outdoors, Baby, Industrial, Sports & Kids;giovanni.hudson@cormierraynor.io;true
+RWK1014975;Princess;UG;2016021915;LUNC1568591;2117;42P3;15417947.31;462538.42;Robel and Sons;Jewelery, Baby, Garden, Computers & Grocery;kamron_swaniawski@anderson.io;true
+RWK1014975;Princess;UG;2016021915;HRXZ1234828;40G1;42G0;5808570.98;290428.55;Harris, Aufderhar and Blanda;Books, Health & Music;earl_hegmann@kuhn.net;true
+RWK1014975;Princess;UG;2016021915;IFSE1475352;L5R3;22VH;17812664.23;1781266.42;Hermiston and Sons;Games, Automotive, Books, Garden & Shoes;anais.howell@fisher.biz;true
+RWK1014975;Princess;UG;2016021915;IHDO1933697;20G2;42P3;6354808.33;317740.42;Bosco-Cremin;Sports & Shoes;betsy_nicolas@dooleyweinat.com;true
+RWK1014975;Princess;UG;2016021915;TYXI1691401;22R3;22UP;31509446.3;945283.39;O'Connell-Turcotte;Games, Garden, Movies & Outdoors;jonathan_beatty@mclaughlin.org;true
+RWK1014975;Princess;UG;2016021915;OFAM1764992;20H6;42P3;11782103.92;353463.12;O'Conner, Crooks and Heathcote;Home, Jewelery & Clothing;leora.lubowitz@kuhicschuster.name;true
+RWK1014975;Princess;UG;2016021915;VMNQ1605721;4CG1;42H0;20417018.23;1020850.91;Metz Inc;Sports;osborne@howelladams.info;true
+RWK1014975;Princess;UG;2016021915;NLOW1376154;24H5;42VH;123752850.63;12375285.06;Oberbrunner LLC;Automotive, Music, Baby & Sports;otto.mosciski@hirthegleason.net;true
+RWK1014975;Princess;UG;2016021915;VXEM1096642;L2GP;29P0;6550584.01;327529.2;Roob-Runolfsson;Garden, Games, Movies & Automotive;rae@halvorsondurgan.io;true
+RWK1014975;Princess;UG;2016021915;KNZY1901828;22V0;45R1;16659203.98;1665920.4;Schaefer-Satterfield;Health, Industrial, Beauty & Movies;shanon@bartonpfeffer.net;true
+RWK1014975;Princess;UG;2016021915;TJEG1504658;22P7;42T0;53893877.74;5389387.77;Jacobi LLC;Grocery & Garden;eladio_howe@gerhold.name;true
+RWK1014975;Princess;UG;2016021915;HECD1706965;20H5;42P3;19726235.31;591787.06;Grimes Inc;Jewelery, Toys, Grocery, Electronics & Computers;adonis_wuckert@ebert.net;true
+RWK1014975;Princess;UG;2016021915;ILXA1539043;49P0;42T0;32286255.08;1614312.75;Anderson, Rolfson and Wolf;Automotive, Electronics & Shoes;blanca_lockman@hackett.biz;true
+RWK1014975;Princess;UG;2016021915;FZOX1464169;2161;42UP;5497684.55;274884.23;Abernathy-Fritsch;Health & Home;joshuah.quitzon@kerluke.com;true
+RWK1014975;Princess;UG;2016021915;DGYC1833345;4165;45UP;39750036.14;1192501.08;Fisher-Kling;Garden, Shoes, Health & Home;ro@ryan.org;true
+RWK1014975;Princess;UG;2016021915;KZPI1608218;20TN;12TR;14355366.26;717768.31;Sipes LLC;Computers, Beauty & Music;golda_jacobs@simonis.info;true
+RWK1014975;Princess;UG;2016021915;GFYV1913780;4301;42VH;15251872.83;1525187.28;Gaylord, Luettgen and Crona;Music;malachi_robel@oconnell.biz;true
+RWK1014975;Princess;UG;2016021915;KTRF1156506;42T5;22P3;14576777.22;1457677.72;Harvey, Larson and Kulas;Toys, Baby, Outdoors & Movies;leonard@kuhic.io;true
+RWK1014975;Princess;UG;2016021915;UAHY1235514;4266;12TR;34910472.27;1047314.17;Kub Group;Baby, Grocery, Tools & Outdoors;otha@hillsdenesik.biz;true
+BXE1370077;Shaun;ME;2016021516;JPCY1967051;2040;45UP;217056795.53;6511703.87;Cronin Inc;Sports;stephon.jacobi@terry.biz;false
+BXE1370077;Shaun;ME;2016021516;KHMR1791556;4132;42UP;170399362.33;8519968.12;Brown, Grimes and Friesen;Home, Movies, Music & Beauty;nikki@thiel.name;true
+BXE1370077;Shaun;ME;2016021516;XGPU1197696;42U5;42H0;77574642.12;7757464.21;Eichmann LLC;Shoes, Kids, Clothing & Music;lizzie@donnellyfisher.org;true
+BXE1370077;Shaun;ME;2016021516;SCTU1671272;40RE;42G0;90294478.19;4514723.91;Zieme, Hand and Schmitt;Jewelery;mollie@macgyverreinger.com;true
+BXE1370077;Shaun;ME;2016021516;BPWL1288652;L5R0;42UP;49470533.8;4947053.38;Bernhard, Cremin and Kling;Grocery & Baby;adaline_eichmann@jacobsonhand.name;true
+BXE1370077;Shaun;ME;2016021516;DYQO1111071;4062;49P0;50324882.24;2516244.11;Reichert, Windler and Von;Grocery, Beauty, Garden & Tools;toni@schumm.io;true
+BXE1370077;Shaun;ME;2016021516;IFAE1635376;4561;22VH;2409432.68;120471.63;Shields-Paucek;Outdoors, Automotive, Kids & Computers;kayleigh@dare.org;true
+BXE1370077;Shaun;ME;2016021516;EKWB1772974;44H6;45R1;15646018.81;1564601.88;Barton and Sons;Games & Health;troy.ferry@osinski.org;true
+BXE1370077;Shaun;ME;2016021516;WIDU1687296;22PL;45R1;18517988.7;925899.44;Hodkiewicz, Ferry and Kulas;Outdoors, Sports, Computers, Home & Shoes;ari.spinka@streich.io;true
+BXE1370077;Shaun;ME;2016021516;HFEK1718614;22PF;12TR;137602830.74;4128084.92;Ebert, Strosin and Hahn;Health, Home, Games & Grocery;amiya@kshlerinnolan.net;false
+BXE1370077;Shaun;ME;2016021516;OZCE1213717;4361;42R1;47144666.89;1414340.01;Lind-Cartwright;Industrial, Kids, Health, Toys & Games;alana@wilkinson.name;true
+BXE1370077;Shaun;ME;2016021516;GAXB1880940;28U1;45UP;191162611.06;19116261.11;Crooks-Emard;Garden, Jewelery, Games, Toys & Clothing;therese@bernier.info;false
+BXE1370077;Shaun;ME;2016021516;CKRW1084847;4004;42P1;541438.0;27071.9;Parisian, Kuhlman and Feeney;Games;greyson@corwin.co;true
+BXE1370077;Shaun;ME;2016021516;RZPD1895443;28VO;42R1;88206585.4;2646197.56;Wolf-Cruickshank;Shoes, Beauty & Movies;vito_keebler@reichel.com;true
+BXE1370077;Shaun;ME;2016021516;BSAF1558583;2252;22H0;7140439.49;214213.18;Bauch-Graham;Electronics, Jewelery, Outdoors & Baby;cleveland.monahan@collinsboyer.io;true
+BXE1370077;Shaun;ME;2016021516;EKCM1855480;4315;42U1;21612335.57;2161233.56;Strosin, Beier and Toy;Home;michaela_daugherty@braun.name;true
+BXE1370077;Shaun;ME;2016021516;FBMC1959215;40V4;42H0;78511220.01;7851122.0;Krajcik-Koch;Electronics & Health;vernie_barton@macgyver.biz;true
+BXE1370077;Shaun;ME;2016021516;AQTV1108463;45PC;42VH;173392338.95;8669616.95;Borer LLC;Sports;caleb@olson.org;true
+BXE1370077;Shaun;ME;2016021516;RCVH1894316;2266;42P3;11032604.61;551630.23;Ebert, Zboncak and O'Connell;Movies, Tools, Outdoors, Garden & Games;trever@roob.biz;true
+BXE1370077;Shaun;ME;2016021516;VFAG1774572;4063;22P1;87529544.12;8752954.41;Kohler, Bergnaum and Hahn;Kids;deangelo@jacobsonwest.com;true
+BXE1370077;Shaun;ME;2016021516;EMXC1532826;42PF;L5R1;1879661.51;187966.15;DuBuque-Nolan;Electronics, Clothing, Games & Movies;heaven_champlin@nienow.org;true
+BXE1370077;Shaun;ME;2016021516;ECQP1778376;L5R2;42P1;17787438.48;889371.92;Conroy-Greenholt;Health;eduardo_veum@borerharris.org;true
+BXE1370077;Shaun;ME;2016021516;WAVR1105068;2066;22R1;106251950.59;10625195.06;Borer, Beahan and Kozey;Health;santiago@torphy.name;true
+BXE1370077;Shaun;ME;2016021516;ZPFD1159439;2280;22UP;195013243.17;9750662.16;Lebsack-Heidenreich;Music, Toys, Books, Garden & Tools;elva_douglas@heel.io;true
+QCJ1879622;Urca da Lima;NR;2016022017;BJVG1611781;26G3;22G0;72901770.7;7290177.07;Wolff LLC;Kids, Music & Toys;madisen@purdymarvin.com;false
+QCJ1879622;Urca da Lima;NR;2016022017;VAMF1869586;4332;12TR;28652499.17;859574.98;Konopelski-Reilly;Jewelery & Kids;cora@kihn.name;true
+QCJ1879622;Urca da Lima;NR;2016022017;XYVH1097383;2231;29P0;78654671.8;2359640.15;Mills LLC;Electronics, Movies & Industrial;braulio.leuschke@klein.org;true
+QCJ1879622;Urca da Lima;NR;2016022017;JWCF1169987;2161;8888;30999211.67;3099921.17;Eichmann Inc;Toys, Shoes & Home;rogers_conroy@hauck.biz;true
+QCJ1879622;Urca da Lima;NR;2016022017;GKYN1863315;40R3;22R1;34186282.79;3418628.28;Raynor, Sanford and Hammes;Kids;jadon.kutch@barrowsmedhurst.io;false
+QCJ1879622;Urca da Lima;NR;2016022017;ZRGO1072060;40B6;22U1;6539053.83;326952.69;Ziemann Inc;Sports & Kids;travon_bechtelar@cruickshank.info;true
+QCJ1879622;Urca da Lima;NR;2016022017;YOUS1806865;22U1;45UP;96926663.14;9692666.31;Tremblay Inc;Health, Clothing & Industrial;vallie_toy@damore.name;true
+QCJ1879622;Urca da Lima;NR;2016022017;PKTL1636625;22U4;L5G1;84591042.94;2537731.29;Nikolaus and Sons;Music, Clothing, Jewelery, Kids & Garden;oscar@bartellhalvorson.net;true
+QCJ1879622;Urca da Lima;NR;2016022017;HWQF1066237;9500;42T0;7700704.6;385035.23;Ratke, Goldner and Frami;Sports & Toys;liliana_blick@thompson.co;true
+QCJ1879622;Urca da Lima;NR;2016022017;JUSL1546355;2661;42P3;159595230.9;4787856.93;O'Hara-Schoen;Beauty;stanton@harris.name;true
+QCJ1879622;Urca da Lima;NR;2016022017;GFCI1955430;40TG;L5R1;61720336.23;1851610.09;Schulist, Murphy and Bogan;Kids;kendra.sporer@hilllschuppe.info;true
+QCJ1879622;Urca da Lima;NR;2016022017;GOYB1441929;4699;42P3;4663810.27;139914.31;Ziemann-West;Clothing, Baby, Movies, Automotive & Kids;eva.stiedemann@mohr.name;true
+QCJ1879622;Urca da Lima;NR;2016022017;NDJC1465922;2011;42P3;118851532.33;5942576.62;Friesen, Walsh and McDermott;Grocery, Beauty, Health, Toys & Shoes;garland_stanton@ondrickabode.co;true
+QCJ1879622;Urca da Lima;NR;2016022017;ZVLX1105220;2131;22G0;37296749.99;1864837.5;Dickinson, Sanford and Reichel;Kids & Beauty;lorine@hansen.biz;true
+QCJ1879622;Urca da Lima;NR;2016022017;RFZN1050578;2650;45G0;9534797.46;953479.75;Daniel, Kirlin and Wisozk;Sports, Beauty & Health;keagan@huelkunde.com;true
+QCJ1879622;Urca da Lima;NR;2016022017;RXVC1633218;8550;42VH;3056822.97;91704.69;Mitchell LLC;Music & Automotive;anabel@dubuque.org;true
+QCJ1879622;Urca da Lima;NR;2016022017;RJMK1970023;24GP;22T0;26399999.41;2639999.94;DuBuque Inc;Tools, Books & Industrial;samantha@konopelskibergnaum.co;true
+QCJ1879622;Urca da Lima;NR;2016022017;WVJX1776323;L2HR;42P1;66396436.45;3319821.82;Osinski-Pollich;Clothing & Health;ryder@jastwilderman.co;true
+QCJ1879622;Urca da Lima;NR;2016022017;KWYR1563115;45RC;L5G1;6254591.2;187637.74;Reichert-Fadel;Industrial & Books;alice@brownhilll.biz;true
+QCJ1879622;Urca da Lima;NR;2016022017;IOUL1580675;2650;22G0;34216802.2;3421680.22;Koss-Roberts;Beauty, Music, Health & Outdoors;jennifer_runte@blanda.name;true
+QCJ1879622;Urca da Lima;NR;2016022017;ERDB1812297;20P0;42UP;134760182.69;13476018.27;Durgan LLC;Electronics & Industrial;ethel@andersonfay.name;true
+QCJ1879622;Urca da Lima;NR;2016022017;SHDF1839461;45G3;49P0;19111724.85;955586.24;Maggio, Marvin and Bernhard;Garden, Grocery & Computers;amira@heidenreich.net;true
+QCJ1879622;Urca da Lima;NR;2016022017;DRZP1805447;L2GP;45R1;37289009.35;1118670.28;Spencer-Champlin;Sports, Industrial, Movies & Automotive;haylee@kuhnlabadie.com;true
+QCJ1879622;Urca da Lima;NR;2016022017;PMYE1447147;2002;42T0;31268594.92;938057.85;Huels-Toy;Outdoors, Books & Music;lucienne.strosin@harris.org;true
+QCJ1879622;Urca da Lima;NR;2016022017;GLCR1430333;2215;42G0;77052239.15;2311567.17;Kling, Haley and Quigley;Movies;isom@damore.biz;true
+EJQ1935333;Prestige;DK;2016021918;JUWO1430380;2771;42P3;82762770.89;2482883.13;Feeney Inc;Sports & Grocery;neal@abbott.co;true
+EJQ1935333;Prestige;DK;2016021918;EGXM1875789;2077;45R1;31239750.96;3123975.1;O'Hara, Mertz and Rutherford;Sports;merl@willms.org;false
+EJQ1935333;Prestige;DK;2016021918;YKTN1529766;22T1;22R1;33155581.4;1657779.07;Green-Ratke;Home;cecelia_bogisich@pacocha.com;true
+EJQ1935333;Prestige;DK;2016021918;MQSN1124366;2216;L5R1;33141758.6;1657087.93;Kuvalis-Carroll;Computers, Home, Movies & Kids;savion@maggiowindler.info;false
+EJQ1935333;Prestige;DK;2016021918;FDWR1684036;42B6;22H0;49290766.89;1478723.01;Ankunding-Kuvalis;Baby, Music & Books;maye@volkman.name;true
+EJQ1935333;Prestige;DK;2016021918;OZLD1996468;2001;42G0;32197650.51;1609882.53;Adams-Hessel;Toys;gerard@stamm.net;true
+EJQ1935333;Prestige;DK;2016021918;EZRU1277268;2231;42H0;48079706.43;4807970.64;Greenfelder Inc;Sports, Grocery, Tools & Home;dewayne_shanahan@hilllbruen.org;true
+EJQ1935333;Prestige;DK;2016021918;ORHW1747447;2125;42T0;33740028.94;1012200.87;Stanton-Kiehn;Toys, Automotive, Music & Outdoors;velva_stoltenberg@koepp.io;true
+EJQ1935333;Prestige;DK;2016021918;BDIH1793668;20BU;42H0;4152255.34;415225.53;Kovacek Inc;Computers, Kids & Industrial;laura@grant.com;false
+EJQ1935333;Prestige;DK;2016021918;MCTS1595786;20PL;L5G1;1302883.19;65144.16;Cassin, Bashirian and Huel;Toys, Kids, Books, Baby & Shoes;josue@rodriguezrippin.info;true
+EJQ1935333;Prestige;DK;2016021918;HXKF1197464;2080;12TR;375524855.1;11265745.65;White Group;Clothing, Games & Garden;flo.dickinson@botsfordrutherford.biz;true
+EJQ1935333;Prestige;DK;2016021918;GPNV1764238;2279;22H0;12126855.93;606342.8;Rolfson Group;Sports, Health, Clothing, Outdoors & Books;price@schuster.io;true
+EJQ1935333;Prestige;DK;2016021918;DJHZ1606756;42T6;8888;45653961.79;1369618.85;Moen-Fisher;Home, Health, Tools & Automotive;jayne.hauck@bailey.net;false
+EJQ1935333;Prestige;DK;2016021918;YHZR1562168;2080;22B0;23021471.38;690644.14;Herzog-Gutmann;Electronics & Industrial;terrell@legroswilderman.org;true
+EJQ1935333;Prestige;DK;2016021918;QBRW1417017;20P0;22U1;116523587.17;5826179.36;Nikolaus and Sons;Clothing, Industrial & Computers;yasmine.hammes@pagac.biz;true
+EJQ1935333;Prestige;DK;2016021918;VJML1171816;40T4;42U1;79196443.7;7919644.37;Waelchi-O'Hara;Outdoors;scottie@dach.io;true
+EJQ1935333;Prestige;DK;2016021918;YNOC1273056;4325;22G0;2141211.62;107060.58;Ortiz Group;Games, Tools & Music;janick_satterfield@witting.org;true
+EJQ1935333;Prestige;DK;2016021918;JSFQ1540411;42P5;L5G1;19657873.78;982893.69;Gibson, Borer and Adams;Home, Sports, Industrial & Tools;rhoda.reichel@blanda.io;true
+EJQ1935333;Prestige;DK;2016021918;KJIC1719196;L2RS;L5R1;10694490.0;1069449.0;Lehner-Veum;Music, Kids, Outdoors, Computers & Shoes;monte.kuphal@swift.name;true
+EJQ1935333;Prestige;DK;2016021918;AZNU1291938;2031;8888;22173962.31;1108698.12;Grimes-Buckridge;Grocery;kristin.gottlieb@mccullough.com;true
+EJQ1935333;Prestige;DK;2016021918;DWNF1084125;4533;42U1;1493177.71;74658.89;Fadel, Bernhard and Goldner;Shoes;sid.roberts@leffleraufderhar.net;true
+EJQ1935333;Prestige;DK;2016021918;MBTY1172863;40T6;49P0;22077842.91;2207784.29;Prohaska, Torp and Casper;Garden, Baby, Computers, Health & Tools;hollis@feeney.net;true
+EJQ1935333;Prestige;DK;2016021918;NOSU1096352;20R1;42T0;36658733.26;3665873.33;Senger and Sons;Computers & Games;jarvis.howe@hoegerblick.biz;true
+EJQ1935333;Prestige;DK;2016021918;KLNH1588280;44H0;22B0;39027223.55;1951361.18;Ernser, Ortiz and Mann;Automotive & Kids;dexter@fadel.info;true
+EJQ1935333;Prestige;DK;2016021918;PJYQ1807076;42T4;42T0;29524571.27;1476228.56;Lueilwitz LLC;Books;hank_wiegand@barton.biz;true
+EJQ1935333;Prestige;DK;2016021918;ZEXA1563158;2213;42H0;735812.89;22074.39;Cummerata LLC;Kids, Clothing & Shoes;iva@dubuquetowne.org;true
+EJQ1935333;Prestige;DK;2016021918;WTAJ1526875;40T3;42P3;30909340.85;1545467.04;Watsica and Sons;Garden & Games;audra_sauer@hirthe.co;false
+EJQ1935333;Prestige;DK;2016021918;HKGE1634958;2361;22VH;93874760.1;9387476.01;Kub Group;Outdoors;lelah@langcrona.org;true
+EJQ1935333;Prestige;DK;2016021918;NGAQ1760860;4426;42VH;5466184.22;546618.42;Daugherty and Sons;Health, Movies & Clothing;bridie_block@walshullrich.co;false
+EJQ1935333;Prestige;DK;2016021918;SCFT1688336;22U3;45UP;85228577.26;8522857.73;Schowalter-Klocko;Automotive & Electronics;rudy.ledner@gorczanywisozk.co;true
+EJQ1935333;Prestige;DK;2016021918;UWFC1342544;4310;45R1;69046485.53;3452324.28;Jacobi-Huels;Baby & Clothing;isaac_wiegand@bosco.com;false
+EJQ1935333;Prestige;DK;2016021918;FAZW1178889;26G0;22VH;30331961.97;1516598.1;Watsica, Stark and Daugherty;Outdoors, Baby, Garden & Music;kacie_fisher@ortiz.info;true
+EJQ1935333;Prestige;DK;2016021918;HDXE1928847;20T0;42UP;34418761.09;1032562.83;Runolfsdottir LLC;Shoes, Computers & Clothing;elbert.flatley@reichelmcclure.net;false
+EJQ1935333;Prestige;DK;2016021918;GDTS1367253;2278;42H0;96024308.68;2880729.26;Ernser-King;Music;mathilde.waelchi@kaulke.com;true
+EJQ1935333;Prestige;DK;2016021918;CBRF1779204;2270;49P0;72615840.48;2178475.21;Murphy, Buckridge and Rau;Electronics, Music & Baby;carole.tillman@larsonrath.org;false
+EJQ1935333;Prestige;DK;2016021918;SLHN1059433;22H5;42H0;4131193.15;413119.32;McClure-Cronin;Shoes;faye@vonruedenlakin.org;true
+EJQ1935333;Prestige;DK;2016021918;BSMQ1618418;45R9;49P0;60135219.66;1804056.59;Mayert LLC;Garden;amanda.howell@greenholtharber.io;true
+EJQ1935333;Prestige;DK;2016021918;NOWL1743446;20H5;42T0;119018634.48;11901863.45;Watsica Inc;Garden & Clothing;crystel@pollich.com;true
+IFD1255823;North Cobyville;TZ;2016021919;KCAM1248671;2230;42H0;77290957.02;7729095.7;Fritsch-Connelly;Grocery, Home, Beauty, Computers & Automotive;ivory.hyatt@mcclure.info;true
+IFD1255823;North Cobyville;TZ;2016021919;JIMO1696082;20T7;L5G1;136943395.57;4108301.87;West-Murphy;Sports & Music;eliane.larson@bednar.biz;true
+IFD1255823;North Cobyville;TZ;2016021919;FPIX1079459;42RC;42UP;66674996.47;3333749.82;Schinner-McDermott;Garden;edward_fritsch@kuhn.io;false
+IFD1255823;North Cobyville;TZ;2016021919;GHQN1656854;2020;22P1;65726364.21;3286318.21;Hayes-Champlin;Toys;willis@millerwillms.io;true
+IFD1255823;North Cobyville;TZ;2016021919;XFPK1691449;L5H6;22H0;16326797.6;816339.88;Wintheiser Inc;Baby & Sports;laurie.steuber@bogan.com;true
+IFD1255823;North Cobyville;TZ;2016021919;COMP1774913;8888;42H0;21629343.88;648880.32;Rempel-Paucek;Industrial, Jewelery, Beauty, Kids & Shoes;ophelia@williamson.name;true
+IFD1255823;North Cobyville;TZ;2016021919;QULP1559571;48P1;45G0;34031459.39;1020943.78;Schumm Inc;Jewelery, Baby, Toys & Beauty;natasha_rippin@hellerrunolfon.io;true
+IFD1255823;North Cobyville;TZ;2016021919;HQYW1023513;42V2;42UP;35570990.69;3557099.07;Waelchi, MacGyver and D'Amore;Beauty, Kids & Outdoors;mike@fadel.name;true
+IFD1255823;North Cobyville;TZ;2016021919;VSAN1349335;L2RE;22H0;6381358.95;191440.77;Miller, Murphy and Gulgowski;Shoes & Kids;cory@dicki.com;true
+IFD1255823;North Cobyville;TZ;2016021919;BWUN1234645;2163;42P3;96976239.24;4848811.96;Reichert-Predovic;Music, Health, Tools, Outdoors & Shoes;rodger@hills.name;true
+IFD1255823;North Cobyville;TZ;2016021919;OXJI1396895;2063;22T0;10485565.18;1048556.52;Dare Inc;Sports & Music;janae_mccullough@breitenberg.com;true
+IFD1255823;North Cobyville;TZ;2016021919;GQAS1596101;4267;22P1;12854521.44;1285452.14;McDermott, Dooley and Stroman;Books;kaleigh@batz.info;false
+IFD1255823;North Cobyville;TZ;2016021919;APUB1052917;24G3;45UP;76542986.23;7654298.62;Hauck-Bergnaum;Tools;abigail@kuhic.info;true
+IFD1255823;North Cobyville;TZ;2016021919;VLRN1261942;2304;8888;77914460.35;2337433.81;Nienow and Sons;Automotive;garrison_paucek@yost.info;false
+IFD1255823;North Cobyville;TZ;2016021919;GVFJ1909736;L5H6;22P1;50317302.64;5031730.26;Kassulke, Treutel and Rowe;Books;gust_hansen@collinshilpert.info;true
+IFD1255823;North Cobyville;TZ;2016021919;HGQT1094692;L2H1;42R1;30228238.14;906847.14;O'Hara LLC;Industrial, Kids, Home, Electronics & Garden;jack@hermann.info;true
+IFD1255823;North Cobyville;TZ;2016021919;PLTI1920787;28GP;29P0;1288521.62;64426.08;D'Amore, Welch and Harber;Health;madeline_klein@hegmann.biz;true
+IFD1255823;North Cobyville;TZ;2016021919;MJPG1656535;40U2;22T0;75167490.78;3758374.54;Spencer, Ritchie and Vandervort;Industrial, Automotive, Tools & Garden;angel@mullerbergstrom.com;true
+IFD1255823;North Cobyville;TZ;2016021919;CXTH1791904;4215;22T0;133665253.42;13366525.34;Leannon-Corkery;Kids, Tools & Sports;nasir@turner.co;true
+IFD1255823;North Cobyville;TZ;2016021919;LKCG1940081;45H5;22G0;1334402.49;40032.07;Hettinger, Volkman and Harber;Electronics;norene@davisruel.com;true
+IFD1255823;North Cobyville;TZ;2016021919;SPCJ1127195;4551;22UP;24540899.59;736226.99;Zboncak, Gerhold and Mosciski;Electronics & Toys;lillian_ledner@townerohan.net;true
+IFD1255823;North Cobyville;TZ;2016021919;TLQJ1000520;42BK;22U1;28599625.28;857988.76;Harber-Rodriguez;Tools, Books, Automotive & Jewelery;silas@osinski.net;true
+IFD1255823;North Cobyville;TZ;2016021919;OKPH1713588;20GP;12TR;6922715.42;207681.46;Nikolaus Inc;Kids, Outdoors, Music, Health & Home;federico@pagac.info;true
+IFD1255823;North Cobyville;TZ;2016021919;FHCX1358580;40R1;29P0;8809267.39;264278.02;Wiza, Harris and Stamm;Baby, Games & Garden;godfrey@fritsch.io;true
+FNV1248771;Lauryn;BS;2016021520;MXOE1872947;40HR;22G0;49631665.0;4963166.5;Herman LLC;Sports, Tools, Movies & Outdoors;colin@schroederlang.org;true
+FNV1248771;Lauryn;BS;2016021520;ROCT1173690;45G1;42P3;29337178.86;2933717.89;Corwin, Rau and Gerhold;Kids;amir@turcottefisher.org;true
+FNV1248771;Lauryn;BS;2016021520;KXSU1107478;45G2;42R1;65434454.73;6543445.47;Beatty-Grant;Games, Garden, Kids, Electronics & Jewelery;elwin.kulas@reingerrosenbaum.biz;false
+FNV1248771;Lauryn;BS;2016021520;JNAU1862966;20B1;8888;4151285.14;415128.51;Kautzer Group;Computers;tatyana@effertz.biz;true
+FNV1248771;Lauryn;BS;2016021520;TENA1605132;2164;45UP;67258431.08;2017752.93;Swift, Kris and Brekke;Movies, Home, Shoes & Sports;terence_ondricka@christiansen.biz;true
+FNV1248771;Lauryn;BS;2016021520;IHJA1302363;4533;42UP;144446566.12;4333396.98;Rowe, Kuhn and Graham;Clothing, Automotive & Computers;gordon.tromp@millerhansen.name;true
+FNV1248771;Lauryn;BS;2016021520;YFJN1280402;25G0;42H0;42219271.61;1266578.15;Bins, Greenholt and Abshire;Clothing;tristin@naderbechtelar.org;true
+FNV1248771;Lauryn;BS;2016021520;HEYR1749022;45GP;22UP;26601586.62;2660158.66;Larkin Group;Electronics, Industrial, Movies & Outdoors;jerry@roobking.info;true
+FNV1248771;Lauryn;BS;2016021520;PZYT1904562;4051;22P3;101515173.16;10151517.32;Schowalter-Hermiston;Electronics, Home, Jewelery, Clothing & Tools;edna_renner@simonis.biz;true
+FNV1248771;Lauryn;BS;2016021520;RUTP1455881;4204;22T0;14240605.3;427218.16;Koss-Wunsch;Baby;grant_medhurst@wisoky.info;true
+FNV1248771;Lauryn;BS;2016021520;GPAQ1605401;20R1;45G0;25300473.88;2530047.39;Homenick and Sons;Kids, Beauty & Home;mylene_mcglynn@douglas.biz;true
+FNV1248771;Lauryn;BS;2016021520;JVEQ1404552;42G1;22U1;259051824.56;7771554.74;Herzog-Schaden;Industrial, Books & Home;lempi@pouros.org;false
+FNV1248771;Lauryn;BS;2016021520;SAYG1182574;42P4;42VH;50665930.21;1519977.91;Boehm and Sons;Outdoors, Computers & Industrial;felicita@orn.name;true
+FNV1248771;Lauryn;BS;2016021520;BRDJ1363274;2367;42H0;123659892.97;3709796.79;Padberg LLC;Sports;laury@hane.biz;true
+FNV1248771;Lauryn;BS;2016021520;OIKM1444138;2278;45G0;16369752.96;1636975.3;Terry Inc;Shoes;rick.lowe@pfeffer.info;true
+FNV1248771;Lauryn;BS;2016021520;NXMV1023796;20RS;45R1;133402313.7;6670115.69;Welch, Bednar and Gerlach;Toys, Beauty, Games & Shoes;torey@gottlieb.biz;true
+FNV1248771;Lauryn;BS;2016021520;HNKD1653763;4200;45G0;144243185.87;7212159.29;Mosciski LLC;Games;bethany@harvey.io;true
+FNV1248771;Lauryn;BS;2016021520;ITXE1040034;24GP;42R1;5215179.1;260758.96;Reichert, Kassulke and Spencer;Toys, Tools & Beauty;jewel_hauck@oconnell.name;true
+FNV1248771;Lauryn;BS;2016021520;KFQY1927273;42T3;42R1;18232832.77;1823283.28;Beatty-Weimann;Music, Shoes & Garden;dina@millermacgyver.net;true
+FNV1248771;Lauryn;BS;2016021520;KPHY1582508;2130;42U1;41216962.0;2060848.1;Schimmel, Gutmann and Wiza;Sports & Movies;trace@moen.net;true
+FNV1248771;Lauryn;BS;2016021520;BGKS1130087;40B1;22P3;182186518.62;18218651.86;Blick-Bode;Outdoors & Industrial;cornell@dickensfeeney.co;true
+FNV1248771;Lauryn;BS;2016021520;IQMX1522166;2242;8888;75522907.35;2265687.22;Bayer LLC;Books, Industrial, Outdoors, Grocery & Clothing;tanner@tillman.name;true
+FNV1248771;Lauryn;BS;2016021520;SQOV1240043;44H1;L5R1;114399188.88;3431975.67;Wyman, Ebert and Davis;Clothing, Beauty, Sports & Music;sigmund_jacobson@simonis.co;true
+FNV1248771;Lauryn;BS;2016021520;OAHJ1834486;40HI;42P3;59099460.82;1772983.82;Wisozk, Pollich and Deckow;Toys, Tools, Industrial & Health;althea_shanahan@pacocha.org;true
+FNV1248771;Lauryn;BS;2016021520;JOIA1660172;L2R0;45R1;65046490.85;3252324.54;Reinger Group;Jewelery & Shoes;te@hermann.info;true
+FNV1248771;Lauryn;BS;2016021520;VKUR1365314;2272;45G0;70899044.89;3544952.24;Daugherty LLC;Kids, Automotive, Grocery & Garden;reta@cain.org;true
+FNV1248771;Lauryn;BS;2016021520;LJZI1219007;4001;42P3;28353756.94;2835375.69;Boyle-Smitham;Movies, Kids, Toys & Clothing;bettye@cummeratajacobs.com;true

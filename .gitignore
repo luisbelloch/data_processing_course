@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+*.aux
+*.log
+*.pyc
+alt/
+spark-*
+checkpoint
+assignments/soluciones
+
