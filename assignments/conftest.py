@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from glob import glob
+from helpers import definir_path_resultados
+
+import logging
+import os
+import pytest
+import shutil
+import sys
+
+spark_home = os.environ.get('SPARK_HOME', None)
+if not spark_home:
+  raise ValueError("Unable to find Spark, make sure SPARK_HOME environment variable is set")
+
+if not os.path.exists(spark_home):
+  raise ValueError("Cannot find path set in SPARK_HOME: " + spark_home)
+
+spark_python = os.path.join(spark_home, 'python')
+py4j = glob(os.path.join(spark_python, 'lib', 'py4j-*.zip'))[0]
+sys.path[:0] = [spark_python, py4j]
+
+from pyspark.context import SparkContext
+
+@pytest.fixture(scope='session')
+def spark_context(request):
+  sc = SparkContext('local', 'tests_practicas_spark')
+  request.addfinalizer(lambda: sc.stop())
+  logger = logging.getLogger('py4j')
+  logger.setLevel(logging.WARN)
+  return sc
+
+@pytest.fixture(scope='session')
+def path_resultados(request):
+  return definir_path_resultados('./resultados')
+
+@pytest.fixture(scope="session")
+def resultados_ejercicio_3(spark_context, path_resultados):
+  from contenedores import ejercicio_3
+  return ejercicio_3(spark_context, path_resultados)
+
