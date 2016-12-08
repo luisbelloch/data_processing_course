@@ -1,6 +1,6 @@
 # Data Processing with Spark 
 
-Materials for the Advanced Data Processing course of the [Big Data Analytics](http://http://bigdata.inf.upv.es) Master at the Universitat Politècnica de València.
+Materials for the Advanced Data Processing course of the [Big Data Analytics](http://bigdata.inf.upv.es) Master at the Universitat Politècnica de València.
 
 This course gives a 30 hours overview of many concepts, techniques and tools in data processing using Spark. We assume you're familiar with Python, but all the exercises can be easily followed in Java and Scala. We've included a Vagrant setup you can use to simplify your setup.
 
