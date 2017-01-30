@@ -9,4 +9,5 @@ checkpoint
 assignments/soluciones
 metastore_db/
 spark/
+.vagrant/
 
