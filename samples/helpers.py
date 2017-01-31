@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from datetime import datetime
 from collections import namedtuple
 import json
 import os
@@ -45,4 +46,10 @@ def setup_checkpoint(streamingContext):
         shutil.rmtree(checkpoint)
     os.mkdir(checkpoint)
     streamingContext.checkpoint(checkpoint)
+
+def isoDate(raw_string):
+    try:
+        return datetime.strptime(raw_string, "%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        return None
 
