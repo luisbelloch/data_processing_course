@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from pyspark import SparkContext
+from helpers import *
+
+sc = SparkContext('local', 'playground')
+txt = sc.textFile("data/compras_tiny.csv")
+print txt.take(1)
+print txt.toDebugString()
+
