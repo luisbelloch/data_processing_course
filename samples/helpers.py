@@ -21,7 +21,7 @@ def parse_item(raw_string):
 
 # API http://fixer.io/
 def get_usd_exchange_rates():
-    with open('./data/exchange_rates_usd.csv') as f:
+    with open('./data/exchange_rates_usd.json') as f:
         data = json.load(f)
         return data['rates']
 
