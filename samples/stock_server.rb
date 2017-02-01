@@ -4,7 +4,7 @@ require 'socket'
 require 'csv'
 
 @simbolos = ["MSFT", "IBM", "GOOG", "YHOO", "APPL", "SIFI", "NWBO", "CRTO", "LAMR", "EYES", "ONTX", "FWP", "XXIA", "ASBB", "FTHI", "LSCC", "MRTN", "MBII", "EARS", "FTLB", "PBSK", "PRPH", "VRTU", "QUIK", "RYAAY", "WPRT", "HNNA", "CBSHP", "ADHD", "SGEN", "EZCH", "ADXS", "SNMX", "AXAS", "ASEI", "PME", "AGII", "HABT", "SCAI", "WMAR", "BKSC", "ORBK", "FTSL", "JRVR", "PMTS", "PRTO", "BLVDU", "XCRA", "LIND", "DTLK", "CERS", "TSC", "SONA", "CFGE", "CMFN", "PHIIK", "ASCMA", "HCAP", "HBANP", "WOWO", "KWEB", "CRDS", "EMIF", "MAUI", "LIVE", "ADRD", "AMAT", "EXLS", "FEIC", "QUNR", "LABL", "CDOR", "FRSH", "MTSI", "PCYO", "GOODN", "PRGX", "VXUS", "PCRX", "MAGS", "ALOG", "CYTR", "WHLR", "XBKS", "JRJC", "MDM", "HFBC", "CHY", "WSBF", "WOOD", "GULF", "FNWB", "GMLP", "NATR", "RDI", "RPRX", "EMMS", "ZFGN", "ADI", "BBH"]
-# @simbolos = CSV.read('data/nasdaqlisted.csv', {:col_sep => "|"}).drop(2).map { |s| s[0] }
+# @simbolos = CSV.read('data/nasdaq.csv', {:col_sep => "|"}).drop(2).map { |s| s[0] }
 @emitted = {}
 
 def generar_stock
