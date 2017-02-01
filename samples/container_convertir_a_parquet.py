@@ -25,7 +25,7 @@ print(csv_source.count())
 # .map(lambda c: Row(**dict(c.__dict__)))
 
 containerSchema = sq.createDataFrame(csv_source)
-containerSchema.registerTempTable('container')
+containerSchema.createOrReplaceTempView('container')
 
 denmark_only = sq.sql("SELECT ship_name FROM container WHERE country = 'DK'")
 print(denmark_only.first())

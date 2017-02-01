@@ -16,11 +16,11 @@ df.printSchema()
 # Using API
 df.select("ship_imo", "ship_name", "country").filter(df['country'] == 'DK').show()
 
-# Registrar tabla para poderla utilizar dentro de strings SQL
-df.registerTempTable("container")
+# Register table alias to allow SQL use
+df.createOrReplaceTempView("container")
 sq.sql("SELECT ship_imo, ship_name FROM container WHERE country = 'DK'").show()
 
-# Matricula, numero contenedores, peso total del barco
+# ship_imo, num of containers, total ship weight
 total_weight_rdd = sq.sql("SELECT ship_imo, count(container_id) number, sum(net_weight) total_weight FROM container GROUP BY ship_imo")
 total_weight_rdd.printSchema()
 total_weight_rdd.show()
@@ -30,9 +30,9 @@ total_weight_rdd.show()
 sq.registerFunction('en_toneladas', lambda c: float(c) / 1000.0)
 sq.sql("SELECT en_toneladas(net_weight) toneladas, net_weight FROM container WHERE container_id = 'FMBV1684747'").show()
 
-# JOINs: Extraer descripcion de los códigos del contenedor
+# JOINs: Extract description of container codes
 codes = sq.read.json('data/iso-container-codes.json')
-codes.registerTempTable('codes')
+codes.createOrReplaceTempView('codes')
 codes.printSchema()
 codes.show()
 
