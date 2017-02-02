@@ -37,8 +37,12 @@ To be added soon, stay tuned!
     - [compras_top_ten_countries.py](samples/compras_top_ten_countries.py)
     - [helpers.py](samples/helpers.py) - basic parse functions to get started quicly
 - Spark SQL
-    - [containers.py](samples/containers.py)
+    - [container.py](samples/container.py)
     - [container_convertir_a_parquet.py](samples/container_convertir_a_parquet.py)
+    - [container_rdd_to_dataset.py](samples/container_rdd_to_dataset.py)
+    - [container_databricks_csv.py](samples/container_databricks_csv.py)
+    - [container_caching.py](samples/container_caching.py)
+    - [container_partition.py](samples/container_partition.py)
 - Spark Streaming
     - [hft.py](samples/stock_server.py) and [stock_server.rb](samples/stock_server.py)
 - MLib
