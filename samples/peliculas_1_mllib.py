@@ -50,7 +50,7 @@ predicciones = model.predictAll(publico_objetivo)
 # print predicciones.take(4)
 
 # Convertir a DF para manipular
-# PORQUE no hemos de hacer el sort/join aquí, mejor en una BBDD relacional
+# POR QUÉ no hemos de hacer el sort/join aquí, mejor en una BBDD relacional
 # Cálculo número de filas + espacio
 # Cómo se realizaría la inserción?
 from pyspark.sql import SQLContext, Row
