@@ -30,4 +30,31 @@ docker build -t luisbelloch/spark .
 docker tag luisbelloch/spark:2.10 luisbelloch/spark:latest
 ```
 
+## Running Spark Master \ Workers
+
+Variable `SPARK_NO_DAEMONIZE` is already set in the `Dockerfile`.
+
+```
+$ docker run -p 8080:8080 -d luisbelloch/spark start-master.sh
+$ docker run -p 8081:8081 -d luisbelloch/spark start-slave.sh spark://localhost:7077
+...
+```
+
+Note that workers connect to master node through 7077 exposed in localhost.
+
+## Using Docker Compose
+
+```
+$ docker-compose up
+```
+
+Running `docker ps` will show containers and their ports mapped. Slaves can connect to master using internal DNS resolution, we've exposed the master node as `master`. Note that exposing worker nodes port is not straight-forward and we've leaved commented port mapping definition - we'll discuss that in class.
+
+To scale up/down the cluster:
+
+```
+$ docker-compose scale worker=3
+```
+
+Beware desired state persist between runs.
 

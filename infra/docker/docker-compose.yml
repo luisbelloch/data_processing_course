@@ -1,0 +1,20 @@
+version: '2'
+services:
+  master:
+    image: luisbelloch/spark
+    ports:
+      - 8080:8080
+    command: start-master.sh
+    environment:
+      MASTER: spark://master:7077
+      SPARK_PUBLIC_DNS: localhost
+  worker:
+    image: luisbelloch/spark    
+    command: start-slave.sh spark://master:7077
+    environment:      
+      SPARK_PUBLIC_DNS: localhost
+    # Yeah, port festival, classic :-)
+    # ports:
+      # - 8081:8081
+    links:
+      - master
