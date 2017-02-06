@@ -21,7 +21,7 @@ If you find a bug or you want to contribute some comments, please [fill an issue
 7. Spark cluster deployment
     - Standalone cluster
     - [Docker](infra/docker/docker.md)
-    - Kubernetes
+    - [Kubernetes](infra/kubernetes/kubernetes.md)
 8. Apache Beam
     - [Docker container using Python SDK](infra/beam/beam.md)
     - Slides (coming soon)
