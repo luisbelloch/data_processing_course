@@ -17,6 +17,12 @@ If you find a bug or you want to contribute some comments, please [fill an issue
 5. MLib
 6. GraphX (Scala only)
 7. Spark cluster deployment
+    - Standalone cluster
+    - [Docker](infra/docker/docker.md)
+    - Kubernetes
+8. Apache Beam
+    - [Python SDK container](infra/beam/beam.md)
+  
 
 ### Part B - Architecture Workshop
 
