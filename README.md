@@ -1,8 +1,8 @@
-# Data Processing with Spark 
+# Data Processing with Spark
 
 Materials for the Advanced Data Processing course of the [Big Data Analytics](http://bigdata.inf.upv.es) Master at the Universitat Politècnica de València.
 
-This course gives a 30 hours overview of many concepts, techniques and tools in data processing using Spark. We assume you're familiar with Python, but all the exercises can be easily followed in Java and Scala. We've included a Vagrant setup you can use to simplify your setup.
+This course gives a 30 hours overview of many concepts, techniques and tools in data processing using Spark, including some key concepts from Apache Beam. We assume you're familiar with Python, but all the exercises can be easily followed in Java and Scala. We've included a Vagrant definition and docker images for both [Spark](infra/docker/docker.md) and [Beam](infra/beam/beam.md).
 
 If you find a bug or you want to contribute some comments, please [fill an issue in this repository]() or simply [write us](mailto:bigdata@luisbelloch.es). You're free to reuse course materials, please follow details in the [license section](#license).
 
@@ -63,6 +63,12 @@ To be added soon, stay tuned!
 - GraphFrames
     - [friends.py](spark/friends.py) - Classic graph sample
     - [ship_routes.py](spark/ship_routes.py) - Shortest paths for ship routes
+- Apache Beam
+    - [basic.py](beam/basic.py)
+    - [compras.py](beam/compras.py)
+    - [compras_ptransform.py](beam/compras_ptransform.py)
+    - [compras_ptransform_condensed.py](beam/compras_ptransform_condensed.py)
+    - [compras_totales_por_pais.py](beam/compras_totales_por_pais.py)
 
 ## Assignments
 

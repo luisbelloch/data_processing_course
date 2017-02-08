@@ -1,6 +1,0 @@
-#!/bin/bash
-set -eoi pipefail
-readonly OUT=$PWD/out
-mkdir -p $OUT && rm -rf $OUT/*
-docker run --rm -v $OUT:/data luisbelloch/beam:python2 python $@
-
