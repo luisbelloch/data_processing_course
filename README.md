@@ -16,6 +16,7 @@ If you find a bug or you want to contribute some comments, please [fill an issue
 4. Spark SQL
 5. MLib
 6. GraphX (Scala only)
+7. GraphFrames (Python)
 7. Spark cluster deployment
     - Standalone cluster
     - [Docker](infra/docker/docker.md)
@@ -36,12 +37,15 @@ To be added soon, stay tuned!
 
 ## Source Samples
 
-- Basic data processing using PySpark  
+- Functional programming (comming soon)
+- Why you don't need big data tools
+    - [poors_man_routes.sh](samples/data/poors_man_routes.sh) - bash superpowers
+- Basic data processing using PySpark
     - [compras_con_mas_de_un_descuento.py](samples/compras_con_mas_de_un_descuento.py)
     - [compras_importe_total_agrupado_por_tx_id.py](samples/compras_importe_total_agrupado_por_tx_id.py)
     - [compras_conversion_a_dolares.py](samples/compras_conversion_a_dolares.py)
     - [compras_top_ten_countries.py](samples/compras_top_ten_countries.py)
-    - [helpers.py](samples/helpers.py) - basic parse functions to get started quicly
+    - [helpers.py](samples/helpers.py) - basic parse functions to get started quickly
 - Spark SQL
     - [container.py](samples/container.py)
     - [container_convertir_a_parquet.py](samples/container_convertir_a_parquet.py)
@@ -54,6 +58,9 @@ To be added soon, stay tuned!
 - MLib
     - [peliculas_0_ml.py](samples/peliculas_0_ml.py) - ALS intro
     - [peliculas_1_ml.py](samples/peliculas_1_ml.py) - Predictions
+- GraphFrames
+    - [friends.py](samples/friends.py) - Classic graph sample
+    - [ship_routes.py](samples/ship_routes.py) - Shortest paths for ship routes
 
 ## Assignments
 
