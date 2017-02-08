@@ -41,28 +41,28 @@ To be added soon, stay tuned!
 
 - Functional programming (coming soon)
 - Why you don't need big data tools
-    - [poors_man_routes.sh](samples/data/poors_man_routes.sh) - bash superpowers
+    - [poors_man_routes.sh](spark/data/poors_man_routes.sh) - bash superpowers
 - Basic data processing using PySpark
-    - [compras_con_mas_de_un_descuento.py](samples/compras_con_mas_de_un_descuento.py)
-    - [compras_importe_total_agrupado_por_tx_id.py](samples/compras_importe_total_agrupado_por_tx_id.py)
-    - [compras_conversion_a_dolares.py](samples/compras_conversion_a_dolares.py)
-    - [compras_top_ten_countries.py](samples/compras_top_ten_countries.py)
-    - [helpers.py](samples/helpers.py) - basic parse functions to get started quickly
+    - [compras_con_mas_de_un_descuento.py](spark/compras_con_mas_de_un_descuento.py)
+    - [compras_importe_total_agrupado_por_tx_id.py](spark/compras_importe_total_agrupado_por_tx_id.py)
+    - [compras_conversion_a_dolares.py](spark/compras_conversion_a_dolares.py)
+    - [compras_top_ten_countries.py](spark/compras_top_ten_countries.py)
+    - [helpers.py](spark/helpers.py) - basic parse functions to get started quickly
 - Spark SQL
-    - [container.py](samples/container.py)
-    - [container_convertir_a_parquet.py](samples/container_convertir_a_parquet.py)
-    - [container_rdd_to_dataset.py](samples/container_rdd_to_dataset.py)
-    - [container_databricks_csv.py](samples/container_databricks_csv.py)
-    - [container_caching.py](samples/container_caching.py)
-    - [container_partition.py](samples/container_partition.py)
+    - [container.py](spark/container.py)
+    - [container_convertir_a_parquet.py](spark/container_convertir_a_parquet.py)
+    - [container_rdd_to_dataset.py](spark/container_rdd_to_dataset.py)
+    - [container_databricks_csv.py](spark/container_databricks_csv.py)
+    - [container_caching.py](spark/container_caching.py)
+    - [container_partition.py](spark/container_partition.py)
 - Spark Streaming
-    - [hft.py](samples/stock_server.py) and [stock_server.rb](samples/stock_server.rb)
+    - [hft.py](spark/stock_server.py) and [stock_server.rb](spark/stock_server.rb)
 - MLib
-    - [peliculas_0_ml.py](samples/peliculas_0_ml.py) - ALS intro
-    - [peliculas_1_ml.py](samples/peliculas_1_ml.py) - Predictions
+    - [peliculas_0_ml.py](spark/peliculas_0_ml.py) - ALS intro
+    - [peliculas_1_ml.py](spark/peliculas_1_ml.py) - Predictions
 - GraphFrames
-    - [friends.py](samples/friends.py) - Classic graph sample
-    - [ship_routes.py](samples/ship_routes.py) - Shortest paths for ship routes
+    - [friends.py](spark/friends.py) - Classic graph sample
+    - [ship_routes.py](spark/ship_routes.py) - Shortest paths for ship routes
 
 ## Assignments
 

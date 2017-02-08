@@ -14,7 +14,7 @@ If you want to run one of the samples, simply mount a volume and run any of the 
 
 ```
 $ docker run \
-  -v $(greadlink -f ../../samples):/opt/samples \
+  -v $(greadlink -f ../../spark):/opt/samples \
   -w /opt/samples \
   -ti luisbelloch/spark spark-submit /opt/samples/compras_con_mas_de_un_descuento.py
 ```
