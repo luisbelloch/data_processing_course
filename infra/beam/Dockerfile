@@ -17,5 +17,5 @@ RUN mkdir -p $BEAM_SETUP && \
     rm -rf ~/cache/pip/*
 
 RUN mkdir -p /data
-WORKDIR ~/data
+WORKDIR /data
 
