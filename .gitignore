@@ -8,6 +8,6 @@ spark-*
 checkpoint
 assignments/soluciones
 metastore_db/
-spark/
+.spark/
 .vagrant/
 out/
