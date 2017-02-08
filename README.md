@@ -15,14 +15,16 @@ If you find a bug or you want to contribute some comments, please [fill an issue
 3. PySpark: transformations, actions and basic IO
 4. Spark SQL
 5. MLib
-6. GraphX (Scala only)
-7. GraphFrames (Python)
+6. Graphs
+    - GraphX (Scala)
+    - GraphFrames (Python)
 7. Spark cluster deployment
     - Standalone cluster
     - [Docker](infra/docker/docker.md)
     - Kubernetes
 8. Apache Beam
-    - [Python SDK container](infra/beam/beam.md)
+    - [Docker container using Python SDK](infra/beam/beam.md)
+    - Slides (coming soon)
   
 
 ### Part B - Architecture Workshop
@@ -37,7 +39,7 @@ To be added soon, stay tuned!
 
 ## Source Samples
 
-- Functional programming (comming soon)
+- Functional programming (coming soon)
 - Why you don't need big data tools
     - [poors_man_routes.sh](samples/data/poors_man_routes.sh) - bash superpowers
 - Basic data processing using PySpark
@@ -54,7 +56,7 @@ To be added soon, stay tuned!
     - [container_caching.py](samples/container_caching.py)
     - [container_partition.py](samples/container_partition.py)
 - Spark Streaming
-    - [hft.py](samples/stock_server.py) and [stock_server.rb](samples/stock_server.py)
+    - [hft.py](samples/stock_server.py) and [stock_server.rb](samples/stock_server.rb)
 - MLib
     - [peliculas_0_ml.py](samples/peliculas_0_ml.py) - ALS intro
     - [peliculas_1_ml.py](samples/peliculas_1_ml.py) - Predictions
@@ -72,7 +74,7 @@ I'm not publishing the solutions to avoid remaking the exercises every year. The
 
 > Self-sufficiency is the state of not requiring any aid, support, or interaction, for survival; it is therefore a type of personal or collective autonomy -  [Wikipedia](https://en.wikipedia.org/wiki/Self-sufficiency).
 
-We follow a self-sufficency principles for students to drive course goals. At the end of the course, students should have enough knowledge and tools to develop small data processing solutions their own. 
+We follow a self-sufficiency principles for students to drive course goals. At the end of the course, students should have enough knowledge and tools to develop small data processing solutions their own. 
 
 1. Student understands the underlying concepts behind Spark, and is able to write data processing scripts using PySpark, Spark SQL and MLib.
 2. Student is capable of identify common data processing libraries and frameworks and their applications.
@@ -100,12 +102,14 @@ We recommend the following papers to expand knowledge on Spark and other data pr
 Some ideas we might add in forthcoming course editions:
 
 - Code samples in python notebooks
-- Apache Flink and Apache Beam
+- ~~Apache Flink and Apache Beam~~ (2017)
 - Add Tachyon content and exercises
 - Add Kafka source to the streaming sample
-- Improve deployment scenarios and tools: Mesos, Chef, etc.
+- Introduce samples with Minio / InfiniSpan
+- ~~Improve deployment scenarios and tools: Mesos, Chef, etc.~~ (2017)
 - Monitoring using Prometheus and Grafana, provide ready-to-use docker containers
 - Profiling of Spark applications (Scala only)
+- Translate all content to English and Spanish
 
 ## License
 
