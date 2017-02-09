@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eoi pipefail
 SPARK_PKG=${SPARK_PKG:-spark-2.1.0-bin-hadoop2.7}
-SPARK_HOME=${SPARK_HOME:-$(pwd)/spark}
+SPARK_HOME=${SPARK_HOME:-$(pwd)/.spark}
 
 if [ -t 1 ]; then
     readonly colors=$(tput colors)
