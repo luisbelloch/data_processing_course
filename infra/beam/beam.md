@@ -21,6 +21,12 @@ We've included an script that will mount current folder as volume in `/data`:
 $ ./beam -m apache_beam.examples.wordcount --input /etc/hosts --output /data/wordcount.txt
 ```
 
+To run any script of the [samples](../../beam/) folder:
+
+```
+$ ./beam basic.py --input /data/compras_tiny.csv --output /data/purchases_summary.json
+```
+
 ## Building the container
 
 ```
