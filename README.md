@@ -69,6 +69,12 @@ To be added soon, stay tuned!
     - [compras_ptransform.py](beam/compras_ptransform.py)
     - [compras_ptransform_condensed.py](beam/compras_ptransform_condensed.py)
     - [compras_totales_por_pais.py](beam/compras_totales_por_pais.py)
+- Deployment
+    - [Standalone](local_setup.sh)
+    - [Vagrant](Vagrantfile)
+    - [Spark on Docker](infra/docker/docker.md)
+    - [Beam on Docker](infra/beam/beam.md)
+    - [Spark on Kubernetes]()
 
 ## Assignments
 
