@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eoi pipefail
+set -euo pipefail
 
 # Poor's man big data - bash edition
 

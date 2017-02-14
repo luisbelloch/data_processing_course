@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eoi pipefail
+set -euo pipefail
 SPARK_PKG=${SPARK_PKG:-spark-2.1.0-bin-hadoop2.7}
 SPARK_HOME=${SPARK_HOME:-$(pwd)/.spark}
 
@@ -12,7 +12,7 @@ if [ -t 1 ]; then
     fi
 fi
 
-if [ -d "${SPARK_HOME}" ]; then
+if [[ -d "${SPARK_HOME}" ]]; then
     echo "${c_error}ERROR${c_norm}: Folder already exists '$SPARK_HOME'"
     echo "Set SPARK_HOME to an empty folder before running this script or make sure there's no 'spark' folder in current directory."
     exit -1

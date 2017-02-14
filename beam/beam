@@ -1,6 +1,5 @@
 #!/bin/bash
-set -eoi pipefail
+set -euo pipefail
 readonly script=/opt/beam/$1
 readonly local_data=`cd "../data"; pwd`
 docker run --rm -v "${PWD}":/opt/beam -v "${local_data}":/data luisbelloch/beam:python2 python ${script} ${@:2}
-
