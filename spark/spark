@@ -1,0 +1,41 @@
+#!/bin/bash
+set -euo pipefail
+
+readonly SPARK_SUBMIT=/opt/spark/bin/spark-submit
+readonly DATA_DIR=/tmp/bigdataupv/data
+readonly WORK_DIR=/tmp/bigdataupv/scripts
+
+if [[ $# -lt 1 ]]; then
+    >&2 echo "USAGE: ./spark [SCRIPT_NAME]"
+    >&2 echo "Sample: ./spark hello1.py"
+    exit 1
+fi
+
+abs_path() {
+    echo "$(cd "$(dirname "$1")" && pwd)/$(basename "$1")"
+}
+
+get_data_volume() {
+    # Probe for source folder first, if it doesn't 
+    # exists then it'll try with current folder
+    if [[ -d "${0}" ]]; then
+        echo "-v $(abs_path $0):"${DATA_DIR}""
+    elif [[ -d "./data" ]]; then
+        echo "-v $(abs_path "./data"):"${DATA_DIR}""
+    elif [[ -d "../data" ]]; then
+        echo "-v $(abs_path "../data"):"${DATA_DIR}""
+    else
+        >&2 echo "WARN: ./data directoy not found!"
+        echo ""
+    fi
+}
+
+readonly source_folder="$(cd "$(dirname "$1")" && pwd)"
+readonly data_volume=$(get_data_volume "${source_folder}")
+
+docker run --rm -ti \
+    -w "${WORK_DIR}" \
+    -v "${source_folder}":"${WORK_DIR}" \
+    $data_volume \
+    luisbelloch/spark "${SPARK_SUBMIT}" "${WORK_DIR}"/$1 ${@:2}
+
