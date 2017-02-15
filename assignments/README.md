@@ -1,8 +1,4 @@
 # Prácticas SPARK
-  
-_[Luis Belloch](mailto:bigdata@luisbelloch.es)_    
-_Máster Big Data Analytics - Febrero 2016_    
-_Universitat Politècnica de València_  
 
 Las prácticas consisten en desarrollar una serie de ejercicios de procesado de datos con `PySpark`. Los archivos de datos y la estructura básica de las prácticas puede descargarse en Poliformat. Entre los archivos de la práctica se ha incluido una máquina de `Vagrant` con todo lo necesario instalado.
 
@@ -49,7 +45,7 @@ También puede ejecutarse la suite de pruebas mediante `py.test`, tal y como se 
 
 **Ejercicio 5**. Crea una UDF para validar el [código de identificación](https://en.wikipedia.org/wiki/ISO_6346) del contenedor `container_id`. Para simplificar la validación, daremos como válidos aquellos códigos compuestos de 3 letras para el propietario, 1 letra para la categoría, 6 números y 1 dígito de control. Devuelve un `DataFrame` con los campos: `ship_imo`, `container_id`, `propietario`, `categoria`, `numero_serie` y `digito_control`.
 
-**Ejercicio 6**. Extrae una lista del peso total de cada barco, sumando cada contenedor `net_weight` y agrupado por el campo `declared`. Devuelve un DataFrame con la siguiente estructura: `ship_imo`, `ship_name`, `declared`, `total_net_weigth`.
+**Ejercicio 6**. Extrae una lista con peso total de cada barco, `net_weight`, sumando cada contenedor y agrupado por los campos `ship_imo` y `container_group`. Devuelve un DataFrame con la siguiente estructura: `ship_imo`, `ship_name`, `container`, `total_net_weight`.
   
 **Ejercicio 7**. Guarda los resultados del ejercicio anterior en formato Parquet.
 
@@ -72,12 +68,19 @@ $ pip install virtualenv
 $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+$ export SPARK_HOME=$(pwd)/../.spark
 ```
 
 A partir de aquí puede ejecutarse la suite de pruebas:
 
 ```
-$  py.test -v
+$ py.test -v
+```
+
+Para ejecutar un único test añade el nombre al final:
+
+```
+$ py.test -v test_ejercicio_2.py
 ```
 
 Happy hacking!

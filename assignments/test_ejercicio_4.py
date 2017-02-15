@@ -6,7 +6,7 @@ import pytest
 
 from contenedores import *
 
-def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_resultados, resultados_ejercicio_3):
+def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_resultados):
   df = ejercicio_4(spark_context, path_resultados)
   assert [row.ship_imo for row in df.rdd.collect()] == [
       u'AEY1108363', 

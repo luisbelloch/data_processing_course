@@ -1,1 +1,4 @@
-soluciones
+soluciones/
+resultados/
+venv/
+.cache/
