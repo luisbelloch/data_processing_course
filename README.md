@@ -4,7 +4,7 @@ Materials for the Advanced Data Processing course of the [Big Data Analytics](ht
 
 This course gives a 30 hours overview of many concepts, techniques and tools in data processing using Spark, including some key concepts from Apache Beam. We assume you're familiar with Python, but all the exercises can be easily followed in Java and Scala. We've included a Vagrant definition and docker images for both [Spark](infra/docker/docker.md) and [Beam](infra/beam/beam.md).
 
-If you find a bug or you want to contribute some comments, please [fill an issue in this repository]() or simply [write us](mailto:bigdata@luisbelloch.es). You're free to reuse course materials, please follow details in the [license section](#license).
+If you find a bug or you want to contribute some comments, please [fill an issue in this repository](https://github.com/luisbelloch/data_processing_course/issues/new) or simply [write us](mailto:bigdata@luisbelloch.es). You're free to reuse course materials, please follow details in the [license section](#license).
 
 ## Structure
 
