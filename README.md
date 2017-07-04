@@ -74,7 +74,7 @@ To be added soon, stay tuned!
     - [Vagrant](Vagrantfile)
     - [Spark on Docker](infra/docker/docker.md)
     - [Beam on Docker](infra/beam/beam.md)
-    - [Spark on Kubernetes]()
+    - [Spark on Kubernetes](infra/kubernetes/kubernetes.md)
 
 ## Assignments
 
