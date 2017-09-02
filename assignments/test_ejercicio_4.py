@@ -6,6 +6,9 @@ import pytest
 
 from contenedores import *
 
+import os
+from pyspark.sql import SQLContext
+
 def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_resultados):
   df = ejercicio_4(spark_context, path_resultados)
   assert [row.ship_imo for row in df.rdd.collect()] == [
@@ -30,4 +33,20 @@ def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_
       u'TCU1641123',
       u'YZX1455509']
 
+def test_ejercicio_4_resultados_guardados_formato_json_y_estructura_dataframe_correcta(spark_context, path_resultados):
+
+  path = path_resultados(4)
+
+  assert os.path.isdir(path) == True
+
+  sqlContext = SQLContext(spark_context)
+
+  df = sqlContext.read.json(path)
+  
+  assert df.count() == 20
+
+  correct = ['ship_imo']
+  returned = [column.lower() for column in df.columns]
+
+  assert correct == returned
 
