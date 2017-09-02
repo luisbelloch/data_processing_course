@@ -9,11 +9,9 @@ from contenedores import *
 import os
 from pyspark.sql import SQLContext
 
-@pytest.fixture(scope="session")
-def resultados(spark_context, path_resultados):
-  return ejercicio_7(spark_context, path_resultados)
+def test_ejercicio_7_resultados_guardados_formato_parquet_y_estructura_dataframe_correcta(spark_context, path_resultados):
 
-def test_ejercicio_7_resultados_guardados_formato_parquet_y_estructura_dataframe_correcta(spark_context, path_resultados, resultados):
+  ejercicio_7(spark_context, path_resultados)
 
   path = path_resultados(7)
 
