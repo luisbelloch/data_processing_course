@@ -36,5 +36,5 @@ rm -rf derby.log metastore_db
 stderr
 stderr "${c_step}DONE! Local setup completed${c_norm}"
 stderr "Spark unpacked properly. You can now modify your path:"
-echo "export PATH=${SPARK_HOME// /\\ /}:\$PATH"
+echo "export PATH=${SPARK_HOME// /\\ /}/bin:\$PATH"
 
