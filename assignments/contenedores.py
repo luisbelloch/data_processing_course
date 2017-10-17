@@ -65,7 +65,7 @@ def ejercicio_5(sc, path_resultados):
 # Ejercicio 6. Extrae una lista con peso total de cada barco, `net_weight`, 
 # sumando cada contenedor y agrupado por los campos `ship_imo` y `container_group`. 
 # Devuelve un DataFrame con la siguiente estructura: 
-# `ship_imo`, `ship_name`, `container`, `total_net_weight`.
+# `ship_imo`, `ship_name`, `container_group`, `total_net_weight`.
 def ejercicio_6(sc, path_resultados):
   # COMPLETAR CODIGO AQUI
   # Guardar resultados y devolver RDD/DataFrame
@@ -74,6 +74,7 @@ def ejercicio_6(sc, path_resultados):
 # Ejercicio 7. Guarda los resultados del ejercicio anterior en formato Parquet.
 def ejercicio_7(sc, path_resultados):
   # COMPLETAR CODIGO AQUI
+  # Guardar resultados y devolver RDD/DataFrame
   pass
 
 def main():
