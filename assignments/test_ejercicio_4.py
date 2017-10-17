@@ -36,15 +36,3 @@ def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_
 def test_ejercicio_4_resultados_guardados(comprobar_hdfs):
   assert comprobar_hdfs(4) == True
 
-def test_ejercicio_4_resultados_guardados_formato_json_y_estructura_dataframe_correcta(spark_context, path_resultados):
-  sqlContext = SQLContext(spark_context)
-
-  df = sqlContext.read.json(path)
-  
-  assert df.count() == 20
-
-  correct = ['ship_imo']
-  returned = [column.lower() for column in df.columns]
-
-  assert correct == returned
-
