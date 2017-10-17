@@ -7,6 +7,8 @@ import json
 import os
 import shutil
 
+from glob import glob
+
 item_fields = ['tx_id', 'tx_time', 'buyer', 'currency_code', 'payment_type', 'credit_card_number', 'country', 'department', 'product', 'item_price', 'coupon_code', 'was_returned']
 Item = namedtuple('Item', item_fields)
 
@@ -56,4 +58,15 @@ def path_resultados_fn(basePath, testId, extra = None):
   if not extra:
     return os.path.join(basePath, 'resultado_' + str(testId))
   return os.path.join(basePath, 'resultado_' + str(testId), extra)
+
+def comprobar_resultados_en_hdfs(path):
+  if not os.path.exists(path):
+    return 'No existe el directorio "{}", asegurate de guardar los datos al finalizar el ejercicio'.format(path)
+  if not os.path.exists(os.path.join(path, '_SUCCESS')):
+    return 'El trabajo no terminó correctamente'
+  parts = glob(os.path.join(path, 'part*'))
+  at_least_one = any(map(lambda p: os.stat(p).st_size > 0L, parts))
+  if not parts or not at_least_one:
+    return 'El trabajo terminó correctamente, pero no existen datos en la carpeta "{}"'.format(path)
+  return True
 

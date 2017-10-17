@@ -5,7 +5,6 @@ import pytest
 
 from contenedores import *
 
-import os
 from pyspark.sql import SQLContext
 
 def test_ejercicio_3_data_frame_tiene_613_filas(resultados_ejercicio_3):
@@ -15,12 +14,10 @@ def test_ejercicio_3_data_frame_tiene_al_menos_una_fila_correcta(resultados_ejer
   df = resultados_ejercicio_3
   assert 1 == df.filter(df.ship_imo == "JMP1637582").filter(df.container_id == "XPOG1294738").rdd.count()
 
+def test_ejercicio_3_resultados_guardados(comprobar_hdfs):
+  assert comprobar_hdfs(3) == True
+
 def test_ejercicio_3_resultados_guardados_formato_parquet_y_estructura_dataframe_correcta(spark_context, path_resultados):
-
-  path = path_resultados(3)
-
-  assert os.path.isdir(path) == True
-
   sqlContext = SQLContext(spark_context)
 
   df = sqlContext.read.parquet(path)

@@ -33,12 +33,10 @@ def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_
       u'TCU1641123',
       u'YZX1455509']
 
+def test_ejercicio_4_resultados_guardados(comprobar_hdfs):
+  assert comprobar_hdfs(4) == True
+
 def test_ejercicio_4_resultados_guardados_formato_json_y_estructura_dataframe_correcta(spark_context, path_resultados):
-
-  path = path_resultados(4)
-
-  assert os.path.isdir(path) == True
-
   sqlContext = SQLContext(spark_context)
 
   df = sqlContext.read.json(path)

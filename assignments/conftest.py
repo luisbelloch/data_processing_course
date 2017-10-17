@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from glob import glob
-from helpers import definir_path_resultados
-
 import logging
 import os
 import pytest
 import shutil
 import sys
+
+from glob import glob
+from helpers import definir_path_resultados, comprobar_resultados_en_hdfs
 
 spark_home = os.environ.get('SPARK_HOME', None)
 if not spark_home:
@@ -40,3 +40,9 @@ def resultados_ejercicio_3(spark_context, path_resultados):
   from contenedores import ejercicio_3
   return ejercicio_3(spark_context, path_resultados)
 
+@pytest.fixture(scope='session')
+def comprobar_hdfs(path_resultados):
+  def check(ejercicio_n):
+    path = path_resultados(ejercicio_n)
+    return comprobar_resultados_en_hdfs(path)
+  return check
