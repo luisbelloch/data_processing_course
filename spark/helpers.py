@@ -16,6 +16,9 @@ def parse_item(raw_string):
     return Item(*f)
 
 # Uso básico de namedtuples:
+# Thing = namedtuple('Item', ['foo', 'bar'])
+# some = Thing(foo=42, bar='hello')
+# some.foo
 # item = parse_item(["one", "two"])
 # new_item = item._replace(tx_id=1, buyer=5)
 
