@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import pytest
-from contenedores import *
-
 import os
+import pytest
+
+from contenedores import *
 
 @pytest.fixture(scope="session")
 def resultados(spark_context, path_resultados):

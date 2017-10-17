@@ -1,18 +1,16 @@
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 import pytest
 
 from contenedores import *
-
-import os
 from pyspark.sql import SQLContext
 
 def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_resultados):
   df = ejercicio_4(spark_context, path_resultados)
   assert [row.ship_imo for row in df.rdd.collect()] == [
-      u'AEY1108363', 
+      u'AEY1108363',
       u'AMC1861710',
       u'DEJ1128330',
       u'FUS1202266',

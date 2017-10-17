@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from collections import namedtuple
-from functools import partial
 import json
 import os
 import shutil
 
+from collections import namedtuple
+from functools import partial
 from glob import glob
 
 item_fields = ['tx_id', 'tx_time', 'buyer', 'currency_code', 'payment_type', 'credit_card_number', 'country', 'department', 'product', 'item_price', 'coupon_code', 'was_returned']
