@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 import pytest
 
 from contenedores import *
-
 from pyspark.sql import SQLContext
 
 def test_ejercicio_3_data_frame_tiene_613_filas(resultados_ejercicio_3):
@@ -17,15 +17,6 @@ def test_ejercicio_3_data_frame_tiene_al_menos_una_fila_correcta(resultados_ejer
 def test_ejercicio_3_resultados_guardados(comprobar_hdfs):
   assert comprobar_hdfs(3) == True
 
-def test_ejercicio_3_resultados_guardados_formato_parquet_y_estructura_dataframe_correcta(spark_context, path_resultados):
-  sqlContext = SQLContext(spark_context)
-
-  df = sqlContext.read.parquet(path)
-  
-  assert df.count() == 613
-
-  correct = ['contact', 'container_group', 'container_id', 'container_type', 'country', 'customs_ok', 'declared', 'departure', 'gross_weight', 'net_weight', 'owner', 'ship_imo', 'ship_name']
-  returned = sorted([column.lower() for column in df.columns])
-
-  assert correct == returned
+def test_ejercicio_3_estructura_dataframe_correcta(resultados_ejercicio_3, tiene_columnas):
+  tiene_columnas(resultados_ejercicio_3, ['contact', 'container_group', 'container_id', 'container_type', 'country', 'customs_ok', 'declared', 'departure', 'gross_weight', 'net_weight', 'owner', 'ship_imo', 'ship_name'])
 

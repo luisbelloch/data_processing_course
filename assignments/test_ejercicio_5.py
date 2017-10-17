@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 import pytest
 
 from contenedores import *
-
-import os
 
 @pytest.fixture(scope="session")
 def resultados(spark_context, path_resultados):
@@ -25,8 +24,6 @@ def test_ejercicio_5_todos_los_contendores_invalidos_estan_excluidos(resultados)
 def test_ejercicio_5_resultados_guardados(comprobar_hdfs):
   assert comprobar_hdfs(5) == True
 
-def test_ejercicio_5_estructura_dataframe_correcta(resultados):
-  correct = ['categoria', 'container_id', 'digito_control', 'numero_serie', 'propietario', 'ship_imo']
-  returned = sorted([column.lower() for column in resultados.columns])
-  assert correct == returned
+def test_ejercicio_5_estructura_dataframe_correcta(resultados, tiene_columnas):
+  tiene_columnas(resultados, ['categoria', 'container_id', 'digito_control', 'numero_serie', 'propietario', 'ship_imo'])
 

@@ -35,7 +35,7 @@ def spark_context(request):
 def path_resultados(request):
   return definir_path_resultados('./resultados')
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope='session')
 def resultados_ejercicio_3(spark_context, path_resultados):
   from contenedores import ejercicio_3
   return ejercicio_3(spark_context, path_resultados)
@@ -46,3 +46,10 @@ def comprobar_hdfs(path_resultados):
     path = path_resultados(ejercicio_n)
     return comprobar_resultados_en_hdfs(path)
   return check
+
+@pytest.fixture(scope='session')
+def tiene_columnas():
+  def check(df, expected):
+    assert sorted(expected) == sorted([column.lower() for column in df.columns])
+  return check
+
