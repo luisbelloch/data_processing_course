@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
-SPARK_PKG=${SPARK_PKG:-spark-2.1.0-bin-hadoop2.7}
+SPARK_URL=${SPARK_URL:-http://apache.rediris.es/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz}
+SPARK_PKG=${SPARK_URL##*/}
 SPARK_HOME=${SPARK_HOME:-$(pwd)/.spark}
 
 if [ -t 1 ]; then
@@ -23,7 +24,7 @@ fi
 stderr "${c_step}[0] Destination: ${SPARK_HOME}${c_norm}"
 stderr "${c_step}[1] Downloading and unpacking $SPARK_PKG.tgz${c_norm}"
 mkdir -p "${SPARK_HOME}"
-curl -s http://d3kbcqa49mib13.cloudfront.net/${SPARK_PKG}.tgz | tar -xz -C "${SPARK_HOME}" --strip-components=1
+curl -s "${SPARK_URL}" | tar -xz -C "${SPARK_HOME}" --strip-components=1
 
 stderr "${c_step}[2] Reducing log level${c_norm}"
 cp "${SPARK_HOME}"/conf/log4j.properties.template "${SPARK_HOME}"/conf/log4j.properties
