@@ -1,0 +1,79 @@
+---
+- hosts: all
+  vars:
+    spark_home: /opt/spark
+    spark_pkg_name: spark-2.2.1-bin-hadoop2.7
+    spark_pkg_url: http://apache.rediris.es/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
+
+  tasks:
+    - name: Update all packages to the latest version
+      become: true
+      apt:
+        upgrade: dist
+        update_cache: yes
+
+    - name: Basic dependencies
+      become: true
+      apt: name={{item}} state=latest 
+      with_items:
+        - software-properties-common 
+        - python-software-properties 
+        - curl 
+        - git
+        - vim
+
+    - name: Install Java 8
+      become: true
+      block:
+        - name: Oracle APT Repository
+          apt_repository: repo='ppa:webupd8team/java'
+        - name: Java 8 License
+          debconf: name='oracle-java8-installer' question='shared/accepted-oracle-license-v1-1' vtype='select' value='true'
+        - name: Install Oracle JDK 8 package
+          apt: name={{item}} state=latest
+          with_items:
+            - oracle-java8-installer
+            - ca-certificates
+            - oracle-java8-set-default
+
+    - name: Clone classrom repository
+      git:
+        repo: 'https://github.com/luisbelloch/data_processing_course.git'
+        dest: '{{ ansible_env.HOME }}/data_processing_course'
+
+    - stat:
+        path: '/opt/{{ spark_pkg_name }}'        
+      register: spark_dest
+
+    - name: Install SPARK
+      when: spark_dest.stat.islnk is not defined
+      block:
+        - name: Download Spark
+          become: true
+          unarchive:
+            src: '{{ spark_pkg_url }}'
+            dest: /opt
+            remote_src: yes
+
+        - name: Link to latest version
+          become: true
+          file: 
+            state: link
+            src: '/opt/{{ spark_pkg_name }}' 
+            dest: '{{ spark_home }}' 
+
+        - name: Add Spark to PATH
+          lineinfile:
+            path: '{{ ansible_env.HOME }}/.bashrc'
+            line: 'export PATH=$PATH:/opt/{{ spark_pkg_name }}/bin'
+        
+        - name: Set PySpark Python version to 3
+          lineinfile:
+            path: '{{ ansible_env.HOME }}/.bashrc'
+            line: 'export PYSPARK_PYTHON=python3'
+
+        # https://bugs.python.org/issue19846
+        - name: Update locale
+          become: true
+          command: update-locale LC_ALL=en_US.UTF-8
+
