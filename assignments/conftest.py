@@ -50,6 +50,7 @@ def comprobar_hdfs(path_resultados):
 @pytest.fixture(scope='session')
 def tiene_columnas():
   def check(df, expected):
+    assert df is not None, 'El DataFrame no existe ¿Olvidaste un "return df" al final del ejercicio?'
     assert sorted(expected) == sorted([column.lower() for column in df.columns])
   return check
 

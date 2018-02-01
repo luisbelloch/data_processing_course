@@ -21,7 +21,7 @@ def test_ejercicio_5_todos_los_contendores_invalidos_estan_excluidos(resultados)
   excluidos = [u'GJFL14A2798', u'CTVU1506A832', u'IJWDR1216916', u'OKANR1240284', u'JMYG190Z978', u'DUKF166276', u'']
   assert all([(e not in excluidos) for e in existentes])
 
-def test_ejercicio_5_resultados_guardados(comprobar_hdfs):
+def test_ejercicio_5_resultados_guardados(resultados, comprobar_hdfs):
   assert comprobar_hdfs(5) == True
 
 def test_ejercicio_5_estructura_dataframe_correcta(resultados, tiene_columnas):

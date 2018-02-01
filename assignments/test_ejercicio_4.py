@@ -7,9 +7,12 @@ import pytest
 from contenedores import *
 from pyspark.sql import SQLContext
 
-def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_resultados):
-  df = ejercicio_4(spark_context, path_resultados)
-  assert [row.ship_imo for row in df.rdd.collect()] == [
+@pytest.fixture(scope="session")
+def resultados(spark_context, path_resultados):
+  return ejercicio_4(spark_context, path_resultados)
+
+def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(resultados):
+  assert [row.ship_imo for row in resultados.rdd.collect()] == [
       u'AEY1108363',
       u'AMC1861710',
       u'DEJ1128330',
@@ -31,6 +34,6 @@ def test_ejercicio_4_puede_filtrar_la_lista_de_contenedores(spark_context, path_
       u'TCU1641123',
       u'YZX1455509']
 
-def test_ejercicio_4_resultados_guardados(comprobar_hdfs):
+def test_ejercicio_4_resultados_guardados(resultados, comprobar_hdfs):
   assert comprobar_hdfs(4) == True
 

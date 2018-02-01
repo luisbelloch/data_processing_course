@@ -18,6 +18,6 @@ def test_ejercicio_2_comprobar_que_las_matriculas_son_las_correctas(resultados):
   assert 'GYFD1228113' in [e[4] for e in resultados]
   assert 'MBPF1909627' in [e[4] for e in resultados]
 
-def test_ejercicio_2_resultados_guardados(comprobar_hdfs):
+def test_ejercicio_2_resultados_guardados(resultados, comprobar_hdfs):
   assert comprobar_hdfs(2) == True
 
