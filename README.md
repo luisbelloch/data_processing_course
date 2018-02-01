@@ -72,6 +72,7 @@ To be added soon, stay tuned!
 - Deployment
     - [Standalone](local_setup.sh)
     - [Vagrant](Vagrantfile)
+    - [Ansible](playbook.yml)
     - [Spark on Docker](infra/docker/docker.md)
     - [Beam on Docker](infra/beam/beam.md)
     - [Spark on Kubernetes](infra/kubernetes/kubernetes.md)
