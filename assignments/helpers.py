@@ -65,7 +65,7 @@ def comprobar_resultados_en_hdfs(path):
   if not os.path.exists(os.path.join(path, '_SUCCESS')):
     return 'El trabajo no terminó correctamente'
   parts = glob(os.path.join(path, 'part*'))
-  at_least_one = any(map(lambda p: os.stat(p).st_size > 0L, parts))
+  at_least_one = any(map(lambda p: os.stat(p).st_size > 0, parts))
   if not parts or not at_least_one:
     return 'El trabajo terminó correctamente, pero no existen datos en la carpeta "{}"'.format(path)
   return True

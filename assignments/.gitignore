@@ -2,3 +2,5 @@ soluciones/
 resultados/
 venv/
 .cache/
+.pytest_cache/
+

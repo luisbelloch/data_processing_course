@@ -9,4 +9,6 @@ metastore_db/
 .spark/
 .vagrant/
 out/
+__pycache__/
+spark-warehouse/
 
