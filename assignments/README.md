@@ -1,27 +1,34 @@
 # Prácticas SPARK
 
-Las prácticas consisten en desarrollar una serie de ejercicios de procesado de datos con `PySpark`. Los archivos de datos y la estructura básica de las prácticas puede descargarse en Poliformat. Entre los archivos de la práctica se ha incluido una máquina de `Vagrant` con todo lo necesario instalado.
+Las prácticas consisten en desarrollar una serie de ejercicios de procesado de datos con `PySpark`.
 
-Para completar el ejercicio debe enviarse un único archivo llamado `contenedores.py`.
+Para completar las prácticas debe completarse un archivo llamado `contenedores.py` con los ejercicios abajo descritos. No es necesaria explicación alguna, únicamente se pide que el código esté limpio, bien estructurado y ejecute correctamente.
 
-Cada ejercicio produce un resultado distinto. Los resultados deben guardarse en una carpeta denominada `resultados`, teniendo un único archivo de resultados por ejercicio con la nomenclatura `resultado_1`, `resultado_2` etc.
+Los archivos de datos vienen incluidos en este repositorio en la carpeta `data`. Entre los archivos de la práctica se ha incluido [un contenedor de Docker](https://hub.docker.com/r/luisbelloch/spark-assignments/) con todo lo necesario instalado. También se ha incluido una [batería de pruebas](pruebas) para que puedas comprobar los resultados antes de entregar la práctica.
 
-Hemos incluido los archivos de datos esperados en la carpeta `soluciones` para que puedas comprobar los mismos antes de enviar el ejercicio. Algunos ejercicios no escriben a disco y especifican devolver directamente el `DataFrame` o el `RDD` según corresponda.
+Cada ejercicio produce un resultado distinto. Los resultados deben guardarse en una carpeta denominada `resultados`, teniendo un único archivo por ejercicio con la nomenclatura `resultado_1`, `resultado_2` etc. La función `path_resultados` devuelve la ruta completa que puedes usar para guardar los datos procesados en cada ejercicio. En la mayoría de los casos debes devolver un DataFrame:
+
+```
+def ejercicio_3(sc, path_resultados):
+  df = sq.sql(...)
+  # ... otras operaciones
+  # ... save(path_resultados(3))
+  return df
+```
 
 Los ejercicios se realizarán sobre un fichero en formato CSV que contiene una lista de barcos, identificados por la columna `ship_imo`. A su vez, cada barco tiene una lista de contenedores identificados por la columna `container_id`.
 
-Para el procesado del archivo puedes utilizar cualquier función disponible en el API de Python de Spark 1.6, así como Spark SQL cuando lo consideres conveniente.
+Para el procesado del archivo puedes utilizar cualquier función disponible en el API de Python de Spark 2.2.1
 
 ## Plazo de entrega
 
-Los ejercicios hay que enviarlos antes del 1 de agosto.
+Los ejercicios hay que enviarlos antes del 1 de Junio.
 
 ## Criterios de evaluación
 
-1. El alumno entiende y es capaz de ejecutar programas en PySpark, haciendo uso de el core de Spark 1.6 y Spark SQL.
-2. El archivo `contenedores.py` producido por el alumno se puede ejecutar con `spark-submit` y, opcionalmente, con `py.test`.
-3. Los resultados producidos coinciden con los de la carpeta `soluciones`.
-4. El código está estructurado correctamente, es legible y tiene una intencionalidad clara.
+1. El alumno entiende y es capaz de ejecutar programas en PySpark, haciendo uso de el core de Spark 2.2 y Spark SQL.
+2. El archivo `contenedores.py` producido por el alumno se puede ejecutar con `spark-submit` y, opcionalmente, con `pytest`.
+3. El código está estructurado correctamente, es legible y tiene una intencionalidad clara.
 
 ## Ejercicios
 
@@ -44,7 +51,7 @@ $ cat resultados/resultado_0
 **Ejercicio 5**. Crea una UDF para validar el [código de identificación](https://en.wikipedia.org/wiki/ISO_6346) del contenedor `container_id`. Para simplificar la validación, daremos como válidos aquellos códigos compuestos de 3 letras para el propietario, 1 letra para la categoría, 6 números y 1 dígito de control. Devuelve un `DataFrame` con los campos: `ship_imo`, `container_id`, `propietario`, `categoria`, `numero_serie` y `digito_control`.
 
 **Ejercicio 6**. Extrae una lista con peso total de cada barco, `net_weight`, sumando cada contenedor y agrupado por los campos `ship_imo` y `container_group`. Devuelve un DataFrame con la siguiente estructura: `ship_imo`, `ship_name`, `container`, `total_net_weight`.
-  
+
 **Ejercicio 7**. Guarda los resultados del ejercicio anterior en formato Parquet.
 
 **Ejercicio 8**. ¿En qué casos crees que es más eficiente utilizar formatos como Parquet? ¿Existe alguna desventaja frente a formatos de texto como CSV?
