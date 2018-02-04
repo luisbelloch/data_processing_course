@@ -33,8 +33,6 @@ $ cat resultados/resultado_0
 0,1,2,3,4,5,6,7,8,9
 ```
 
-También puede ejecutarse la suite de pruebas mediante `py.test`, tal y como se describe [al final de este documento](pruebas). No es necesario para la entrega del ejercicio, pero puede ayudaros a comprobar los resultados de cada paso.
-
 **Ejercicio 1**. Leer el archivo `data/containers.csv` y contar el número de líneas.
 
 **Ejercicio 2**. Leer el archivo `data/containers.csv` y filtrar aquellos contenedores cuyo `ship_imo` es `DEJ1128330` y el grupo del contenedor es `22P1`. Guardar los resultados en un archivo de texto en `resultados/resutado_2`.
@@ -57,30 +55,43 @@ También puede ejecutarse la suite de pruebas mediante `py.test`, tal y como se 
 
 ## Pruebas
 
-Existe una batería de pruebas para comprobar los resultados de cada ejercicio, desarrollada sobre `py.test`. Las pruebas no son exhaustivas y únicamente están orientadas a verificar los resultados de cada ejercicio. No es necesario que las pruebas pasen para entregar la práctica, aunque se valorará de forma positiva. Se deja como ejercicio optativo adaptar o ampliar la batería de pruebas. 
+Existe una batería de pruebas para comprobar los resultados de cada ejercicio, desarrollada sobre [pytest](http://pytest.org). Las pruebas no son exhaustivas y únicamente están orientadas a verificar los resultados de cada ejercicio. No es necesario que las pruebas pasen para entregar la práctica, aunque se valorará de forma positiva. Se deja como ejercicio optativo adaptar o ampliar la batería de pruebas.
 
-En la configuración de `Vagrant` de la práctica se incluye la instalación de `py.test`.
+### Ejecución de pruebas en Docker
 
-También puedes instalar `py.test` en local mediante `virtualenv`:
+De forma alternativa, hemos incluido una imágen de Docker con todas las dependencias necesarias. El directorio actual se montará como volumen dentro del contenedor, concretamente en `/opt/tests/assigments`.
 
 ```
-$ pip install virtualenv
-$ virtualenv venv
-$ source venv/bin/activate
+$ ./test.sh
+```
+
+También es posible lanzar `bash` o `pyspark` para hacer comprobaciones manualmente:
+
+```
+$ docker run -v $(PWD):/opt/tests/assigments -ti luisbelloch/spark-assignments /bin/bash
+```
+
+### Ejecución local de pruebas
+
+Teniendo Spark instalado mediante `local_setup.sh`, puedes instalar `pytest` en local mediante `venv`:
+
+```
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ export SPARK_HOME=$(pwd)/../.spark
 ```
 
-A partir de aquí puede ejecutarse la suite de pruebas:
+Y a partir de aquí puede ejecutarse la suite de pruebas:
 
 ```
-$ py.test -v
+$ pytest -v
 ```
 
-Para ejecutar un único test añade el nombre al final:
+Para ejecutar un único test añade el nombre al final, lo único que hay que tener en cuenta es que algunos ejercicios dependen de los datos de los anteriores:
 
 ```
-$ py.test -v test_ejercicio_2.py
+$ pytest -v test_ejercicio_2.py
 ```
 
 Happy hacking!
