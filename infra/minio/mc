@@ -1,0 +1,12 @@
+#!/bin/bash
+set -eou pipefail
+
+readonly MC=(docker run -v "$(PWD)/data":/data -v "$(PWD)/config":/root/.mc --network="host" -ti minio/mc)
+
+if [[ $# -lt 1 ]]; then
+    >&2 ${MC[@]}
+    exit 1
+fi
+
+${MC[@]} $@
+

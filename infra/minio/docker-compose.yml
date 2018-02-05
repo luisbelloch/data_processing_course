@@ -1,0 +1,20 @@
+version: '3'
+services:
+  minio:
+    image: minio/minio
+    command: server /data
+    volumes:
+      - minio1:/data
+    networks: [block]
+    ports:
+      - 9000:9000
+    environment:
+      MINIO_ACCESS_KEY: JX6SNZEW2CLYM66UDHT7
+      MINIO_SECRET_KEY: NHtuFRcy8XnRuqbASsHTK65oxYMQ7sNvwTnA1oX0
+
+networks:
+  block:
+
+volumes:
+  minio1:
+

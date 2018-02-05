@@ -1,0 +1,17 @@
+{
+	"version": "8",
+	"hosts": {
+		"local": {
+			"url": "http://localhost:9000",
+			"accessKey": "JX6SNZEW2CLYM66UDHT7",
+			"secretKey": "NHtuFRcy8XnRuqbASsHTK65oxYMQ7sNvwTnA1oX0",
+			"api": "S3v4"
+		},
+		"minio": {
+			"url": "http://minio:9000",
+			"accessKey": "JX6SNZEW2CLYM66UDHT7",
+			"secretKey": "NHtuFRcy8XnRuqbASsHTK65oxYMQ7sNvwTnA1oX0",
+			"api": "s3v4"
+		}
+	}
+}
