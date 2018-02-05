@@ -7,7 +7,7 @@ from pyspark.sql import SQLContext
 from graphframes import *
 from graphframes.examples import Graphs
 
-sc = SparkContext('local', 'barcos')
+sc = SparkContext('local', 'friends')
 sq = SQLContext(sc)
 friends = Graphs(sq).friends()
 

@@ -7,8 +7,6 @@ from pyspark.sql.types import *
 from pyspark.sql.functions import lead, col, explode
 from pyspark.sql.window import Window
 
-import unicodedata
-
 from graphframes import *
 from graphframes.examples import Graphs
 
@@ -16,7 +14,6 @@ sc = SparkContext('local', 'barcos')
 sq = SQLContext(sc)
 
 csv = sc.textFile("data/ship_routes.csv") \
-    .map(lambda u: unicodedata.normalize('NFKD', u).encode('ascii','ignore')) \
     .map(lambda c: c.split("|")) \
     .map(lambda c: (c[0], c[1], c[4]))
 sequential_route = sq.createDataFrame(csv, ["order", "ship_imo", "country_code"])
@@ -31,7 +28,6 @@ edges = routes.select(col("country_code").alias("src"), col("dst"), col("ship_im
 
 countries_rdd = sc \
     .textFile('./data/country_codes.csv') \
-    .map(lambda u: unicodedata.normalize('NFKD', u).encode('ascii','ignore')) \
     .map(lambda c: tuple(reversed(c.split(','))))
 vertices = sq.createDataFrame(countries_rdd, ["id", "country_label"])
 # vertices.show(100)
