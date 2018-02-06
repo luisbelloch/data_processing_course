@@ -6,8 +6,9 @@ import argparse
 import logging
 
 import apache_beam as beam
-from apache_beam.utils.pipeline_options import PipelineOptions
-from apache_beam.utils.pipeline_options import SetupOptions
+
+from apache_beam.options.pipeline_options import PipelineOptions
+from apache_beam.options.pipeline_options import SetupOptions
 
 def run(argv=None):
   parser = argparse.ArgumentParser()
@@ -26,3 +27,4 @@ def run(argv=None):
 if __name__ == '__main__':
   logging.getLogger().setLevel(logging.DEBUG)
   run()
+
