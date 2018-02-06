@@ -1,5 +1,5 @@
 FROM debian:jessie-slim 
-MAINTAINER Luis Belloch <docker@luisbelloch.es>
+LABEL maintainer="Luis Belloch <docker@luisbelloch.es>"
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \

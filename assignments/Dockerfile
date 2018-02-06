@@ -1,5 +1,5 @@
 FROM luisbelloch/spark
-LABEL maintainer="Luis Belloch <luis@luisbelloch.es"
+LABEL maintainer="Luis Belloch <docker@luisbelloch.es>"
 
 WORKDIR /opt/tests/
 

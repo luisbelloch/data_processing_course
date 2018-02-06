@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-slim
-MAINTAINER Luis Belloch <docker@luisbelloch.es>
+LABEL maintainer="Luis Belloch <docker@luisbelloch.es>"
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends python3-software-properties curl && rm -rf /var/lib/apt/lists/*
