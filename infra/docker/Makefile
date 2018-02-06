@@ -12,7 +12,7 @@ tag:
 push:
 	docker push luisbelloch/spark:2.2.1 
 	docker push luisbelloch/spark:2018.1
-	# docker push luisbelloch/spark
+	docker push luisbelloch/spark
 
 list:
 	docker images luisbelloch/spark
