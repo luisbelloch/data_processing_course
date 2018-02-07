@@ -76,6 +76,7 @@ To be added soon, stay tuned!
     - [Spark on Docker](infra/docker/docker.md)
     - [Beam on Docker](infra/beam/beam.md)
     - [Spark on Kubernetes](infra/kubernetes/kubernetes.md)
+    - [PySpark Jupyter Notebook](infra/pyspark-jupyter/README.md)
 
 ## Assignments
 
