@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-
-from __future__ import print_function
-
 from pyspark.sql import SparkSession
 from pyspark.ml.recommendation import ALS
+
+# ALTERNATIVE
 # from pyspark.mllib.evaluation import RegressionMetrics, RankingMetrics
 # from pyspark.mllib.recommendation import ALS, Rating
 

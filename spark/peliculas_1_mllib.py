@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from pyspark import SparkContext
 from pyspark.mllib.evaluation import RegressionMetrics, RankingMetrics
 from pyspark.mllib.recommendation import ALS, Rating
@@ -71,3 +68,4 @@ scoreAndLabels = predicciones \
 metrics = RegressionMetrics(scoreAndLabels)
 print("RMSE = %s" % metrics.rootMeanSquaredError)
 print("R-squared = %s" % metrics.r2)
+

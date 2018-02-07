@@ -1,9 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from __future__ import print_function
 from pyspark import SparkContext
-from helpers import *
+from helpers import get_usd_exchange_rates, item_fields, parse_item
 
 sc = SparkContext('local', 'compras')
 txt = sc.textFile('data/compras_tiny.csv')

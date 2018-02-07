@@ -1,9 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from __future__ import print_function
 from pyspark import SparkContext
-from helpers import *
+from helpers import parse_item, item_fields
 
 sc = SparkContext('local', 'compras')
 txt = sc.textFile('data/compras_tiny.csv')
@@ -36,3 +32,4 @@ print("\033[36mCon más de un descuento (v2):\033[0m", mas_de_un_cupon2.count())
 total = parsed.count()
 p_descuentos = mas_de_un_cupon2.count() / float(total)
 print("\n\x1b[38;5;214mPorcentaje:\x1b[0m", p_descuentos, "\n")
+

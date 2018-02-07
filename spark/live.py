@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.master("local").appName("SQL").getOrCreate()

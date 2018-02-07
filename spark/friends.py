@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# RUN: ./graphframes.sh ship_routes.py
 
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
