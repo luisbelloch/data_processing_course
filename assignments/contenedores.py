@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from __future__ import print_function
 from pyspark import SparkContext
 from pyspark.sql import SQLContext, Row
 
@@ -92,3 +88,4 @@ def main():
 
 if __name__ == '__main__':
   main()
+
