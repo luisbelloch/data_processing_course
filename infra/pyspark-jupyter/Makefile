@@ -3,21 +3,21 @@ PHONY=build tag push list run
 all: build requirements.txt tag
 
 build:
-	docker build -t luisbelloch/spark-jupyter .
+	docker build -t luisbelloch/pyspark-jupyter .
 
 requirements.txt: build
-	docker run -t luisbelloch/spark-jupyter pip3 freeze > requirements.txt
+	docker run -t luisbelloch/pyspark-jupyter pip3 freeze > requirements.txt
 
 tag:
-	docker tag luisbelloch/spark-jupyter luisbelloch/spark-jupyter:2018.1
+	docker tag luisbelloch/pyspark-jupyter luisbelloch/pyspark-jupyter:2018.1
 
 push:
-	docker push luisbelloch/spark-jupyter:2018.1
-	docker push luisbelloch/spark-jupyter
+	docker push luisbelloch/pyspark-jupyter:2018.1
+	docker push luisbelloch/pyspark-jupyter
 
 run:
 	./pyspark-jupyter.sh
 
 list:
-	docker images luisbelloch/spark-jupyter
+	docker images luisbelloch/pyspark-jupyter
 

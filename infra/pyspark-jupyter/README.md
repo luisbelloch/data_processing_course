@@ -5,7 +5,7 @@ This folder contains a docker container with PySpark ready to be run from a Jupy
 To run it, simply do:
 
 ```
-$ ./docker run -p 8888:8888 -ti luisbelloch/spark-jupyter
+$ ./docker run -p 8888:8888 -ti luisbelloch/pyspark-jupyter
 ```
 
 And navigate to [http://localhost:8888](http://localhost:8888). The password token will be displayed in the terminal.
