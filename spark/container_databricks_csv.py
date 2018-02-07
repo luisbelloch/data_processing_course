@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.master("local").appName("SQL").getOrCreate()
@@ -22,6 +19,4 @@ df.groupBy("country").count().show()
 
 df.createOrReplaceTempView("container")
 spark.sql("SELECT ship_name FROM container WHERE country = 'DK'").show()
-
-
 

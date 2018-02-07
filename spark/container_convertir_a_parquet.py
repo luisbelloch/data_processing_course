@@ -1,11 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from __future__ import print_function
 from pyspark import SparkContext
 from pyspark.sql import SQLContext, Row
 
-from helpers import *
+from helpers import container_fields, parse_container
 
 sc = SparkContext('local', 'barcos')
 sq = SQLContext(sc)
@@ -39,3 +35,4 @@ todo_df.printSchema()
 outpath = 'data/containers_tiny.parquet'
 todo_df.write.mode('overwrite').parquet(outpath)
 print("\nDatos guardados en", outpath)
+

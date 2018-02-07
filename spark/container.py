@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from __future__ import print_function
 from pyspark import SparkContext
 from pyspark.sql import SQLContext, Row
-
-from helpers import *
 
 sc = SparkContext('local', 'barcos')
 sq = SQLContext(sc)
