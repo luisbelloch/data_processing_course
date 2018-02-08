@@ -75,7 +75,7 @@ $ ./test.sh
 También es posible lanzar `bash` o `pyspark` para hacer comprobaciones manualmente:
 
 ```
-$ docker run -v $(PWD):/opt/tests/assigments -ti luisbelloch/spark-assignments /bin/bash
+$ docker run -v $(pwd):/opt/tests/assigments -ti luisbelloch/spark-assignments /bin/bash
 ```
 
 ### Ejecución local de pruebas
