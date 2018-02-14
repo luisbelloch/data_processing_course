@@ -4,6 +4,7 @@ services:
     image: luisbelloch/spark
     ports:
       - 8080:8080
+      - 7077:7077
     command: /opt/spark/sbin/start-master.sh
     environment:
       MASTER: spark://master:7077
