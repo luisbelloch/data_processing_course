@@ -13,7 +13,6 @@ def parse_item(raw_string):
   f += [None] * (len(item_fields) - len(f))
   return Item(*f)
 
-# Uso básico de namedtuples:
 # Thing = namedtuple('Item', ['foo', 'bar'])
 # some = Thing(foo=42, bar='hello')
 # some.foo

@@ -14,11 +14,11 @@
 
     - name: Basic dependencies
       become: true
-      apt: name={{item}} state=latest 
+      apt: name={{item}} state=latest
       with_items:
-        - software-properties-common 
-        - python-software-properties 
-        - curl 
+        - software-properties-common
+        - python-software-properties
+        - curl
         - git
         - vim
 
@@ -42,7 +42,7 @@
         dest: '{{ ansible_env.HOME }}/data_processing_course'
 
     - stat:
-        path: '/opt/{{ spark_pkg_name }}'        
+        path: '/opt/{{ spark_pkg_name }}'
       register: spark_dest
 
     - name: Install SPARK
@@ -57,16 +57,16 @@
 
         - name: Link to latest version
           become: true
-          file: 
+          file:
             state: link
-            src: '/opt/{{ spark_pkg_name }}' 
-            dest: '{{ spark_home }}' 
+            src: '/opt/{{ spark_pkg_name }}'
+            dest: '{{ spark_home }}'
 
         - name: Add Spark to PATH
           lineinfile:
             path: '{{ ansible_env.HOME }}/.bashrc'
             line: 'export PATH=$PATH:/opt/{{ spark_pkg_name }}/bin'
-        
+
         - name: Set PySpark Python version to 3
           lineinfile:
             path: '{{ ansible_env.HOME }}/.bashrc'
