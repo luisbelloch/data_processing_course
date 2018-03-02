@@ -1,4 +1,4 @@
-PHONY=build tag push list
+.PHONY: all build tag push list
 
 all: build tag
 

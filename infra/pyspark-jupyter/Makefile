@@ -1,4 +1,4 @@
-PHONY=build tag push list run
+.PHONY: all build tag push list run
 
 all: build requirements.txt tag
 
