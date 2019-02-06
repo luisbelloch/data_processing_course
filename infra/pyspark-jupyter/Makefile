@@ -9,10 +9,10 @@ requirements.txt: build
 	docker run -t luisbelloch/pyspark-jupyter pip3 freeze > requirements.txt
 
 tag:
-	docker tag luisbelloch/pyspark-jupyter luisbelloch/pyspark-jupyter:2018.1
+	docker tag luisbelloch/pyspark-jupyter luisbelloch/pyspark-jupyter:2019.1
 
 push:
-	docker push luisbelloch/pyspark-jupyter:2018.1
+	docker push luisbelloch/pyspark-jupyter:2019.1
 	docker push luisbelloch/pyspark-jupyter
 
 run:
