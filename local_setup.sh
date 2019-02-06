@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-SPARK_URL=${SPARK_URL:-http://apache.rediris.es/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz}
+SPARK_URL=${SPARK_URL:-http://apache.rediris.es/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz}
 SPARK_PKG=${SPARK_URL##*/}
 SPARK_HOME=${SPARK_HOME:-$(pwd)/.spark}
 
@@ -13,12 +13,12 @@ if [ -t 1 ]; then
     fi
 fi
 
-stderr() { >&2 echo $@; }
+stderr() { >&2 echo "$@"; }
 
 if [[ -d "${SPARK_HOME}" ]]; then
     stderr "${c_error}ERROR${c_norm}: Folder already exists '$SPARK_HOME'"
     stderr "Set SPARK_HOME to an empty folder before running this script or make sure there's no 'spark' folder in current directory."
-    exit -1
+    exit 1
 fi
 
 stderr "${c_step}[0] Destination: ${SPARK_HOME}${c_norm}"
