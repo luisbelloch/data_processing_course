@@ -11,4 +11,6 @@ metastore_db/
 out/
 __pycache__/
 spark-warehouse/
+.direnv/
+.ipynb_checkpoints/
 
