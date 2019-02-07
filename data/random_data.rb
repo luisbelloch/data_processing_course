@@ -15,7 +15,7 @@ def credit_card
 end
 
 def funds(m)
-  (1..m).each do |n|  
+  (1..m).each do |n|
     amount = Random.rand(1000.0)
     parent = gen_id
     parent_name = Faker::Company.name
@@ -42,8 +42,8 @@ end
 
 def ships_and_containers(m, p)
   puts ['ship_imo', 'ship_name', 'country', 'departure', 'container_id', 'container_type', 'container_group', 'net_weight', 'gross_weight', 'owner', 'declared', 'contact', 'customs_ok'].join(";")
-  container_codes = CSV.read('./data/iso-container-codes.csv').map { |m| m[0] }.drop(1)
-  container_groups = CSV.read('./data/iso-container-groups.csv').map { |m| m[0] }.drop(1)
+  container_codes = CSV.read('./iso-container-codes.csv').map { |m| m[0] }.drop(1)
+  container_groups = CSV.read('./iso-container-groups.csv').map { |m| m[0] }.drop(1)
   (1..m).each do |n|
     ship_imo = gen_id(3, 1000000)
     ship_name = [Faker::Name.first_name, Faker::Address.city].sample
@@ -70,14 +70,14 @@ end
 
 def shop(m)
   puts ['tx_id', 'tx_time', 'buyer', 'currency_code', 'payment_type', 'credit_card_number', 'country', 'department', 'product', 'item_price', 'coupon_code', 'was_returned'].join('|')
-  (1..m).each do |n|  
+  (1..m).each do |n|
     buyer = Faker::Name.name
     tx_id = gen_id(7, 100)
     tx_time = time_rand Time.local(2010, 1, 1), Time.local(2010, 12, 31)
     cc = credit_card()
     price = Faker::Commerce.price
     currency = ['USD', 'EUR', 'JPY', 'AUD', 'CAD', 'GBP'].sample
-    payment = ['VISA', 'MASTERCARD', 'AMERICAN_EXPRESS', 'DANKORT', 'JCB', 'FORBRUGSFORENINGEN'].sample 
+    payment = ['VISA', 'MASTERCARD', 'AMERICAN_EXPRESS', 'DANKORT', 'JCB', 'FORBRUGSFORENINGEN'].sample
     country = Faker::Address.country_code
     divisions = [0, 0, Random.rand(5)].sample
     positions = [0] + (0..divisions-1).map { |d| Random.rand(1.0) }.sort + [1]
@@ -85,7 +85,7 @@ def shop(m)
       percent = pos[1] - pos[0]
       item_price = (price*percent).round(2)
       department = Faker::Commerce.department(1, true)
-      product = Faker::Commerce.product_name 
+      product = Faker::Commerce.product_name
       coupon = [false, false, true, false].sample
       coupon_code = ''
       if (coupon)
@@ -100,4 +100,4 @@ end
 
 # shop(1000)
 # ships_and_containers(20, 2)
-ratings(10000)
+# ratings(10000)
