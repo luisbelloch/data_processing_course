@@ -52,3 +52,8 @@ def isoDate(raw_string):
   except Exception:
     return None
 
+def dataUrl(fileName):
+  base = "./data"
+  # base = "gs://bigdataupv_data"
+  return os.path.join(base, fileName)
+
