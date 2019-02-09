@@ -19,17 +19,24 @@ If you find a bug or you want to contribute some comments, please [fill an issue
     - GraphX (Scala)
     - GraphFrames (Python)
 7. Spark cluster deployment
-    - Standalone cluster
+    - [Single node](infra/single-node.md)
+    - Clustering
     - [Docker](infra/docker/docker.md)
     - [Kubernetes](infra/kubernetes/kubernetes.md)
+    - [Cloud Dataproc](infra/dataproc.md)
 8. Apache Beam
+    - [Rationale](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
     - [Docker container using Python SDK](infra/beam/beam.md)
     - Slides (coming soon)
-  
+9. Minio
+10. Apache Airflow: coordinating jobs
+    - Basic setup
+    - DAGs
+    - Cloud Composer
 
 ### Part B - Architecture Workshop
 
-Team work using [Aronson's puzzle](https://en.wikipedia.org/wiki/Jigsaw_(teaching_technique)). We present a set of real case studies to solve and teams have to design and develop them using any technology available in the market today.  
+Team work using [Aronson's puzzle](https://en.wikipedia.org/wiki/Jigsaw_(teaching_technique)). We present a set of real case studies to solve and teams have to design and develop them using any technology available in the market today.
 
 In the first phase, the teams will split with the goal of becoming experts into a particular area and dig into the proposed tools and framework specifics. In the second phase, they'll return to their peers to design a system that covers use case requirement. There's a 15 minute presentation per team to share the results.
 
@@ -41,7 +48,7 @@ To be added soon, stay tuned!
 
 - Functional programming (coming soon)
 - Why you don't need big data tools
-    - [poors_man_routes.sh](spark/data/poors_man_routes.sh) - bash superpowers
+    - [poors_man_routes.sh](data/poors_man_routes.sh) - bash superpowers
 - Basic data processing using PySpark
     - [compras_con_mas_de_un_descuento.py](spark/compras_con_mas_de_un_descuento.py)
     - [compras_importe_total_agrupado_por_tx_id.py](spark/compras_importe_total_agrupado_por_tx_id.py)
@@ -69,18 +76,28 @@ To be added soon, stay tuned!
     - [compras_ptransform.py](beam/compras_ptransform.py)
     - [compras_ptransform_condensed.py](beam/compras_ptransform_condensed.py)
     - [compras_totales_por_pais.py](beam/compras_totales_por_pais.py)
+- Apache Airflow
+    - [Standalone Docker Image](https://hub.docker.com/r/luisbelloch/airflow)
+    - Tutorial for Composer in Cloud Shell [[English]() / [Spanish]()]
+    - [hello_dags.py](airflow/dags/hello_dags.py)
+    - [hello_python_operator.py](airflow/dags/hello_python_operator.py)
+    - [hello_simple.py](airflow/dags/hello_simple.py)
+    - [spark_ondemand.py](airflow/dags/spark_ondemand.py)
+    - [spark_simple.py](airflow/dags/spark_simple.py)
 - Deployment
-    - [Standalone](local_setup.sh)
-    - [Vagrant](Vagrantfile)
+    - [Single Node](infra/single-node.md)
+    - [Vagrant](infra/vagrant.md)
     - [Ansible](playbook.yml)
     - [Spark on Docker](infra/docker/docker.md)
     - [Beam on Docker](infra/beam/beam.md)
     - [Spark on Kubernetes](infra/kubernetes/kubernetes.md)
+    - [Spark on Google Cloud Dataproc](infra/dataproc.md)
+        - Tutorial for Dataproc in Cloud Shell [[English]() / [Spanish]()]
     - [PySpark Jupyter Notebook](infra/pyspark-jupyter/README.md)
 
 ## Assignments
 
-Final course assignments can be found in [this document](assignments/README.md). They are in Spanish, I'm planning to translate them for 2017 edition.
+Final course assignments can be found in [this document](assignments/README.md). They are in Spanish, they will be translated to English at some point.
 
 I'm not publishing the solutions to avoid remaking the exercises every year. There's a test suite using [py.test](http://pytest.org) to help you validate the results. If you're really interested on them, please write me to [bigdata@luisbelloch.es](mailto:bigdata@luisbelloch.es).
 
@@ -88,7 +105,7 @@ I'm not publishing the solutions to avoid remaking the exercises every year. The
 
 > Self-sufficiency is the state of not requiring any aid, support, or interaction, for survival; it is therefore a type of personal or collective autonomy -  [Wikipedia](https://en.wikipedia.org/wiki/Self-sufficiency).
 
-We follow a self-sufficiency principles for students to drive course goals. At the end of the course, students should have enough knowledge and tools to develop small data processing solutions their own. 
+We follow a self-sufficiency principles for students to drive course goals. At the end of the course, students should have enough knowledge and tools to develop small data processing solutions their own.
 
 1. Student understands the underlying concepts behind Spark, and is able to write data processing scripts using PySpark, Spark SQL and MLib.
 2. Student is capable of identify common data processing libraries and frameworks and their applications.
@@ -101,10 +118,11 @@ We recommend the following papers to expand knowledge on Spark and other data pr
 - [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)
 - [Discretized Streams: An Efficient and Fault-Tolerant Model for Stream Processing on Large Clusters](http://people.csail.mit.edu/matei/papers/2012/hotcloud_spark_streaming.pdf)
 - [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
-- [MLlib: Machine Learning in Apache Spark](http://www.jmlr.org/papers/volume17/15-237/15-237.pdf) 
+- [MLlib: Machine Learning in Apache Spark](http://www.jmlr.org/papers/volume17/15-237/15-237.pdf)
 - [GraphX: Unifying Data-Parallel and Graph-Parallel Analytics](https://amplab.cs.berkeley.edu/wp-content/uploads/2014/02/graphx.pdf)
 - [Tachyon: Memory Throughput I/O for Cluster Computing Frameworks](http://people.eecs.berkeley.edu/~haoyuan/papers/2013_ladis_tachyon.pdf)
 - [The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
+- [Streaming 101: The world beyond batch](https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-101) - [Part two](https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-102)
 - [Apache Flink™: Stream and Batch Processing in a Single Engine](https://www.user.tu-berlin.de/asteriosk/assets/publications/flink-deb.pdf)
 - [MillWheel: Fault-Tolerant Stream Processing at Internet Scale](http://research.google.com/pubs/pub41378.html)
 - [Pig Latin: A Not-So-Foreign Language for Data Processing](http://infolab.stanford.edu/~olston/publications/sigmod08.pdf)
@@ -119,15 +137,18 @@ Some ideas we might add in forthcoming course editions:
 - ~~Apache Flink and Apache Beam~~ (2017)
 - Add Tachyon content and exercises
 - Add Kafka source to the streaming sample
-- Introduce samples with Minio / InfiniSpan
+- ~~Introduce samples with Minio / InfiniSpan~~ (2018)
 - ~~Improve deployment scenarios and tools: Mesos, Chef, etc.~~ (2017)
 - Monitoring using Prometheus and Grafana, provide ready-to-use docker containers
 - Profiling of Spark applications (Scala only)
 - Translate all content to English and Spanish
+- ~~Cloud Dataproc~~ (2019)
+- ~~Apache Airflow~~ (2019)
+- Tensorflow training and model execution at scale
 
 ## License
 
-Advanced Data Processing course materials.  
+Advanced Data Processing course materials.
 Copyright (C) 2016, Luis Belloch
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
