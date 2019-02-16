@@ -22,7 +22,7 @@ Para el procesado del archivo puedes utilizar cualquier función disponible en e
 
 ## Plazo de entrega
 
-Los ejercicios hay que enviarlos antes del 1 de Junio.
+Los ejercicios hay que enviarlos antes del 1 de Mayo.
 
 ## Criterios de evaluación
 
