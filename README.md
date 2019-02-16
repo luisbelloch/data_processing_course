@@ -128,6 +128,8 @@ We recommend the following papers to expand knowledge on Spark and other data pr
 - [Pig Latin: A Not-So-Foreign Language for Data Processing](http://infolab.stanford.edu/~olston/publications/sigmod08.pdf)
 - [Interpreting the Data: Parallel Analysis with Sawzall](http://research.google.com/archive/sawzall.html)
 - [Photon: Fault-tolerant and Scalable Joining of Continuous Data Streams](http://research.google.com/pubs/pub41318.html)
+- [Above the Clouds: A Berkeley View of Cloud Computing](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf)
+- [Cloud Programming Simplified: A Berkeley View on Serverless Computing](https://arxiv.org/abs/1902.03383) (particularly item 8.2 on MapReduce also applies to Spark)
 
 ## Roadmap
 
