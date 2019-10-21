@@ -14,27 +14,29 @@
 
     - name: Basic dependencies
       become: true
-      apt: name={{item}} state=latest
-      with_items:
-        - software-properties-common
-        - python-software-properties
-        - curl
-        - git
-        - vim
+      apt:
+        name: ['software-properties-common', 'python3-software-properties', 'curl', 'git', 'vim']
+        state: latest
+        update_cache: yes
+        force_apt_get: true
 
-    - name: Install Java 8
+    - name: Install AdoptOpenJDK 8
       become: true
       block:
-        - name: Oracle APT Repository
-          apt_repository: repo='ppa:webupd8team/java'
-        - name: Java 8 License
-          debconf: name='oracle-java8-installer' question='shared/accepted-oracle-license-v1-1' vtype='select' value='true'
-        - name: Install Oracle JDK 8 package
-          apt: name={{item}} state=latest
-          with_items:
-            - oracle-java8-installer
-            - ca-certificates
-            - oracle-java8-set-default
+        - name: Import keys
+          apt_key:
+            url: https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public
+            state: present
+        - name: Add repository
+          apt_repository:
+            repo: deb https://adoptopenjdk.jfrog.io/adoptopenjdk/deb xenial main
+            state: present
+        - name: Install package
+          apt:
+            name: ['adoptopenjdk-8-hotspot', 'ca-certificates']
+            state: latest
+            update_cache: yes
+            force_apt_get: true
 
     - name: Clone classrom repository
       git:
