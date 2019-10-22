@@ -7,8 +7,25 @@ This folder will be used to see how we could provision a Spark cluster using Doc
 By default, the image will run is pointing to `pyspark`, so running it without parameters will display directly the python repl:
 
 ```
-$ docker run -ti luisbelloch/spark 
+$ docker run -ti luisbelloch/spark
 ```
+
+### Running PySpark samples
+
+We've included an script to easily run scripts in the [spark](../../spark) folder. To run any of the scripts, simply do:
+
+```
+$ cd data_processing_course/spark
+$ ./spark compras_conversion_a_dolares.py
+```
+
+Please pay attention to the dot before the name of the script, `./spark`. The docker container has access to all the scripts in that folder, included the `data` folder on it:
+
+```python
+txt = sc.textFile('./data/compras_tiny.csv')
+```
+
+### Using the image without the "spark" helper script
 
 Remember that inside the container you won't have access to the samples or data files we'll use in classroom. You'll have to mount a volume with them, [using -v option](https://docs.docker.com/engine/tutorials/dockervolumes). The local folder cannot contain relative routes, use `readlink` command to convert it to an absolute one.
 
@@ -20,14 +37,6 @@ $ docker run \
 ```
 
 That should spawn a new container and run the job inside it. We've also mounted the samples folder in `/opt/samples` inside the container. All the executables from the Spark distribution are available in the container's path.
-
-### Running PySpark samples
-
-We've included an script to easily run scripts in the [samples](../../samples) folder. To run any of the scripts, simply do:
-
-```
-./spark compras_conversion_a_dolares.py
-```
 
 ### How to build the images
 
@@ -63,6 +72,15 @@ $ docker run -p 8081:8081 \
 ```
 
 The worker node should be displayed in the master UI.
+
+Remember that if you want to run jobs against those containers you need to point `spark-submit` or `pyspark` to the master node. To do it, add the option `--master` and set the URL that you copied from master node web page:
+
+```
+$ docker run -p 8081:8081 \
+    --link nervous_noyce \
+    -ti luisbelloch/spark pyspark \
+    --master spark://11168790f9c1:7077
+```
 
 ## Using Docker Compose
 

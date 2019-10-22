@@ -20,6 +20,7 @@ If you find a bug or you want to contribute some comments, please [fill an issue
     - GraphFrames (Python)
 7. Spark cluster deployment
     - [Single node](infra/single-node.md)
+    - [Vagrant box playground](infra/vagrant.md)
     - Clustering
     - [Docker](infra/docker/docker.md)
     - [Kubernetes](infra/kubernetes/kubernetes.md)

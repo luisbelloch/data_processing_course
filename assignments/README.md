@@ -78,6 +78,13 @@ También es posible lanzar `bash` o `pyspark` para hacer comprobaciones manualme
 $ docker run -v $(pwd):/opt/tests/assigments -ti luisbelloch/spark-assignments /bin/bash
 ```
 
+Para simplificar el uso, hemos incluido un script llamado `spark` dentro de [la carpeta de ejemplos](../spark) que vimos en clase. El script es capaz de ejecutar cualquier script contenido dentro de esa carpeta, teniendo acceso también a los archivos de datos en `data`:
+
+```
+$ cd data_processing_course/spark
+$ ./spark compras_conversion_a_dolares.py
+```
+
 ### Ejecución local de pruebas
 
 Teniendo Spark instalado mediante `local_setup.sh`, puedes instalar `pytest` en local mediante `venv`:
