@@ -10,6 +10,9 @@ ENV SPARK_HOME=/opt/spark
 RUN mkdir -p /opt/spark && curl -s http://apache.rediris.es/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz | tar -xz -C "${SPARK_HOME}" --strip-components=1
 ENV PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
 
+RUN cp "${SPARK_HOME}/conf/log4j.properties.template" "${SPARK_HOME}/conf/log4j.properties" && \
+    sed -ibak 's/rootCategory=INFO/rootCategory=ERROR/g' "${SPARK_HOME}/conf/log4j.properties"
+
 ENV SPARK_NO_DAEMONIZE=true
 ENV PYSPARK_PYTHON=python3
 EXPOSE 4040 7077 8080
