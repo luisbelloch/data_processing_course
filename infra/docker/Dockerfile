@@ -7,7 +7,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 ENV SPARK_HOME=/opt/spark
-RUN mkdir -p /opt/spark && curl -s http://apache.rediris.es/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz | tar -xz -C "${SPARK_HOME}" --strip-components=1
+RUN mkdir -p /opt/spark && curl -s http://apache.rediris.es/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz | tar -xz -C "${SPARK_HOME}" --strip-components=1
 ENV PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
 
 ENV SPARK_NO_DAEMONIZE=true
