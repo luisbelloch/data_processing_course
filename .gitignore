@@ -6,7 +6,7 @@ node_modules
 alt/
 checkpoint
 metastore_db/
-.spark/
+.spark*/
 .vagrant/
 out/
 __pycache__/

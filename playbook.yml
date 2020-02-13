@@ -2,8 +2,8 @@
 - hosts: all
   vars:
     spark_home: /opt/spark
-    spark_pkg_name: spark-2.4.4-bin-hadoop2.7
-    spark_pkg_url: http://apache.rediris.es/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz
+    spark_pkg_name: spark-2.4.5-bin-hadoop2.7
+    spark_pkg_url: http://apache.rediris.es/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
 
   tasks:
     - name: Update all packages to the latest version
