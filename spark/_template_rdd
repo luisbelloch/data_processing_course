@@ -7,5 +7,5 @@ no_header = txt.filter(lambda s: not s.startswith(item_fields[0]))
 parsed = no_header.map(lambda s: parse_item(s)).cache()
 
 print(parsed.take(1))
-print(parsed.toDebugString())
+print(parsed.toDebugString().decode('utf-8'))
 
