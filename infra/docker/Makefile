@@ -1,19 +1,30 @@
-.PHONY: all build tag push list
+SPARK_VERSION:=2.4.5
+COURSE_VERSION:=2020.1
+IMAGE_NAME:=luisbelloch/spark
 
-all: build tag
+.PHONY: help
+help:
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(lastword $(MAKEFILE_LIST)) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-build:
-	docker build -t luisbelloch/spark .
+.PHONY: all
+all: build tag ## Builds and tags an image
 
-tag:
-	docker tag luisbelloch/spark luisbelloch/spark:2.4.4
-	docker tag luisbelloch/spark luisbelloch/spark:2019.2
+.PHONY: build
+build: ## Assembles image from Spark binaries
+	docker build --build-arg SPARK_VERSION=${SPARK_VERSION} -t $(IMAGE_NAME) .
 
-push:
-	docker push luisbelloch/spark:2.4.4
-	docker push luisbelloch/spark:2019.2
-	docker push luisbelloch/spark
+.PHONY: tag
+tag: ## Adds tags to current latest image
+	docker tag $(IMAGE_NAME) $(IMAGE_NAME):$(SPARK_VERSION)
+	docker tag $(IMAGE_NAME) $(IMAGE_NAME):$(COURSE_VERSION)
 
-list:
-	docker images luisbelloch/spark
+.PHONY: push
+push: ## Uploads images to registry
+	docker push $(IMAGE_NAME):$(SPARK_VERSION)
+	docker push $(IMAGE_NAME):$(COURSE_VERSION)
+	docker push $(IMAGE_NAME)
+
+.PHONY: list
+list: ## Lists local generated images
+	docker images $(IMAGE_NAME)
 
