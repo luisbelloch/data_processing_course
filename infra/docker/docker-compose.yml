@@ -11,9 +11,8 @@ services:
       SPARK_PUBLIC_DNS: localhost
       SPARK_NO_DAEMONIZE: 1
   worker:
-    image: luisbelloch/spark    
+    image: luisbelloch/spark
     command: /opt/spark/sbin/start-slave.sh spark://master:7077
-    environment:      
       SPARK_PUBLIC_DNS: localhost
       SPARK_NO_DAEMONIZE: 1
     # Yeah, port festival, classic :-)
