@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from contenedores import *
+from .contenedores import *
 from pyspark.sql import SQLContext
 
 @pytest.fixture(scope="session")

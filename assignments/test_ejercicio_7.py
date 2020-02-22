@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from contenedores import *
+from .contenedores import *
 
 @pytest.fixture(scope="session")
 def resultados(spark_context, path_resultados):

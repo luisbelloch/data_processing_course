@@ -5,7 +5,7 @@ import shutil
 import sys
 
 from glob import glob
-from helpers import definir_path_resultados, comprobar_resultados_en_hdfs
+from .helpers import definir_path_resultados, comprobar_resultados_en_hdfs
 
 spark_home = os.environ.get('SPARK_HOME', None)
 if not spark_home:

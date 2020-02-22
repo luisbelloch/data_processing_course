@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from contenedores import *
+from .contenedores import *
 from pyspark.sql import SQLContext
 
 def test_ejercicio_3_data_frame_tiene_613_filas(resultados_ejercicio_3):

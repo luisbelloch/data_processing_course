@@ -1,7 +1,7 @@
 from pyspark import SparkContext
 from pyspark.sql import SQLContext, Row
 
-from helpers import *
+from .helpers import *
 
 path_containers = 'data/containers.csv'
 
