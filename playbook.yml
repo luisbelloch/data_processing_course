@@ -2,8 +2,8 @@
 - hosts: all
   vars:
     spark_home: /opt/spark
-    spark_pkg_name: spark-2.4.5-bin-hadoop2.7
-    spark_pkg_url: http://apache.rediris.es/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
+    spark_pkg_name: spark-3.0.1-bin-hadoop2.7
+    spark_pkg_url: https://downloads.apache.org/spark/spark-3.0.1/spark-3.0.1-bin-hadoop2.7.tgz
 
   tasks:
     - name: Update all packages to the latest version
@@ -20,7 +20,7 @@
         update_cache: yes
         force_apt_get: true
 
-    - name: Install AdoptOpenJDK 8
+    - name: Install AdoptOpenJDK 11
       become: true
       block:
         - name: Import keys
@@ -33,7 +33,7 @@
             state: present
         - name: Install package
           apt:
-            name: ['adoptopenjdk-8-hotspot', 'ca-certificates']
+            name: ['adoptopenjdk-11-hotspot', 'ca-certificates']
             state: latest
             update_cache: yes
             force_apt_get: true
