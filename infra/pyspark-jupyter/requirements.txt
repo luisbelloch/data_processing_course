@@ -29,7 +29,7 @@ prometheus-client==0.5.0
 prompt-toolkit==2.0.8
 ptyprocess==0.6.0
 pycurl==7.43.0
-Pygments==2.3.1
+Pygments==2.7.4
 python-apt==1.4.0b3
 python-dateutil==2.8.0
 pytz==2018.9
