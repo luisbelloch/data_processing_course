@@ -9,11 +9,11 @@ RUN apt-get update && \
 RUN pip3 install --upgrade setuptools wheel && \
     rm -rf ~/.cache/*
 
-RUN pip3 install --upgrade jupyter pandas && \
+RUN pip3 install --upgrade jupyterlab pandas && \
     rm -rf ~/.cache/*
 
 ENV PYSPARK_DRIVER_PYTHON=jupyter
-ENV PYSPARK_DRIVER_PYTHON_OPTS="notebook --ip $(awk \'END{print $1}\' /etc/hosts) --allow-root --port 8888"
+ENV PYSPARK_DRIVER_PYTHON_OPTS="lab --ip $(awk \'END{print $1}\' /etc/hosts) --allow-root --port 8888"
 
 WORKDIR /opt/notebook
 COPY entrypoint.sh /opt/notebook
