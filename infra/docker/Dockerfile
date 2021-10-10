@@ -6,9 +6,9 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends python3-software-properties python3-numpy curl && \
     rm -rf /var/lib/apt/lists/*
 
-ARG SPARK_VERSION=3.0.1
+ARG SPARK_VERSION=3.1.2
 ENV SPARK_HOME=/opt/spark
-RUN mkdir -p /opt/spark && curl -s https://downloads.apache.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop2.7.tgz | tar -xz -C "${SPARK_HOME}" --strip-components=1
+RUN mkdir -p /opt/spark && curl -s https://downloads.apache.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.2.tgz | tar -xz -C "${SPARK_HOME}" --strip-components=1
 ENV PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
 
 RUN cp "${SPARK_HOME}/conf/log4j.properties.template" "${SPARK_HOME}/conf/log4j.properties" && \

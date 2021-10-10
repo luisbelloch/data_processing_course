@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-SPARK_URL=${SPARK_URL:-https://downloads.apache.org/spark/spark-3.0.1/spark-3.0.1-bin-hadoop2.7.tgz}
+SPARK_URL=${SPARK_URL:-https://downloads.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz}
 SPARK_PKG=${SPARK_URL##*/}
 SPARK_HOME=${SPARK_HOME:-$(pwd)/.spark}
 
