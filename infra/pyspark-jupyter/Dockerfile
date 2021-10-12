@@ -1,24 +1,7 @@
-FROM luisbelloch/spark
+FROM jupyter/pyspark-notebook
 LABEL maintainer="Luis Belloch <docker@luisbelloch.es>"
-
-ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends python3-pip && \
-    rm -rf /var/lib/apt/lists/*
-
-RUN pip3 install --upgrade setuptools wheel && \
-    rm -rf ~/.cache/*
-
-RUN pip3 install --upgrade jupyterlab pandas && \
-    rm -rf ~/.cache/*
-
-ENV PYSPARK_DRIVER_PYTHON=jupyter
-ENV PYSPARK_DRIVER_PYTHON_OPTS="lab --ip $(awk \'END{print $1}\' /etc/hosts) --allow-root --port 8888"
-
-WORKDIR /opt/notebook
-COPY entrypoint.sh /opt/notebook
-
-EXPOSE 8888
-
-CMD ["/opt/notebook/entrypoint.sh"]
-
+ENV JUPYTER_ENABLE_LAB=yes
+RUN git clone https://github.com/luisbelloch/data_processing_course.git && \
+    mv data_processing_course/data . && \
+    mv data_processing_course/spark ./ejemplos && \
+    rm -rf data_processing_course
