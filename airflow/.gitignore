@@ -1,0 +1,5 @@
+docker-compose.yaml
+logs/
+plugins/
+.minio/
+airflow

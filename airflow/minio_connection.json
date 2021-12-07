@@ -1,0 +1,12 @@
+{
+  "aws_default": {
+    "conn_type": "s3",
+    "description": "",
+    "host": "",
+    "login": "bigdataupv",
+    "password": "bigdataupv",
+    "schema": "",
+    "port": null,
+    "extra": "{\"host\": \"http://minio:9000\"}"
+  }
+}

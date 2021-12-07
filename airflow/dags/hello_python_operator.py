@@ -12,6 +12,7 @@ dag = DAG(
     description='Simple tutorial DAG',
     schedule_interval='20 * * * *',
     start_date=datetime(2017, 3, 20),
+    tags=['upv'],
     catchup=False)
 
 dummy_operator = DummyOperator(task_id='dummy_task', retries=3, dag=dag)

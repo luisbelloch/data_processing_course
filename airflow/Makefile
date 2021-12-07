@@ -1,30 +1,34 @@
-IMAGE_NAME:=luisbelloch/airflow
-VERSION_TAG:=2019.1
-DAG_VOLUME:=${PWD}/dags:/var/airflow/dags
-WEB_PORT:=8080:8080
+.PHONY: all
+all: clean docker-compose.yaml airflow init up
 
-.PHONY: build
-build:
-	docker build -t $(IMAGE_NAME) .
+docker-compose.yaml:
+	curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.2.2/docker-compose.yaml'
 
-.PHONY: tag
-tag:
-	docker tag ${IMAGE_NAME} ${IMAGE_NAME}:${VERSION_TAG}
+airflow:
+	curl -Lf 'https://airflow.apache.org/docs/apache-airflow/2.2.2/airflow.sh' > airflow
+	chmod +x airflow
 
-.PHONY: push
-push:
-	docker push ${IMAGE_NAME}
-	docker push ${IMAGE_NAME}:${VERSION_TAG}
+.PHONY: init
+init:
+	docker-compose up airflow-init
 
-.PHONY: web
-web:
-	docker run -p ${WEB_PORT} -v ${DAG_VOLUME} -ti $(IMAGE_NAME) airflow webserver
+.PHONY: up
+up:
+	docker-compose up
 
-.PHONY: scheduler
-scheduler:
-	docker run -p ${WEB_PORT} -v ${DAG_VOLUME} -ti $(IMAGE_NAME) airflow scheduler
+.PHONY: down
+down:
+	docker-compose down --remove-orphans
 
-.PHONY: shell
-shell:
-	docker run -p ${WEB_PORT} -v ${DAG_VOLUME} -ti $(IMAGE_NAME) /bin/bash
+.PHONY: minio
+minio:
+	docker-compose -f docker-compose.yaml -f docker-compose.minio.yaml up minio
 
+.PHONY: minio_connection
+minio_connection: airflow
+	./airflow connections import minio_connection.json
+
+.PHONY: clean
+clean:
+	-docker-compose down --volumes --remove-orphans
+	-rm -rf logs/ plugins/ .minio/ docker-compose.yaml airflow dags/__pycache__

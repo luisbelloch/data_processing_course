@@ -1,0 +1,17 @@
+---
+version: '3'
+services:
+ minio:
+    image: minio/minio
+    environment:
+      MINIO_ROOT_USER: bigdataupv
+      MINIO_ROOT_PASSWORD: bigdataupv
+      MINIO_REGION_NAME: us-east-1
+    ports:
+      - '9000:9000'
+      - '9001:9001'
+    init: true
+    entrypoint: sh
+    command: -c 'mkdir -p /data/gasolina && minio server /data --console-address ":9001"'
+    volumes:
+      - .minio:/data
