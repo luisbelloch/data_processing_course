@@ -1,5 +1,4 @@
 import json
-import socket
 
 from datetime import datetime
 
@@ -60,8 +59,6 @@ def extraer_precio_gasolina_s3():
   @task
   def almacenamiento_s3(contexto):
     print("Almacenando datos... Nothing to do!")
-    import socket
-    print("hostname:", socket.gethostname())
     return 42
 
   todos_los_datos = recogida_s3()
@@ -72,3 +69,4 @@ dag_gasolina = extraer_precio_gasolina_s3()
 
 # Additionally, use Amazon operator, particularly S3KeySensor
 # https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/operators/s3.html
+# https://github.com/apache/airflow/tree/main/airflow/providers/amazon/aws/example_dags
