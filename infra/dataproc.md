@@ -1,6 +1,6 @@
 # Tutorial Dataproc (Spark)
 
-Datapro es la versión gestionada de Spark en Google Cloud. En este tutorial vamos a cubrir como subir archivos a Cloud Storage (S3) y lanzar un trabajo de Spark para procesarlo.
+Dataproc es la versión gestionada de Spark en Google Cloud. En este tutorial vamos a cubrir como subir archivos a Cloud Storage (S3) y lanzar un trabajo de Spark para procesarlo.
 
 Duración estimada: <walkthrough-tutorial-duration duration="45"></walkthrough-tutorial-duration>
 
