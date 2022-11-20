@@ -4,6 +4,10 @@ Dataproc es la versión gestionada de Spark en Google Cloud. En este tutorial va
 
 Duración estimada: <walkthrough-tutorial-duration duration="45"></walkthrough-tutorial-duration>
 
+## Selecciona un proyecto
+
+<walkthrough-project-setup></walkthrough-project-setup>
+
 ## Preparación
 
 ### 1. Habilita las APIs necesarias
@@ -12,11 +16,7 @@ Antes de continuar es necesario habilitar las APIs de Cloud Storage y Dataproc.
 
 <walkthrough-enable-apis apis="dataproc.googleapis.com,storage.googleapis.com ">Habilitar APIs</walkthrough-enable-apis>
 
-### 2. Selecciona un proyecto
-
-<walkthrough-project-setup></walkthrough-project-setup>
-
-### 3. Abre una terminal
+### 2. Abre una terminal
 
 La mayoría de los comandos pueden ejecutarse desde la interfaz de usuario, pero en el tutorial utilizaremos la consola de cloudshell.
 
@@ -27,7 +27,13 @@ arriba a la derecha, o utilizando el siguiente enlace:
 
 ### 3. Materiales de clase
 
-Asegurate de que la carpeta `cloudshell_open/data_processing_course` se ha creado. Sino, puedes abrir de nuevo el proyecto desde [bigdata.luisbelloch.es](http://bigdata.luisbelloch.es) y seleccionando [Open in Cloud Shell](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/luisbelloch/data_processing_course.git).
+Asegurate de que la carpeta `cloudshell_open/data_processing_course` se ha creado y la terminal apunta a esa carpeta.
+
+```sh
+cd ~/cloudshell_open/data_processing_course
+```
+
+Sino, puedes abrir de nuevo el proyecto desde [bigdata.luisbelloch.es](http://bigdata.luisbelloch.es) y seleccionando [Open in Cloud Shell](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/luisbelloch/data_processing_course.git).
 
 Alternativamente puedes clonar el repositorio mediante `git`:
 
@@ -44,6 +50,8 @@ En nuestro caso podemos usar la terminal para crearlo:
 ```sh
 gsutil mb -c regional -l europe-west1 gs://NOMBRE_BUCKET
 ```
+
+Recuerda que el nombre del bucket `NOMBRE_BUCKET` debe ser único en internet.
 
 Para copiar datos puede utilizarse tambien `gsutil` con `cp`:
 
@@ -141,7 +149,7 @@ STATUS: DONE
 Utilizando ese `JOB_ID` podemos también consultar el estado y los logs del trabajo, incluso antes de que finalize:
 
 ```sh
-gcloud dataproc jobs wait 2c5c402a995e424ca24087498d559731 --project bigdataupv2021 --region europe-west1
+gcloud dataproc jobs wait 2c5c402a995e424ca24087498d559731 --project bigdataupv2022 --region europe-west1
 ```
 
 ## Paso 6: Eliminar el cluster

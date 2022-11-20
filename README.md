@@ -24,7 +24,7 @@ If you find a bug or you want to contribute some comments, please [fill an issue
     - Clustering
     - [Docker](infra/docker/docker.md)
     - [Kubernetes](infra/kubernetes/kubernetes.md)
-    - [Cloud Dataproc](infra/dataproc.md)
+    - [Cloud Dataproc](infra/dataproc.md) - [Start Tutorial](https://ssh.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/luisbelloch/data_processing_course.git&page=editor&cloudshell_tutorial=infra/dataproc.md) (in Spanish)
 8. Apache Beam
     - [Rationale](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
     - [Docker container using Python SDK](infra/beam/beam.md)
@@ -94,7 +94,7 @@ To be added soon, stay tuned!
     - [Beam on Docker](infra/beam/beam.md)
     - [Spark on Kubernetes](infra/kubernetes/kubernetes.md)
     - [Spark on Google Cloud Dataproc](infra/dataproc.md)
-        - Tutorial for Dataproc in Cloud Shell [[English]() / [Spanish]()]
+        - Tutorial for Dataproc in Cloud Shell English / [Spanish](https://ssh.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/luisbelloch/data_processing_course.git&page=editor&cloudshell_tutorial=infra/dataproc.md)]
     - [PySpark Jupyter Notebook](infra/pyspark-jupyter/README.md)
 
 ## Assignments
