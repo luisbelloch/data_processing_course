@@ -57,6 +57,7 @@ To be added soon, stay tuned!
     - [compras_top_ten_countries.py](spark/compras_top_ten_countries.py)
     - [helpers.py](spark/helpers.py) - basic parse functions to get started quickly
 - Spark SQL
+    - [compras_sql.py](spark/compras_sql.py)
     - [container.py](spark/container.py)
     - [container_convertir_a_parquet.py](spark/container_convertir_a_parquet.py)
     - [container_rdd_to_dataset.py](spark/container_rdd_to_dataset.py)
