@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+# Alternative: SPARK_DOCKER_IMAGE=apache/spark-py ./spark-submit script.py
+readonly SPARK_DOCKER_IMAGE=${SPARK_DOCKER_IMAGE:-luisbelloch/spark}
 readonly SPARK_SUBMIT=/opt/spark/bin/spark-submit
 readonly DATA_DIR=/tmp/bigdataupv/data
 readonly WORK_DIR=/tmp/bigdataupv/scripts
@@ -16,7 +18,7 @@ abs_path() {
 }
 
 get_data_volume() {
-    # Probe for source folder first, if it doesn't 
+    # Probe for source folder first, if it doesn't
     # exists then it'll try with current folder
     if [[ -d "${0}" ]]; then
         echo "-v $(abs_path $0):"${DATA_DIR}""
@@ -37,5 +39,5 @@ docker run --rm -ti \
     -w "${WORK_DIR}" \
     -v "${source_folder}":"${WORK_DIR}" \
     $data_volume \
-    luisbelloch/spark "${SPARK_SUBMIT}" "${WORK_DIR}"/$1 ${@:2}
+    ${SPARK_DOCKER_IMAGE} "${SPARK_SUBMIT}" "${WORK_DIR}"/$1 ${@:2}
 

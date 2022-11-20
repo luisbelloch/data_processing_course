@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-SPARK_URL=${SPARK_URL:-https://downloads.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz}
+SPARK_URL=${SPARK_URL:-https://downloads.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz}
 SPARK_PKG=${SPARK_URL##*/}
 SPARK_HOME=${SPARK_HOME:-$(pwd)/.spark}
 
@@ -27,8 +27,8 @@ mkdir -p "${SPARK_HOME}"
 curl -s "${SPARK_URL}" | tar -xz -C "${SPARK_HOME}" --strip-components=1
 
 stderr "${c_step}[2] Reducing log level${c_norm}"
-cp "${SPARK_HOME}"/conf/log4j.properties.template "${SPARK_HOME}"/conf/log4j.properties
-sed -ibak 's/rootCategory=INFO/rootCategory=ERROR/g' "${SPARK_HOME}"/conf/log4j.properties
+cp "${SPARK_HOME}"/conf/log4j2.properties.template "${SPARK_HOME}"/conf/log4j2.properties
+sed -ibak 's/rootLogger.level = info/rootLogger.level = error/g' "${SPARK_HOME}/conf/log4j2.properties"
 
 stderr "${c_step}[3] Testing setup${c_norm}"
 echo 'sc.parallelize(1 to 100).count()' | "${SPARK_HOME}"/bin/spark-shell
