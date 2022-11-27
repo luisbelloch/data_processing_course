@@ -26,7 +26,7 @@ with models.DAG('spark_simple', schedule_interval=datetime.timedelta(days=1), de
   run_step = dataproc_operator.DataProcPySparkOperator(
       task_id='run_spark',
       cluster_name='cluster-9c11',
-      region='europe-west1',
+      region=models.Variable.get('gcp_region'),
       main='gs://bigdataupv_code/compras_top_ten_countries.py',
       files=['gs://bigdataupv_code/helpers.py'])
 

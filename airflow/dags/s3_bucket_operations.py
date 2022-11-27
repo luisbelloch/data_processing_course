@@ -4,7 +4,7 @@ from datetime import datetime
 from airflow.decorators import task
 from airflow.models.dag import DAG
 from airflow.providers.amazon.aws.hooks.s3 import S3Hook
-from airflow.providers.amazon.aws.operators.s3_bucket import S3CreateBucketOperator, S3DeleteBucketOperator
+from airflow.providers.amazon.aws.operators.s3 import S3CreateBucketOperator, S3DeleteBucketOperator
 
 # By default, it will use 'aws_default' connection. You can create it here by running `make minio_credentials`
 # If you want to change it, use a variable and pass it as `aws_conn_id` to all AWS operators.

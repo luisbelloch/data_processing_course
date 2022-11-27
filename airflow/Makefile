@@ -1,11 +1,13 @@
+AIRFLOW_VERSION:=2.4.3
+
 .PHONY: all
 all: clean docker-compose.yaml airflow init up
 
 docker-compose.yaml:
-	curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.2.2/docker-compose.yaml'
+	curl -LfO 'https://airflow.apache.org/docs/apache-airflow/${AIRFLOW_VERSION}/docker-compose.yaml'
 
 airflow:
-	curl -Lf 'https://airflow.apache.org/docs/apache-airflow/2.2.2/airflow.sh' > airflow
+	curl -Lf 'https://airflow.apache.org/docs/apache-airflow/${AIRFLOW_VERSION}/airflow.sh' > airflow
 	chmod +x airflow
 
 .PHONY: init

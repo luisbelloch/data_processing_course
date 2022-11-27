@@ -4,7 +4,7 @@ from datetime import datetime
 from airflow.decorators import task
 from airflow.models.dag import DAG
 from airflow.models.variable import Variable
-from airflow.providers.amazon.aws.sensors.s3_key import S3KeySensor, S3KeySizeSensor
+from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
 
 BUCKET_NAME = os.environ.get('BUCKET_NAME', 'patatas')
 

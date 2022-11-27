@@ -1,3 +1,8 @@
+# ./airflow variables set gcp_project bigdataupv2022
+# ./airflow variables set gcp_region europe-west1
+# ./airflow variables set gcp_zone europe-west1-b
+# ./airflow variables set gcp_bucket bigdataupv_data
+
 import datetime
 import os
 
@@ -27,14 +32,15 @@ with models.DAG(
         task_id='create_dataproc_cluster',
         cluster_name='spark-cluster-{{ ds_nodash }}',
         num_workers=2,
-        zone=models.Variable.get('gce_zone'),
+        zone=models.Variable.get('gcp_zone'),
+        region=models.Variable.get('gcp_region'),
         master_machine_type='n1-standard-1',
         worker_machine_type='n1-standard-1')
 
     run_dataproc_pyspark = dataproc_operator.DataProcPySparkOperator(
         task_id='run_spark',
         cluster_name='spark-cluster-{{ ds_nodash }}',
-        region='europe-west1',
+        region=models.Variable.get('gcp_region'),
         main='gs://bigdataupv_code/compras_top_ten_countries.py',
         files=['gs://bigdataupv_code/helpers.py'])
 
