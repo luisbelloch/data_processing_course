@@ -59,7 +59,7 @@ $ docker run -p 8080:8080 -p 7077:7077 -d luisbelloch/spark start-master.sh
 
 Note that workers connect to master node through 7077 exposed to actual physical machine. Remember to configure port forwarding if you run docker inside a virtual machine.
 
-After it starts, go to [localhost:8080](http://localhost:8080) and get the master URL. In our case is `spark://11168790f9c1:7077`. You will also need the container alias, `nervous_noyce`, to enable a link between master and slave containers. List containers with `docker ps` to retrieve it.
+After it starts, go to [localhost:8080](http://localhost:8080) and get the master URL. In our case is `spark://11168790f9c1:7077`. You will also need the container alias, `nervous_noyce`, to enable a link between master and worker containers. List containers with `docker ps` to retrieve it.
 
 ```
 $ docker ps
@@ -68,7 +68,7 @@ CONTAINER ID   IMAGE               NAMES
 
 $ docker run -p 8081:8081 \
     --link nervous_noyce \
-    -d luisbelloch/spark start-slave.sh spark://11168790f9c1:7077
+    -d luisbelloch/spark start-worker.sh spark://11168790f9c1:7077
 ```
 
 The worker node should be displayed in the master UI.
@@ -84,17 +84,26 @@ $ docker run -p 8081:8081 \
 
 ## Using Docker Compose
 
+To bring up a mini-cluster with a master node and one worker:
+
 ```
-$ docker-compose up
+$ docker compose up
 ```
 
-Running `docker ps` will show containers and their ports mapped. Slaves can connect to master using internal DNS resolution, we've exposed the master node as `master`. Note that exposing worker nodes port is not straight-forward and we've leaved commented port mapping definition - we'll discuss that in class.
+The master UI should be available at [localhost:8080](http://localhost:8080).
+
+Then you can also connect to it via `pyspark`:
+
+```
+$ docker compose run -p 4040:4040 master pyspark --master spark://master:7077
+```
+
+Running `docker ps` will show containers and their ports mapped. Workers can connect to master using internal DNS resolution, we've exposed the master node as `master`. Note that exposing worker nodes port is not straight-forward, we'll discuss that in class.
 
 To scale up/down the cluster:
 
 ```
-$ docker-compose scale worker=3
+$ docker compose scale worker=3
 ```
 
 Beware desired state persist between runs.
-

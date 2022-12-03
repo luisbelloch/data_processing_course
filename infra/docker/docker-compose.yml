@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   master:
     image: luisbelloch/spark
@@ -13,10 +13,8 @@ services:
   worker:
     image: luisbelloch/spark
     command: /opt/spark/sbin/start-slave.sh spark://master:7077
+    environment:
       SPARK_PUBLIC_DNS: localhost
       SPARK_NO_DAEMONIZE: 1
-    # Yeah, port festival, classic :-)
-    # ports:
-      # - 8081:8081
-    links:
-      - master
+    ports:
+      - 8081:8081
